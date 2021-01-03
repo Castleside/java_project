@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 /**
  * Write a description of class lv1_3_candles here.
  * 
@@ -14,7 +14,32 @@ public class lv1_3_candles extends lv1_3_object
      */
     public void act() 
     {
-        // Add your action code here.
+        List<mainChar>objects = getObjectsInRange(100, mainChar.class);
+        java.util.List actors = getWorld().getObjects(mainChar.class);
+        mainChar actor = (mainChar)actors.get(0);
+        int x = actor.getX() -45;
+        int y = actor.getY();
+           
+     if(Greenfoot.isKeyDown("space")){
+        if(objects.isEmpty() ){
+            
+        }
+        else{
+            if(Greenfoot.isKeyDown("w")){
+            setLocation(x, y - 2 );
+           }
+           if(Greenfoot.isKeyDown("s")){
+            setLocation(x, y + 2 );
+           }
+           if(Greenfoot.isKeyDown("a")){
+            setLocation(x - 2, y  );
+           }
+           if(Greenfoot.isKeyDown("d")){
+            setLocation(x + 2, y  );
+           }
+        }
+           
+    }  
     }  
     public lv1_3_candles (int laenge, int breite) {
         setImage("/level_1/candle.jpg");

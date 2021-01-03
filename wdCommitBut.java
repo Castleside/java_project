@@ -21,7 +21,7 @@ public class wdCommitBut extends Buttons
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)){
-            //cloth = getWorld().getObjects(WDarrowRight.class).get(0).setOutfit();
+            cloth = getWorld().getObjects(WDarrowRight.class).get(0).setOutfit();
             World wd = new wardrobe(/*ppX beim klicken, ppY beim klicken*/);
             Greenfoot.setWorld(wd);
         }

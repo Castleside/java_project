@@ -17,15 +17,8 @@ public class mainChar extends Actor
     
     public String size = "";  //Variable für mainChar erstellung (normal/groß)
     //public int c = getWorld().getObjects(wdCommitBut.class).get(0).getOutfit(); //es geht nicht ich weiss nicht wieso und ich raste gleich aus, junge ich bin so fucking aggressiv!!!11!!!111!11
-    public int c;
-    
-    protected void Outfit() {
-        //c = getWorld().getObjects(WDarrowRight.class).get(0).getOutfit();
-        c = 1;
-    }
-    
+    int c = 0;
     public mainChar() {
-        //
         if (c != 0 || c != 1 || c != 2 || c != 3) {
             c = 0;
         } else c = c;
@@ -41,7 +34,6 @@ public class mainChar extends Actor
         if (c == 3) {
             setImage(new GreenfootImage("/mainChar/manNormal/three.png"));
         }
-        size = "normal";
     }
     
     public mainChar(String art) {
@@ -81,7 +73,6 @@ public class mainChar extends Actor
     
     public mainChar(String art, int outfit) {
         size = art;               //wichtig für mainChar Erstellung
-        c = outfit;
         if (c != 0 || c != 1 || c != 2 || c != 3) {
             c = 0;
         } else c = c;
@@ -134,6 +125,7 @@ public class mainChar extends Actor
         lv1_room1_3_door();
         lv1_room3_1_door();
         lv1_room3_goal();
+        movements();
         tableWardrobe();  //geht noch nicht
     }    
     
