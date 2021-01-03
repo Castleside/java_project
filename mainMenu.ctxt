@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=mainMenu
+comment0.text=\r\n\ this\ class\ creates\ the\ Main\ Menu\ in\ the\ Startscreen\r\n\ triggers\ when\ pressing\ ESC\ in\ level\ choose\ room\r\n\ \ \r\n\ \r\n
+comment1.params=
+comment1.target=mainMenu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ mainMenu.\r\n\ \r\n
+numComments=2

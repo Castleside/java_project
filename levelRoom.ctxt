@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=levelRoom
+comment0.text=\r\n\ this\ is\ the\ Room\ where\ you\ can\ choose\ the\ Level\r\n\ and\ go\ to\ the\ wardrobe\r\n\ \r\n\ \r\n
+comment1.params=
+comment1.target=levelRoom()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ levelRoom.\r\n\ \r\n
+comment2.params=ppX\ ppY
+comment2.target=levelRoom(int,\ int)
+numComments=3
