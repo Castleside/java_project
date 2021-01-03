@@ -21,6 +21,6 @@ public class level1 extends World
         addObject(new wallH(), 1280 / 2 , 690);
         addObject(new wallH(), 1280 / 2 , 30);
         addObject(new wallV(), 1250, 720/2);
-        setPaintOrder(mainChar.class, solidObj.class);
+        setPaintOrder(Doors.class, mainChar.class, solidObj.class);
     }
 }
