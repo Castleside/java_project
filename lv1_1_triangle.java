@@ -15,18 +15,19 @@ public class lv1_1_triangle extends lv1_1_detect
     public void act() 
     {
         List<lv1_triangle_chair>objects = getObjectsInRange(150, lv1_triangle_chair.class); 
-        if( objects.isEmpty()){
+        if(objects.isEmpty()){
           
         } 
         else{
             setLocation(0,0);
+            det++;
         }
     }
     public lv1_1_triangle(int laenge, int breite){
-     setImage("/backgrounds/redBG.jpg"); 
-      setRotation(0);
-       GreenfootImage image = getImage();  
-       image.scale(laenge, breite);
-       setImage(image); 
+        setImage("/backgrounds/redBG.jpg"); 
+        setRotation(0);
+        GreenfootImage image = getImage();  
+        image.scale(laenge, breite);
+        setImage(image); 
     }
 }

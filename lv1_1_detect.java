@@ -12,8 +12,14 @@ public class lv1_1_detect extends Actor
      * Act - do whatever the lv1_1_detect wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    public static int det = 0;
+    
     public void act() 
     {
-        // Add your action code here.
+        if (det == 6) {
+            World w = new level1_1();
+            Greenfoot.setWorld(w);
+        }
     }    
 }

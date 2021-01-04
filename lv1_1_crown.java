@@ -19,7 +19,8 @@ public class lv1_1_crown extends lv1_1_detect
           
         } 
         else{
-          
+            setLocation(0,0);
+            det++;
         }
     } 
     public lv1_1_crown(int laenge, int breite){

@@ -6,15 +6,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
 public class lv1_darkness extends lv1_1_object
 {
     /**
      * Act - do whatever the lv1_darkness wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    public lv1_darkness() {
+    setImage("/backgrounds/blackBG.jpg");
+    }
+    
     public void act() 
     {
-     aussehen();
      java.util.List actors = getWorld().getObjects(mainChar.class);
      mainChar actor = (mainChar)actors.get(0);   
      if(Greenfoot.isKeyDown("a")){
@@ -38,8 +43,4 @@ public class lv1_darkness extends lv1_1_object
             setLocation(x, y + 2 - 200);
             }
     }
-    
-    public void aussehen(){
-      setImage("/backgrounds/blackBG.jpg");
-    } 
 }
