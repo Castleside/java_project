@@ -20,6 +20,7 @@ public class lv1_1_heptagon extends lv1_1_detect
         } 
         else{
             setLocation(0,0);
+            det++;
         }
     }
     public lv1_1_heptagon(int laenge, int breite){
