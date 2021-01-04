@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
 /**
- * Write a description of class lv1_3_painting_4 here.
+ * Write a description of class lv1_3_painting_3 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -9,20 +9,18 @@ import java.util.List;
 public class lv1_3_painting_3 extends lv1_3_detect
 {
     /**
-     * Act - do whatever the lv1_3_painting_4 wants to do. This method is called whenever
+     * Act - do whatever the lv1_3_painting_3 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
         List<lv1_3_candles>objects = getObjectsInRange(33, lv1_3_candles.class); 
         if( objects.isEmpty()){
-            setLocation(562,110);
-            det_3=false;
           
         } 
         else{
-            setLocation(562,111);
-            det_3=true;
+            setLocation(200,200);
+            boolean candlesInPlace_3=true;
         }
     }
     
