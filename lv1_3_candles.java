@@ -14,7 +14,7 @@ public class lv1_3_candles extends lv1_3_object
      */
     public void act() 
     {
-        List<mainChar>objects = getObjectsInRange(50, mainChar.class);
+        List<mainChar>objects = getObjectsInRange(100, mainChar.class);
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);
         int x = actor.getX() -45;
