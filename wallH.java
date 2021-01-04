@@ -17,16 +17,14 @@ public class wallH extends wall
         // Add your action code here.
     }
     public wallH() {
-       setImage("/backgrounds/blackBG.jpg");
-       setRotation(0);
-       GreenfootImage image = getImage();  
-       image.scale(1280, 60);
+       setImage("/wall/wall_H.png");
+       GreenfootImage image = getImage();
        setImage(image);
     }
     
     public wallH(int laenge, int breite) {
-       setImage("/backgrounds/blackBG.jpg");
-       setRotation(90);
+       setImage("/wall/wall_H.png");
+       setRotation(0);
        GreenfootImage image = getImage();  
        image.scale(laenge, breite);
        setImage(image);
