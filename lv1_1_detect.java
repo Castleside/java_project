@@ -17,7 +17,8 @@ public class lv1_1_detect extends Actor
     
     public void act() 
     {
-        if (det == 6) {
+        if (det > 5) {
+            det = 0;
             World w = new level1_1();
             Greenfoot.setWorld(w);
         }
