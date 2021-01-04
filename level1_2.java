@@ -17,7 +17,7 @@ public class level1_2 extends level1
     public level1_2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        addObject(new mainChar(), 1122, 617);
+        setBackground(new GreenfootImage("/backgrounds/grassBGlevelRoom.jpg"));
         addObject(new lv1_knight(60, 60), 1180, 523);
         addObject(new lv1_room2_1_door(60, 100), 1119, 690); 
         //addObject(new wallH(10, 100), 1005, 610);
@@ -44,11 +44,10 @@ public class level1_2 extends level1
         addObject(new wallV(10, 502), 184, 311);
         addObject(new wallH(55, 40), 477, 355);
         addObject(new wallTroll(120, 120), 372, 195);
-        addObject(new lv1_darkness(), 1122, 417);
         addObject(new lv1_2_lever(50, 60), 109, 101);
         addObject(new lv1_2_keyDoor(10, 90), 810, 305);
-        
-    
+        addObject(new lv1_darkness(), 1122, 417);
+        addObject(new mainChar("normal"), 1122, 617);
     }
     
 }

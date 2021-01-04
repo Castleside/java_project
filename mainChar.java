@@ -125,8 +125,6 @@ public class mainChar extends Actor
         lv1_room1_3_door();
         lv1_room3_1_door();
         lv1_room3_goal();
-        movements();
-        tableWardrobe();  //geht noch nicht
     }    
     
     public void movements() {

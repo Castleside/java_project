@@ -15,7 +15,9 @@ public class lv1_darkness extends lv1_1_object
      */
     
     public lv1_darkness() {
-    setImage("/backgrounds/blackBG.jpg");
+        setImage("/level_1/lv1_darkness.png");
+        GreenfootImage image = getImage();  
+        image.scale(2500, 1800);
     }
     
     public void act() 
