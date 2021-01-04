@@ -12,8 +12,16 @@ public class lv1_3_detect extends Actor
      * Act - do whatever the lv1_3_detect wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
-    {
-        // Add your action code here.
-    }    
+   public static boolean det_1=false;
+   public static boolean det_2=false;
+   public static boolean det_3=false;
+    
+   public void act(){
+       if(det_1==true){
+        World world = getWorld();
+        world.addObject(new door_lv1(100, 100), 200, 200);
+   }
+    
+    
+}
 }
