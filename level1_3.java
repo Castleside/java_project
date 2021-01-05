@@ -33,7 +33,7 @@ public class level1_3 extends level1
         addObject(new lv1_3_painting_1(), 562, 610);
         addObject(new lv1_3_painting_2(), 562, 110);
         addObject(new lv1_3_painting_3(), 784, 610);
-        addObject(new lv1_3_painting_4(), 784, 110);
+        //addObject(new lv1_3_painting_4(), 784, 110);
           
         
     }
