@@ -18,7 +18,7 @@ public class level1_1 extends level1
     public level1_1()
     {
        addObject(new mainChar(), 1190, 356);
-       addObject(new door_fake(60, 100), 1251, 720 / 2);
+       addObject(new door_fake(60, 100), 1229, 720 / 2);
        addObject(new lv1_table(500, 200), 1280 / 2,720 / 2);
        addObject(new lv1_knight(60, 60), 264, 97); 
        addObject(new lv1_crown_chair(100, 100), 187, 237);
@@ -27,8 +27,8 @@ public class level1_1 extends level1
        addObject(new lv1_pentagon_chair(100, 100), 828, 580);
        addObject(new lv1_hexagon_chair(100, 100), 1016, 352);
        addObject(new lv1_heptagon_chair(100, 100), 493, 567);
-       //addObject(new lv1_room1_2_door(60, 100), 126, 30);
-       addObject(new lv1_room1_3_door(60, 100), 126, 690);
+       //addObject(new lv1_room1_2_door(60, 100), 124, 51);
+       addObject(new lv1_room1_3_door(60, 100), 126, 669);
        addObject(new lv1_1_crown(200, 200), 990, 720/2);
        addObject(new lv1_1_triangle(200, 200), 790, 560);
        addObject(new lv1_1_rectangle(200, 200), 490, 560);

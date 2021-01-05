@@ -13,7 +13,7 @@ public class lv1_1_detect extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public static boolean[] detList = new boolean[6];
+    public boolean[] detList = new boolean[6];
     
     public void act() 
     {
@@ -23,7 +23,7 @@ public class lv1_1_detect extends Actor
             detList[3] == true &&
             detList[4] == true &&
             detList[5] == true) {
-            getWorld().addObject(new lv1_room1_2_door(60, 100), 126, 30);
+            getWorld().addObject(new lv1_room1_2_door(60, 100), 124, 51);
             resetStaticList();
         }
     }

@@ -28,6 +28,13 @@ public class backgroundImage extends backgrounds
             image.scale(laenge, breite);
             setImage(image);
         }
+        if (color == "black") {
+            setImage("/backgrounds/blackBG.jpg");
+            setRotation(0);
+            GreenfootImage image = getImage();  
+            image.scale(laenge, breite);
+            setImage(image);
+        }
     }
     
     public void act() 

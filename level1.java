@@ -20,6 +20,6 @@ public class level1 extends World
         addObject(new wallV(), 29, 720/2);
         addObject(new wallH(), 1280 / 2 , 690);
         addObject(new wallH(), 1280 / 2 , 30);
-        
+        setBackground("/backgrounds/wood.png");
     }
 }

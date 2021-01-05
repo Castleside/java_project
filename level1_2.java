@@ -46,7 +46,7 @@ public class level1_2 extends level1
         addObject(new wallTroll(120, 120), 372, 195);
         addObject(new lv1_2_lever(50, 60), 109, 101);
         addObject(new lv1_2_keyDoor(10, 90), 810, 305);
-        addObject(new lv1_darkness(), 1122, 417);
+        addObject(new lv1_darkness(), 1118, 618);
         addObject(new mainChar("normal"), 1122, 617);
         setPaintOrder(lv1_darkness.class, mainChar.class) ;
     }
