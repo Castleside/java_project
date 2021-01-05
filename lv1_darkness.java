@@ -6,14 +6,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-
-public class lv1_darkness extends lv1_1_object
+public class lv1_darkness extends Actor
 {
     /**
      * Act - do whatever the lv1_darkness wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
     public lv1_darkness() {
         setImage("/level_1/lv1_darkness.png");
         GreenfootImage image = getImage();  
@@ -27,22 +25,22 @@ public class lv1_darkness extends lv1_1_object
      if(Greenfoot.isKeyDown("a")){
             int x = actor.getX();
             int y = actor.getY();
-            setLocation(x - 2, y - 200);
+            setLocation(x - 2, y );
             }
      if(Greenfoot.isKeyDown("d")){ 
             int x = actor.getX();
             int y = actor.getY();
-            setLocation(x + 2, y - 200);
+            setLocation(x + 2, y );
             }
      if(Greenfoot.isKeyDown("w")){ 
             int x = actor.getX();
             int y = actor.getY();
-            setLocation(x, y - 2 - 200);
+            setLocation(x, y - 2 );
             }
      if(Greenfoot.isKeyDown("s")){ 
             int x = actor.getX();
             int y = actor.getY();
-            setLocation(x, y + 2 - 200);
+            setLocation(x, y + 2 );
             }
-    }
+    }   
 }
