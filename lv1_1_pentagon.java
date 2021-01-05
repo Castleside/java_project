@@ -20,7 +20,7 @@ public class lv1_1_pentagon extends lv1_1_detect
         } 
         else{
             setLocation(0,0);
-            det++;
+            detList[2] = true;
         }
     } 
     public lv1_1_pentagon(int laenge, int breite){

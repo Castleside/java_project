@@ -13,6 +13,8 @@ public class level1_1 extends level1
      * Constructor for objects of class level1_1.
      * 
      */
+    
+    
     public level1_1()
     {
        addObject(new mainChar(), 1190, 356);
@@ -25,7 +27,7 @@ public class level1_1 extends level1
        addObject(new lv1_pentagon_chair(100, 100), 828, 580);
        addObject(new lv1_hexagon_chair(100, 100), 1016, 352);
        addObject(new lv1_heptagon_chair(100, 100), 493, 567);
-       addObject(new lv1_room1_2_door(60, 100), 126, 30);
+       //addObject(new lv1_room1_2_door(60, 100), 126, 30);
        addObject(new lv1_room1_3_door(60, 100), 126, 690);
        addObject(new lv1_1_crown(200, 200), 990, 720/2);
        addObject(new lv1_1_triangle(200, 200), 790, 560);
