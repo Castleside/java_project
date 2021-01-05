@@ -12,6 +12,13 @@ public class Doors extends Actor
      * Act - do whatever the Doors wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    public Doors() {
+        setImage("door.png");
+        GreenfootImage image = getImage();
+        image.scale(75, 30);
+    }
+    
     public void act() 
     {
         // Add your action code here.

@@ -13,14 +13,27 @@ public class lv1_1_detect extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public static int det = 0;
+    public static boolean[] detList = new boolean[6];
     
     public void act() 
     {
-        if (det > 5) {
-            det = 0;
-            World w = new level1_1();
-            Greenfoot.setWorld(w);
+        if (detList[0] == true &&
+            detList[1] == true &&
+            detList[2] == true &&
+            detList[3] == true &&
+            detList[4] == true &&
+            detList[5] == true) {
+            getWorld().addObject(new lv1_room1_2_door(60, 100), 126, 30);
+            resetStaticList();
         }
-    }    
+    }
+    
+    public void resetStaticList() {
+        detList[0] = false; 
+        detList[1] = false; 
+        detList[2] = false; 
+        detList[3] = false; 
+        detList[4] = false; 
+        detList[5] = false;
+    }
 }

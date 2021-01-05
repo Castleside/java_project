@@ -20,7 +20,7 @@ public class lv1_1_hexagon extends lv1_1_detect
         } 
         else{
             setLocation(0,0);
-            det++;
+            detList[4] = true;
         }
     }
     public lv1_1_hexagon(int laenge, int breite){

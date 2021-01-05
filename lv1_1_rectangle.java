@@ -20,7 +20,7 @@ public class lv1_1_rectangle extends lv1_1_detect
         } 
         else{
             setLocation(0,0);
-            det++;
+            detList[1] = true;
         }
     } 
     public lv1_1_rectangle(int laenge, int breite){

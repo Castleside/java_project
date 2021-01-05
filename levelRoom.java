@@ -26,11 +26,11 @@ public class levelRoom extends World
         addObject(new wallV(), 29, 720/2);
         addObject(new wallH(), 1280 / 2 , 690);
         addObject(new wallH(), 1280 / 2 , 30);
-        addObject(new wardrobe_door(30, 100), 950, 547);
-        addObject(new door_lv1(60, 100), 30, 305);
-        addObject(new door_lv2(60, 100), 30, 127);
-        addObject(new door_lv3(60, 100), 1251, 305);
-        addObject(new door_lv4(60, 100), 1251, 127);
+        addObject(new wardrobe_door(30, 100), 948, 547);
+        addObject(new door_lv1(60, 100), 49, 305);
+        addObject(new door_lv2(60, 100), 49, 127);
+        addObject(new door_lv3(60, 100), 1228, 305);
+        addObject(new door_lv4(60, 100), 1228, 127);
     }
     
     public levelRoom(int ppX, int ppY)
