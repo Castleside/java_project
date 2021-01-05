@@ -15,12 +15,11 @@ public class lv1_3_painting_3 extends lv1_3_detect
     public void act() 
     {
         List<lv1_3_candles>objects = getObjectsInRange(33, lv1_3_candles.class); 
-        if( objects.isEmpty()){
-          
+        if(objects.isEmpty()){
+            det_3=false;          
         } 
         else{
-            setLocation(200,200);
-            boolean candlesInPlace_3=true;
+            det_3=true;
         }
     }
     
