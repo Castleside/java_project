@@ -14,7 +14,7 @@ public class lv1_3_candles extends lv1_3_object
      */
     public void act() 
     {
-        List<mainChar>objects = getObjectsInRange(100, mainChar.class);
+        List<mainChar>objects = getObjectsInRange(47, mainChar.class);
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);
         int x = actor.getX() -45;
@@ -41,11 +41,12 @@ public class lv1_3_candles extends lv1_3_object
            
     }  
     }  
-    public lv1_3_candles (int laenge, int breite) {
+    
+    public lv1_3_candles () {
         setImage("/level_1/candle.jpg");
        setRotation(0);
        GreenfootImage image = getImage();  
-       image.scale(laenge, breite);
+       image.scale(20, 40);
        setImage(image);
     }
 }
