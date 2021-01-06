@@ -19,7 +19,7 @@ public class lv1_3_detect extends Actor
     public void act() 
     {
         if(det_1){
-        this.getWorld().addObject(new door_lv1(100, 100), 200, 200);
+        this.getWorld().addObject(new door_lv1(100, 100), 200, 12);
     }
     }    
 }
