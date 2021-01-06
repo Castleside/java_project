@@ -17,12 +17,12 @@ public class level1_3 extends level1
     {
         addObject(new mainChar(), 1190, 720/2);
         addObject(new lv1_room3_1_door(60, 100), 1150, 12);
-        addObject(new lv1_3_knight(60,60), 673, 629);
-        addObject(new lv1_3_knight(60,60), 673, 92);
-        addObject(new lv1_3_knight(60,60), 451, 629);
-        addObject(new lv1_3_knight(60,60), 451, 92);
-        addObject(new lv1_3_knight(60,60), 895, 629);
-        addObject(new lv1_3_knight(60,60), 895, 92);
+        addObject(new lv1_3_knight(58, 81), 673, 616);
+        addObject(new lv1_3_knight(58, 81), 673, 102);
+        addObject(new lv1_3_knight(58, 81), 451, 616);
+        addObject(new lv1_3_knight(58, 81), 451, 102);
+        addObject(new lv1_3_knight(58, 81), 895, 616);
+        addObject(new lv1_3_knight(58, 81), 895, 102);
         addObject(new painting_1(), 562, 655);
         addObject(new painting_2(), 562, 65);
         addObject(new painting_3(), 784, 655);

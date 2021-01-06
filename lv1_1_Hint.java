@@ -15,7 +15,7 @@ public class lv1_1_Hint extends level1
      */
     public lv1_1_Hint()
     {
-        addObject(new lv1_knight(500, 500), 313 , 720/2 );
-       
+        addObject(new lv1_knight(358, 500), 313 , 720/2 );
+        showText("Hier kommt der Tipp hin", 750, 200);
     }
 }

@@ -17,7 +17,7 @@ public class lv1_table extends lv1_1_object
         // Add your action code here.
     }
     public lv1_table ( int laenge, int breite){
-      setImage("/wardrobe/schrankWD.jpg");
+      setImage("/level_1/table.png");
        setRotation(0);
        GreenfootImage image = getImage();  
        image.scale(laenge, breite);
