@@ -23,7 +23,7 @@ public class lv1_1_detect extends Actor
             detList[3] == true &&
             detList[4] == true &&
             detList[5] == true) {
-            getWorld().addObject(new lv1_room1_2_door(60, 100), 124, 51);
+            getWorld().addObject(new lv1_room1_2_door(60, 100), 124, 12);
             resetStaticList();
         }
     }

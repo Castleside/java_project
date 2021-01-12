@@ -8,6 +8,7 @@ dependency10.from=wardrobe
 dependency10.to=lobby_door
 dependency10.type=UsesDependency
 dependency100.from=mainChar
+<<<<<<< HEAD
 dependency100.to=door_lv3
 dependency100.type=UsesDependency
 dependency101.from=mainChar
@@ -36,11 +37,42 @@ dependency108.to=lv1_room2_1_door
 dependency108.type=UsesDependency
 dependency109.from=mainChar
 dependency109.to=lv1_room1_3_door
+=======
+dependency100.to=door_lv4
+dependency100.type=UsesDependency
+dependency101.from=mainChar
+dependency101.to=level4
+dependency101.type=UsesDependency
+dependency102.from=mainChar
+dependency102.to=lobby_door
+dependency102.type=UsesDependency
+dependency103.from=mainChar
+dependency103.to=levelRoom
+dependency103.type=UsesDependency
+dependency104.from=mainChar
+dependency104.to=lv1_room1_2_door
+dependency104.type=UsesDependency
+dependency105.from=mainChar
+dependency105.to=level1_2
+dependency105.type=UsesDependency
+dependency106.from=mainChar
+dependency106.to=lv1_room2_1_door
+dependency106.type=UsesDependency
+dependency107.from=mainChar
+dependency107.to=lv1_room1_3_door
+dependency107.type=UsesDependency
+dependency108.from=mainChar
+dependency108.to=level1_3
+dependency108.type=UsesDependency
+dependency109.from=mainChar
+dependency109.to=lv1_room3_1_door
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency109.type=UsesDependency
 dependency11.from=wardrobe
 dependency11.to=shelf
 dependency11.type=UsesDependency
 dependency110.from=mainChar
+<<<<<<< HEAD
 dependency110.to=level1_3
 dependency110.type=UsesDependency
 dependency111.from=mainChar
@@ -68,11 +100,41 @@ dependency118.from=mainChar
 dependency118.to=solidObj
 dependency118.type=UsesDependency
 dependency119.from=lv1_crown_chair
+=======
+dependency110.to=lv1_room3_goal
+dependency110.type=UsesDependency
+dependency111.from=mainChar
+dependency111.to=goalMenu
+dependency111.type=UsesDependency
+dependency112.from=mainChar
+dependency112.to=lv1_knight
+dependency112.type=UsesDependency
+dependency113.from=mainChar
+dependency113.to=lv1_1_Hint
+dependency113.type=UsesDependency
+dependency114.from=mainChar
+dependency114.to=table
+dependency114.type=UsesDependency
+dependency115.from=mainChar
+dependency115.to=clothMenu
+dependency115.type=UsesDependency
+dependency116.from=mainChar
+dependency116.to=solidObj
+dependency116.type=UsesDependency
+dependency117.from=lv1_crown_chair
+dependency117.to=mainChar
+dependency117.type=UsesDependency
+dependency118.from=lv1_pentagon_chair
+dependency118.to=mainChar
+dependency118.type=UsesDependency
+dependency119.from=lv1_triangle_chair
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency119.to=mainChar
 dependency119.type=UsesDependency
 dependency12.from=wardrobe
 dependency12.to=table
 dependency12.type=UsesDependency
+<<<<<<< HEAD
 dependency120.from=lv1_pentagon_chair
 dependency120.to=mainChar
 dependency120.type=UsesDependency
@@ -102,10 +164,42 @@ dependency128.to=mainChar
 dependency128.type=UsesDependency
 dependency129.from=candle_2
 dependency129.to=mainChar
+=======
+dependency120.from=lv1_heptagon_chair
+dependency120.to=mainChar
+dependency120.type=UsesDependency
+dependency121.from=lv1_rectangle_chair
+dependency121.to=mainChar
+dependency121.type=UsesDependency
+dependency122.from=lv1_hexagon_chair
+dependency122.to=mainChar
+dependency122.type=UsesDependency
+dependency123.from=lv1_3_candles
+dependency123.to=mainChar
+dependency123.type=UsesDependency
+dependency124.from=WDarrowRight
+dependency124.to=mainChar
+dependency124.type=UsesDependency
+dependency125.from=WDarrowRight
+dependency125.to=wardrobe
+dependency125.type=UsesDependency
+dependency126.from=lv1_2_lever
+dependency126.to=mainChar
+dependency126.type=UsesDependency
+dependency127.from=lv1_2_lever
+dependency127.to=lv1_2_keyDoor
+dependency127.type=UsesDependency
+dependency128.from=optionsButton
+dependency128.to=optionsMenu
+dependency128.type=UsesDependency
+dependency129.from=backButton
+dependency129.to=mainMenu
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency129.type=UsesDependency
 dependency13.from=level4
 dependency13.to=mainChar
 dependency13.type=UsesDependency
+<<<<<<< HEAD
 dependency130.from=candle_1
 dependency130.to=mainChar
 dependency130.type=UsesDependency
@@ -136,6 +230,17 @@ dependency138.type=UsesDependency
 dependency139.from=wdCommitBut
 dependency139.to=WDarrowRight
 dependency139.type=UsesDependency
+=======
+dependency130.from=startButton
+dependency130.to=levelRoom
+dependency130.type=UsesDependency
+dependency131.from=wdCommitBut
+dependency131.to=wardrobe
+dependency131.type=UsesDependency
+dependency132.from=wdCommitBut
+dependency132.to=WDarrowRight
+dependency132.type=UsesDependency
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency14.from=level4
 dependency14.to=wallH
 dependency14.type=UsesDependency
@@ -215,25 +320,36 @@ dependency37.from=level1_3
 dependency37.to=lv3_throne
 dependency37.type=UsesDependency
 dependency38.from=level1_3
+<<<<<<< HEAD
 dependency38.to=candle_1
 dependency38.type=UsesDependency
 dependency39.from=level1_3
 dependency39.to=candle_2
+=======
+dependency38.to=lv1_3_candles
+dependency38.type=UsesDependency
+dependency39.from=level1_3
+dependency39.to=lv1_3_painting_1
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency39.type=UsesDependency
 dependency4.from=clothMenu
 dependency4.to=wdCommitBut
 dependency4.type=UsesDependency
 dependency40.from=level1_3
+<<<<<<< HEAD
 dependency40.to=candle_3
+=======
+dependency40.to=lv1_3_painting_2
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency40.type=UsesDependency
 dependency41.from=level1_3
-dependency41.to=lv1_3_painting_1
+dependency41.to=lv1_3_painting_3
 dependency41.type=UsesDependency
 dependency42.from=level1_3
-dependency42.to=lv1_3_painting_2
+dependency42.to=Doors
 dependency42.type=UsesDependency
 dependency43.from=level1_3
-dependency43.to=lv1_3_painting_3
+dependency43.to=solidObj
 dependency43.type=UsesDependency
 dependency44.from=level1_3
 dependency44.to=Doors
@@ -251,18 +367,27 @@ dependency48.from=level1_2
 dependency48.to=wallV
 dependency48.type=UsesDependency
 dependency49.from=level1_2
+<<<<<<< HEAD
 dependency49.to=wallH
+=======
+dependency49.to=lv1_2_lever
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency49.type=UsesDependency
 dependency5.from=goalMenu
 dependency5.to=congrats_1
 dependency5.type=UsesDependency
 dependency50.from=level1_2
+<<<<<<< HEAD
 dependency50.to=wallTroll
+=======
+dependency50.to=lv1_2_keyDoor
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency50.type=UsesDependency
 dependency51.from=level1_2
 dependency51.to=lv1_2_lever
 dependency51.type=UsesDependency
 dependency52.from=level1_2
+<<<<<<< HEAD
 dependency52.to=lv1_2_keyDoor
 dependency52.type=UsesDependency
 dependency53.from=level1_2
@@ -285,11 +410,36 @@ dependency58.to=lv1_knight
 dependency58.type=UsesDependency
 dependency59.from=level1_1
 dependency59.to=lv1_crown_chair
+=======
+dependency52.to=mainChar
+dependency52.type=UsesDependency
+dependency53.from=level1_1
+dependency53.to=mainChar
+dependency53.type=UsesDependency
+dependency54.from=level1_1
+dependency54.to=door_fake
+dependency54.type=UsesDependency
+dependency55.from=level1_1
+dependency55.to=lv1_table
+dependency55.type=UsesDependency
+dependency56.from=level1_1
+dependency56.to=lv1_knight
+dependency56.type=UsesDependency
+dependency57.from=level1_1
+dependency57.to=lv1_crown_chair
+dependency57.type=UsesDependency
+dependency58.from=level1_1
+dependency58.to=lv1_triangle_chair
+dependency58.type=UsesDependency
+dependency59.from=level1_1
+dependency59.to=lv1_rectangle_chair
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency59.type=UsesDependency
 dependency6.from=goalMenu
 dependency6.to=startButton
 dependency6.type=UsesDependency
 dependency60.from=level1_1
+<<<<<<< HEAD
 dependency60.to=lv1_triangle_chair
 dependency60.type=UsesDependency
 dependency61.from=level1_1
@@ -318,11 +468,42 @@ dependency68.to=lv1_1_rectangle
 dependency68.type=UsesDependency
 dependency69.from=level1_1
 dependency69.to=lv1_1_pentagon
+=======
+dependency60.to=lv1_pentagon_chair
+dependency60.type=UsesDependency
+dependency61.from=level1_1
+dependency61.to=lv1_hexagon_chair
+dependency61.type=UsesDependency
+dependency62.from=level1_1
+dependency62.to=lv1_heptagon_chair
+dependency62.type=UsesDependency
+dependency63.from=level1_1
+dependency63.to=lv1_room1_3_door
+dependency63.type=UsesDependency
+dependency64.from=level1_1
+dependency64.to=lv1_1_crown
+dependency64.type=UsesDependency
+dependency65.from=level1_1
+dependency65.to=lv1_1_triangle
+dependency65.type=UsesDependency
+dependency66.from=level1_1
+dependency66.to=lv1_1_rectangle
+dependency66.type=UsesDependency
+dependency67.from=level1_1
+dependency67.to=lv1_1_pentagon
+dependency67.type=UsesDependency
+dependency68.from=level1_1
+dependency68.to=lv1_1_hexagon
+dependency68.type=UsesDependency
+dependency69.from=level1_1
+dependency69.to=lv1_1_heptagon
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency69.type=UsesDependency
 dependency7.from=wardrobe
 dependency7.to=mainChar
 dependency7.type=UsesDependency
 dependency70.from=level1_1
+<<<<<<< HEAD
 dependency70.to=lv1_1_hexagon
 dependency70.type=UsesDependency
 dependency71.from=level1_1
@@ -351,10 +532,41 @@ dependency78.to=logo
 dependency78.type=UsesDependency
 dependency79.from=mainMenu
 dependency79.to=startButton
+=======
+dependency70.to=Doors
+dependency70.type=UsesDependency
+dependency71.from=level1_1
+dependency71.to=solidObj
+dependency71.type=UsesDependency
+dependency72.from=level3
+dependency72.to=mainChar
+dependency72.type=UsesDependency
+dependency73.from=level3
+dependency73.to=wallH
+dependency73.type=UsesDependency
+dependency74.from=level2
+dependency74.to=mainChar
+dependency74.type=UsesDependency
+dependency75.from=level2
+dependency75.to=wallV
+dependency75.type=UsesDependency
+dependency76.from=mainMenu
+dependency76.to=logo
+dependency76.type=UsesDependency
+dependency77.from=mainMenu
+dependency77.to=startButton
+dependency77.type=UsesDependency
+dependency78.from=mainMenu
+dependency78.to=optionsButton
+dependency78.type=UsesDependency
+dependency79.from=lv1_3_detect
+dependency79.to=door_lv1
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency79.type=UsesDependency
 dependency8.from=wardrobe
 dependency8.to=wallV
 dependency8.type=UsesDependency
+<<<<<<< HEAD
 dependency80.from=mainMenu
 dependency80.to=optionsButton
 dependency80.type=UsesDependency
@@ -384,10 +596,42 @@ dependency88.to=lv1_rectangle_chair
 dependency88.type=UsesDependency
 dependency89.from=lv1_1_triangle
 dependency89.to=lv1_triangle_chair
+=======
+dependency80.from=lv1_3_painting_3
+dependency80.to=lv1_3_candles
+dependency80.type=UsesDependency
+dependency81.from=lv1_3_painting_2
+dependency81.to=lv1_3_candles
+dependency81.type=UsesDependency
+dependency82.from=lv1_3_painting_1
+dependency82.to=lv1_3_candles
+dependency82.type=UsesDependency
+dependency83.from=lv1_darkness
+dependency83.to=mainChar
+dependency83.type=UsesDependency
+dependency84.from=lv1_1_detect
+dependency84.to=lv1_room1_2_door
+dependency84.type=UsesDependency
+dependency85.from=lv1_1_crown
+dependency85.to=lv1_crown_chair
+dependency85.type=UsesDependency
+dependency86.from=lv1_1_rectangle
+dependency86.to=lv1_rectangle_chair
+dependency86.type=UsesDependency
+dependency87.from=lv1_1_triangle
+dependency87.to=lv1_triangle_chair
+dependency87.type=UsesDependency
+dependency88.from=lv1_1_heptagon
+dependency88.to=lv1_heptagon_chair
+dependency88.type=UsesDependency
+dependency89.from=lv1_1_hexagon
+dependency89.to=lv1_hexagon_chair
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency89.type=UsesDependency
 dependency9.from=wardrobe
 dependency9.to=wallH
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 dependency90.from=lv1_1_heptagon
 dependency90.to=lv1_heptagon_chair
 dependency90.type=UsesDependency
@@ -417,14 +661,51 @@ dependency98.to=door_lv2
 dependency98.type=UsesDependency
 dependency99.from=mainChar
 dependency99.to=level2
+=======
+dependency90.from=lv1_1_pentagon
+dependency90.to=lv1_pentagon_chair
+dependency90.type=UsesDependency
+dependency91.from=mainChar
+dependency91.to=mainMenu
+dependency91.type=UsesDependency
+dependency92.from=mainChar
+dependency92.to=wardrobe_door
+dependency92.type=UsesDependency
+dependency93.from=mainChar
+dependency93.to=wardrobe
+dependency93.type=UsesDependency
+dependency94.from=mainChar
+dependency94.to=door_lv1
+dependency94.type=UsesDependency
+dependency95.from=mainChar
+dependency95.to=level1_1
+dependency95.type=UsesDependency
+dependency96.from=mainChar
+dependency96.to=door_lv2
+dependency96.type=UsesDependency
+dependency97.from=mainChar
+dependency97.to=level2
+dependency97.type=UsesDependency
+dependency98.from=mainChar
+dependency98.to=door_lv3
+dependency98.type=UsesDependency
+dependency99.from=mainChar
+dependency99.to=level3
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 dependency99.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=1176
 package.numDependencies=139
 package.numTargets=86
+=======
+height=1066
+package.numDependencies=132
+package.numTargets=83
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -438,7 +719,11 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
 simulation.speed=53
+=======
+simulation.speed=52
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 target1.height=50
 target1.name=clothMenu
 target1.showInterface=false
@@ -1043,6 +1328,10 @@ target9.x=0
 target9.y=0
 version=3.0.0
 width=1936
+<<<<<<< HEAD
 world.lastInstantiated=level1_3
+=======
+world.lastInstantiated=level1_2
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
 xPosition=0
 yPosition=0

@@ -14,7 +14,7 @@ public class text extends Actor
      */
     
     public text(String text) {
-        this.setImage("bild");
+        //this.setImage("bild");
         this.getImage().drawString(text, 0, 0);
     }
     

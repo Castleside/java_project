@@ -17,7 +17,7 @@ public class lv1_3_knight extends lv1_3_object
         // Add your action code here.
     } 
     public lv1_3_knight ( int laenge, int breite){
-      setImage("knight.jpg");
+      setImage("knight.png");
        setRotation(0);
        GreenfootImage image = getImage();  
        image.scale(laenge, breite);

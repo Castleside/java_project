@@ -23,15 +23,16 @@ public class levelRoom extends World
         addObject(new backgroundImage("grey",300, 300), 1106, 587);
         //Aussenwände und Türen
         addObject(new mainChar(), 1280/2, 720/2);
+        addObject(new wardrobe_door(30, 100), 990, 547);
+        addObject(new backgroundImage("grey",300, 300), 1106, 587);
         addObject(new wallV(), 1250, 720/2);
         addObject(new wallV(), 29, 720/2);
         addObject(new wallH(), 1280 / 2 , 690);
         addObject(new wallH(), 1280 / 2 , 30);
-        addObject(new wardrobe_door(30, 100), 948, 547);
-        addObject(new door_lv1(60, 100), 49, 305);
-        addObject(new door_lv2(60, 100), 49, 127);
-        addObject(new door_lv3(60, 100), 1228, 305);
-        addObject(new door_lv4(60, 100), 1228, 127);
+        addObject(new door_lv1(60, 100), 12, 305);
+        addObject(new door_lv2(60, 100), 12, 127);
+        addObject(new door_lv3(60, 100), 1267, 305);
+        addObject(new door_lv4(60, 100), 1267, 127);
     }
     
     public levelRoom(int ppX, int ppY)
@@ -43,15 +44,16 @@ public class levelRoom extends World
         addObject(new wallV(13, 280), 950, 565);
         addObject(new backgroundImage("grey",300, 300), 1106, 587);
         //Aussenwände und Türen
-        addObject(new mainChar(), ppX, ppY);
+        addObject(new mainChar(), 1280/2, 720/2);
+        addObject(new wardrobe_door(30, 100), 990, 547);
+        addObject(new backgroundImage("grey",300, 300), 1106, 587);
         addObject(new wallV(), 1250, 720/2);
         addObject(new wallV(), 29, 720/2);
         addObject(new wallH(), 1280 / 2 , 690);
         addObject(new wallH(), 1280 / 2 , 30);
-        addObject(new wardrobe_door(30, 100), 948, 547);
-        addObject(new door_lv1(60, 100), 49, 305);
-        addObject(new door_lv2(60, 100), 49, 127);
-        addObject(new door_lv3(60, 100), 1228, 305);
-        addObject(new door_lv4(60, 100), 1228, 127);
+        addObject(new door_lv1(60, 100), 12, 305);
+        addObject(new door_lv2(60, 100), 12, 127);
+        addObject(new door_lv3(60, 100), 1267, 305);
+        addObject(new door_lv4(60, 100), 1267, 127);
     }
 }
