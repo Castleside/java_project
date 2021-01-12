@@ -31,20 +31,14 @@ public class level1_3 extends level1
         addObject(new painting_5(), 340, 655);
         addObject(new painting_6(), 340, 65);
         addObject(new lv3_throne(), 200, 720/2);
-        addObject(new lv1_3_candles(), 1049, 82);
-        addObject(new lv1_3_candles(), 1009, 82);
-        addObject(new lv1_3_candles(), 969, 82);
+        addObject(new candle_1(), 1049, 82);
+        addObject(new candle_2(), 1009, 638);
+        addObject(new candle_3(), 969, 82);
         addObject(new lv1_3_painting_1(), 562, 610);
-<<<<<<< HEAD
         addObject(new lv1_3_painting_2(), 784, 110);
         addObject(new lv1_3_painting_3(), 340, 610);
-        
-          
-=======
-        addObject(new lv1_3_painting_2(), 562, 110);
-        addObject(new lv1_3_painting_3(), 784, 610);
-        //addObject(new lv1_3_painting_4(), 784, 110);
->>>>>>> e135a61aaded57c57fe9e72789381410e39623a4
+       
+
         
         setPaintOrder(Doors.class, mainChar.class, solidObj.class);
     }
