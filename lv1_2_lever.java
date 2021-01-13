@@ -20,12 +20,12 @@ public class lv1_2_lever extends lv1_2_object
         
         }
         else{
-        setImage("/level_1/lever_1.png");
-        setRotation(0);
-        GreenfootImage image = getImage();  
-        image.scale(50, 60);
-        setImage(image);
-        getWorld().removeObjects(getWorld().getObjects(lv1_2_keyDoor.class)); //Tür zu schlüssel entfernen
+            setImage("/level_1/lever_1.png");
+            setRotation(0);
+            GreenfootImage image = getImage();  
+            image.scale(50, 60);
+            setImage(image);
+            getWorld().removeObjects(getWorld().getObjects(lv1_2_keyDoor.class)); //Tür zu schlüssel entfernen
               
         }
     }
