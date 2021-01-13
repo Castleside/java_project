@@ -3,10 +3,6 @@ comment0.target=lv1_3_candles
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ lv1_3_candles\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=void\ act()
-<<<<<<< HEAD
-numComments=2
-=======
 comment2.params=
 comment2.target=lv1_3_candles()
 numComments=3
->>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e

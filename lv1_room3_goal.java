@@ -23,5 +23,6 @@ public class lv1_room3_goal extends Doors
        GreenfootImage image = getImage();  
        //image.scale(laenge, breite);
        setImage(image);
+       setRotation(0);
     }
 }

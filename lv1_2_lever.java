@@ -31,11 +31,11 @@ public class lv1_2_lever extends lv1_2_object
     }
 }
         
-public lv1_2_lever (int laenge, int breite) {
-    setImage("/level_1/lever_0.png");
-    setRotation(0);
-    GreenfootImage image = getImage();  
-    image.scale(laenge, breite);
-    setImage(image);
+    public lv1_2_lever (int laenge, int breite) {
+        setImage("/level_1/lever_0.png");
+        setRotation(0);
+        GreenfootImage image = getImage();  
+        image.scale(laenge, breite);
+        setImage(image);
     }
 }

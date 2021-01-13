@@ -36,12 +36,9 @@ public class level1_3 extends level1
         addObject(new lv1_3_painting_1(), 562, 610);
         addObject(new lv1_3_painting_2(), 784, 110);
         addObject(new lv1_3_painting_3(), 340, 610);
-<<<<<<< HEAD
-       
-
+        addObject(new lv1_3_detect(), 0, 0);
         
-=======
->>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
+
         setPaintOrder(Doors.class, mainChar.class, solidObj.class);
     }
 }
