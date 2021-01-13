@@ -13,7 +13,7 @@ public class lv1_1_detect extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public boolean[] detList = new boolean[6];
+    public static boolean[] detList = new boolean[6];
     
     public void act() 
     {
