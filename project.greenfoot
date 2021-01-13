@@ -438,7 +438,19 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
 simulation.speed=54
+=======
+<<<<<<< HEAD
+simulation.speed=48
+=======
+<<<<<<< HEAD
+simulation.speed=53
+=======
+simulation.speed=52
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
+>>>>>>> 32f4c450c437ff4d2abb955e4fb0d6f4c4bdd6ea
+>>>>>>> 290ae5287da2df5f4336cb8c0832cecfa6f10cbe
 target1.height=50
 target1.name=clothMenu
 target1.showInterface=false
@@ -1043,6 +1055,19 @@ target9.x=0
 target9.y=0
 version=3.0.0
 width=1936
+<<<<<<< HEAD
 world.lastInstantiated=level1_1
+=======
+<<<<<<< HEAD
+world.lastInstantiated=level1_1
+xPosition=1912
+=======
+<<<<<<< HEAD
+world.lastInstantiated=level1_3
+=======
+world.lastInstantiated=level1_2
+>>>>>>> 137d8dbba23724efe86f23232330294d08a5f65e
+>>>>>>> 290ae5287da2df5f4336cb8c0832cecfa6f10cbe
 xPosition=0
+>>>>>>> 32f4c450c437ff4d2abb955e4fb0d6f4c4bdd6ea
 yPosition=0
