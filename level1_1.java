@@ -35,8 +35,8 @@ public class level1_1 extends level1
        addObject(new lv1_1_pentagon(200, 200), 290, 720/2);
        addObject(new lv1_1_hexagon(200, 200), 490, 160);
        addObject(new lv1_1_heptagon(200, 200), 790, 160);
-       //if(key_det=true){
-        //addObject(new lv1_room1_3_door(60, 100), 126, 707);} 
+        addObject(new lv1_room1_3_door(60, 100), 126, 707);
+       addObject(new lv1_1_detect(), 1240, 30);
        setPaintOrder(Doors.class, mainChar.class, solidObj.class);
     }
     

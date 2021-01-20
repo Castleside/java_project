@@ -20,7 +20,12 @@ public class lv1_3_detect extends Actor
     {
         if(det_1 && det_2 && det_3){
         this.getWorld().addObject(new lv1_room3_goal(100, 100), 200, 12);
-   
     }
-    }    
+    }
+    
+    public void resetStatics() {
+        det_1 = false;
+        det_2 = false;
+        det_3 = false;
+    }
 }

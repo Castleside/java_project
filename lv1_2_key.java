@@ -16,17 +16,17 @@ public class lv1_2_key extends lv1_2_object
     
     public void act() 
     {
-    List<mainChar>objects = getObjectsInRange(50, mainChar.class);
-        if(Greenfoot.isKeyDown("e")){
-            if(objects.isEmpty()){
-        
-        }
-        else{
-            getWorld().removeObjects(getWorld().getObjects(lv1_2_key.class));
-              
-        }
+        /*List<mainChar>objects = getObjectsInRange(50, mainChar.class);
+            if(Greenfoot.isKeyDown("e")){
+                if(objects.isEmpty()){
+            
+            }
+            else{
+                getWorld().removeObjects(getWorld().getObjects(lv1_2_key.class));
+                //keyPickup = true;  
+            }
+        }*/
     }
-}
 
     public lv1_2_key (int laenge, int breite) {
         setImage("/level_1/key.jpg");

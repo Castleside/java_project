@@ -13,6 +13,7 @@ public class level1 extends World
      * Constructor for objects of class levelOne.
      * 
      */
+    
     public level1()     //das kein Level sondern ein Ausgangspunkt
     {
         super(1280, 720, 1);

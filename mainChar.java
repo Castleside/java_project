@@ -18,6 +18,8 @@ public class mainChar extends Actor
     public String size = "";  //Variable für mainChar erstellung (normal/groß)
     //public int c = getWorld().getObjects(wdCommitBut.class).get(0).getOutfit(); //es geht nicht ich weiss nicht wieso und ich raste gleich aus, junge ich bin so fucking aggressiv!!!11!!!111!11
     int c = 0;
+    public static boolean key_det = false;
+    
     public mainChar() {
         if (c != 0 || c != 1 || c != 2 || c != 3) {
             c = 0;
@@ -287,16 +289,18 @@ public class mainChar extends Actor
      }
    
     public void lv1_room1_3_door(){
-        List<lv1_room1_3_door>objects = getObjectsInRange(100, lv1_room1_3_door.class); 
-        if( objects.isEmpty()){
-          
-        } 
-        else{
-            if(Greenfoot.isKeyDown("e")){
-                World lv1_3 = new level1_3();
-                Greenfoot.setWorld(lv1_3);
+        if (key_det){
+            List<lv1_room1_3_door>objects = getObjectsInRange(100, lv1_room1_3_door.class); 
+            if( objects.isEmpty()){
+              
+            } 
+            else{
+                if(Greenfoot.isKeyDown("e")){
+                    World lv1_3 = new level1_3();
+                    Greenfoot.setWorld(lv1_3);
+                }
             }
-        }  
+        }
     }
      
     public void lv1_room3_1_door(){
