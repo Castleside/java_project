@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=door_to_wardrobe
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ door_to_wardrobe\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=r\ ppX\ ppY
-comment1.target=door_to_wardrobe(int,\ int,\ int)
-comment2.params=
-comment2.target=void\ act()
-numComments=3
