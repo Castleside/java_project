@@ -14,6 +14,7 @@ public class lv1_detect extends lv1_unsolid
      */
     
     public static boolean[] detList = new boolean[6];
+    public static boolean t = true;
     
     public void act() 
     {
@@ -22,8 +23,10 @@ public class lv1_detect extends lv1_unsolid
             detList[2] == true &&
             detList[3] == true &&
             detList[4] == true &&
-            detList[5] == true) {
+            detList[5] == true &&
+            t) {
             getWorld().addObject(new door_to_lv1_2(0, 1119, 614), 124, 12);
+            t = false;
             resetStaticList();
         }
     }

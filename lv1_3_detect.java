@@ -24,14 +24,14 @@ public class lv1_3_detect extends lv1_3_unsolid
     public static boolean det_1 = false;
     public static boolean det_2 = false;
     public static boolean det_3 = false;
-    public static boolean p = false;
+    public static boolean p = true;
     
     public void act()  //1150, 97
     {
         if(det_1 && det_2 && det_3 && !p){
             this.getWorld().addObject(new door_to_lv1_goal(0), 200, 12);
             resetStatic();
-            p = true;
+            p = false;
         }
     }   
     
