@@ -6,21 +6,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class door_fake extends Doors
+public class door_fake extends doors
 {
     /**
      * Act - do whatever the door_fake wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    public door_fake(int r) {
+        setRotation(r);
+        GreenfootImage image = getImage();
+        setImage(image);
+    }
+    
     public void act() 
     {
-       
-    } 
-    public door_fake(int laenge , int breite ){
-       //setImage("/backgrounds/redBG.jpg");
-       setRotation(90);
-       GreenfootImage image = getImage();  
-       //image.scale(laenge, breite);
-       setImage(image);   
-    }
+        // Add your action code here.
+    }    
 }

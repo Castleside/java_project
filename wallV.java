@@ -16,7 +16,7 @@ public class wallV extends wall
     {
         // Add your action code here.
     }
-     public wallV() {
+    public wallV() {
        setImage("/wall/wall_V.png");
        setRotation(0);
        GreenfootImage image = getImage();

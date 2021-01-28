@@ -1,23 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class text here.
+ * Write a description of class lv1_3_solid here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class text extends Actor
+public class lv1_3_solid extends lv1_3
 {
     /**
-     * Act - do whatever the text wants to do. This method is called whenever
+     * Act - do whatever the lv1_3_solid wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
-    public text(String text) {
-        //this.setImage("bild");
-        this.getImage().drawString(text, 0, 0);
-    }
-    
     public void act() 
     {
         // Add your action code here.

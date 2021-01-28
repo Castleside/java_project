@@ -16,11 +16,11 @@ public class lv3_throne extends lv1_3_object
     {
         // Add your action code here.
     } 
-     public lv3_throne() {
-       setImage("/level_1/throne.jpg");
-       setRotation(0);
-       GreenfootImage image = getImage();  
-       image.scale(70, 70);
-       setImage(image);
+    public lv3_throne() {
+        setImage("/level_1/throne.jpg");
+        setRotation(0);
+        GreenfootImage image = getImage();  
+        image.scale(70, 70);
+        setImage(image);
     }
 }

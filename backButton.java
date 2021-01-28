@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class backButton extends Buttons
+public class backButton extends buttons
 {
     /**
      * Act - do whatever the backButton wants to do. This method is called whenever
@@ -17,6 +17,6 @@ public class backButton extends Buttons
         if(Greenfoot.mouseClicked(this)){
             World Menu = new mainMenu();
             Greenfoot.setWorld(Menu);
-        } 
+        }
     }    
 }

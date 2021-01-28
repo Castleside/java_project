@@ -1,4 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
+import java.awt.*; 
+import java.awt.event.KeyEvent; 
+import java.awt.image.BufferedImage; 
+import javax.swing.JFrame;
+import java.util.ArrayList;
 
 /**
  * Write a description of class door_lv1 here.
@@ -14,8 +20,16 @@ public class door_lv1 extends Doors
      */
     public void act() 
     {
-      
-        
+        List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
+        if( objects.isEmpty()){ 
+          
+        } 
+        else{
+            if(Greenfoot.isKeyDown("e")){
+                World lv1 = new level1_1();
+                Greenfoot.setWorld(lv1);
+            }
+        }
     } 
     public door_lv1(int laenge, int breite) {
        //setImage("/backgrounds/redBG.jpg");

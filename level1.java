@@ -1,26 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class levelOne here.
+ * Write a description of class level_1 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class level1 extends World
+public class level1 extends level_rooms
 {
 
     /**
-     * Constructor for objects of class levelOne.
+     * Constructor for objects of class level_1.
      * 
      */
-    
-    public level1()     //das kein Level sondern ein Ausgangspunkt
+    public level1()
     {
-        super(1280, 720, 1);
-        addObject(new wallV(), 1250, 720/2);
-        addObject(new wallV(), 29, 720/2);
-        addObject(new wallH(), 1280 / 2 , 690);
-        addObject(new wallH(), 1280 / 2 , 30);
         setBackground("/backgrounds/wood.png");
     }
 }

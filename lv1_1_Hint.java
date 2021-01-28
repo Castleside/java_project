@@ -1,21 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import greenfoot.Color;
+
 /**
- * Write a description of class lv1_Hint here.
+ * Write a description of class level1_1_hint here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class lv1_1_Hint extends level1
+public class lv1_1_hint extends level1
 {
 
     /**
-     * Constructor for objects of class lv1_Hint.
+     * Constructor for objects of class level1_1_hint.
      * 
      */
-    public lv1_1_Hint()
+    public lv1_1_hint()
     {
-        addObject(new lv1_knight(358, 500), 313 , 720/2 );
-        showText("Hier kommt der Tipp hin", 750, 200);
     }
 }

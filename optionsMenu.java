@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class optionsMenu extends World
+public class optionsMenu extends menus
 {
 
     /**
@@ -14,9 +14,8 @@ public class optionsMenu extends World
      * 
      */
     public optionsMenu()
-    {    
-       super(1280, 720, 1);
-       setBackground(new GreenfootImage("/backgrounds/greyBG.jpg"));
-       addObject(new backButton(), 200, 650);
+    {
+        setBackground(new GreenfootImage("/backgrounds/greyBG.jpg"));
+        addObject(new backButton(), 200, 650);
     }
 }

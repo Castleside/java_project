@@ -30,7 +30,7 @@ public class key_detect extends mainChar
             else{
                 getWorld().removeObjects(getWorld().getObjects(lv1_2_key.class));
                 getWorld().removeObjects(getWorld().getObjects(key_detect.class));
-                key_det = true;  
+                //key_det = true;  
             }
         }
     }    

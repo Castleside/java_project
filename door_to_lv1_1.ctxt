@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=door_to_lv1_1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ door_to_lv1_1\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=r\ ppX\ ppY
+comment1.target=door_to_lv1_1(int,\ int,\ int)
+comment2.params=r\ ppX\ ppY\ used
+comment2.target=door_to_lv1_1(int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

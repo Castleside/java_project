@@ -6,24 +6,36 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class lv1_3_detect extends Actor
+public class lv1_3_detect extends lv1_3_unsolid
 {
     /**
      * Act - do whatever the lv1_3_detect wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public static boolean det_1=false;
-    public static boolean det_2=false;
-    public static boolean det_3=false;
     
-    public void act() 
+    public lv1_3_detect(){
+        setImage("/backgrounds/redBG.jpg"); 
+        setRotation(0);
+        GreenfootImage image = getImage();
+        image.scale(35,35);
+        setImage(image); 
+    }
+    
+    public static boolean det_1 = false;
+    public static boolean det_2 = false;
+    public static boolean det_3 = false;
+    public static boolean p = false;
+    
+    public void act()  //1150, 97
     {
-        if(det_1 && det_2 && det_3){
-        this.getWorld().addObject(new lv1_room3_goal(100, 100), 200, 12);
-    }
-    }
+        if(det_1 && det_2 && det_3 && !p){
+            this.getWorld().addObject(new door_to_lv1_goal(0), 200, 12);
+            resetStatic();
+            p = true;
+        }
+    }   
     
-    public void resetStatics() {
+    public void resetStatic() {
         det_1 = false;
         det_2 = false;
         det_3 = false;

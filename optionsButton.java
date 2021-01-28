@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class optionsButton extends Buttons
+public class optionsButton extends buttons
 {
     /**
      * Act - do whatever the optionsButton wants to do. This method is called whenever
@@ -18,8 +18,5 @@ public class optionsButton extends Buttons
             World oMenu = new optionsMenu();
             Greenfoot.setWorld(oMenu);
         }
-       // if(Greenfoot.isKeyDown("backspace")){
-         //   World Menu = new mainMenu();
-         //   Greenfoot.setWorld(Menu);
     }    
 }

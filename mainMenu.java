@@ -1,12 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * this class creates the Main Menu in the Startscreen
- * triggers when pressing ESC in level choose room
- *  
+ * Write a description of class mainMenu here.
  * 
+ * @author (your name) 
+ * @version (a version number or a date)
  */
-public class mainMenu extends World
+public class mainMenu extends menus
 {
 
     /**
@@ -14,12 +14,10 @@ public class mainMenu extends World
      * 
      */
     public mainMenu()
-    {  
-        super(1280, 720, 1);
+    {
         setBackground(new GreenfootImage("/backgrounds/greyBG.jpg"));
-        addObject(new logo(), 1280/2, 120);
+        //addObject(new logo(), 1280/2, 120);
         addObject(new startButton(), 1280/2, 260);
         addObject(new optionsButton(), 1280/2, 400);
-      
-    }    
+    }
 }
