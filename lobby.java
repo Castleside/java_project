@@ -23,7 +23,7 @@ public class lobby extends World
         //Innenwände
         addObject(new wall_H(280, 13), 1083 , 430);
         addObject(new wall_V(13, 280), 950, 565);
-        //addObject(new backgroundImage("grey",300, 300), 1106, 587);
+        addObject(new images("grey", 265, 225), 1088, 547);
         
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
@@ -38,5 +38,8 @@ public class lobby extends World
         
         //mainChar
         addObject(new mainChar(), ppX, ppY);
+        
+        //paintOrder
+        setPaintOrder(mainChar.class, images.class, doors.class, walls.class);
     }
 }
