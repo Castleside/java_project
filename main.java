@@ -13,7 +13,7 @@ public class main extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public static boolean keyPickup;
+    public static boolean keyPickup;  //für Key_pickup wichtig
     
     public void act() 
     {
