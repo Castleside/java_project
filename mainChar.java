@@ -19,7 +19,7 @@ public class mainChar extends actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    int c = 0;
+    int c = outfit;
     
     public mainChar() {
         if (c != 0 || c != 1 || c != 2 || c != 3) {
