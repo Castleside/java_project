@@ -36,6 +36,10 @@ public class door_to_lv1_1 extends doors_lv1
     
     public void act() 
     {
+        if (keyPickup) {
+            u = 2;
+        }
+        
         List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
         if( objects.isEmpty()){
           

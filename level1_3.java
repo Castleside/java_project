@@ -20,7 +20,7 @@ public class level1_3 extends level1
         addObject(new mainChar(), ppX, ppY);
         
         //Türen
-        addObject(new door_to_lv1_1(0, 540, 360), 1150, 12);
+        addObject(new door_to_lv1_1(0, 140, 610, 2), 1150, 12);
         
         //nicht interaktive Elemente
         addObject(new lv1_3_fakeknight(58, 81), 673, 616);

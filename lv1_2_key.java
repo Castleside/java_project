@@ -24,7 +24,7 @@ public class lv1_2_key extends lv1_2_solid
     
     public void act() 
     {
-        List<mainChar>objects = getObjectsInRange(80, mainChar.class);
+        List<mainChar>objects = getObjectsInRange(60, mainChar.class);
         if(Greenfoot.isKeyDown("e")){
             if(objects.isEmpty()){
                 //

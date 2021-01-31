@@ -23,23 +23,23 @@ public class lv1_2_darkness extends lv1_2_unsolid
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);   
         if(Greenfoot.isKeyDown("a")){
-            int x = actor.getX();
-            int y = actor.getY();
+            int x = actor.getX() - 5;
+            int y = actor.getY() + 2;
             setLocation(x - 2, y );
         }
         if(Greenfoot.isKeyDown("d")){ 
-            int x = actor.getX();
-            int y = actor.getY();
+            int x = actor.getX() - 5;
+            int y = actor.getY() + 2;
             setLocation(x + 2, y );
         }
         if(Greenfoot.isKeyDown("w")){ 
-            int x = actor.getX();
-            int y = actor.getY();
+            int x = actor.getX() - 5;
+            int y = actor.getY() + 2;
             setLocation(x, y - 2 );
         }
         if(Greenfoot.isKeyDown("s")){ 
-            int x = actor.getX();
-            int y = actor.getY();
+            int x = actor.getX() - 5;
+            int y = actor.getY() + 2;
             setLocation(x, y + 2 );
         }
     }  
