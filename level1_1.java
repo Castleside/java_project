@@ -37,22 +37,13 @@ public class level1_1 extends level1
             
             //Erstellung detect-Methode
             addObject(new lv1_detect(), 1240, 30);
-<<<<<<< HEAD
-            addObject(new lv1_triangle(200, 200), 790, 560);
-            addObject(new lv1_rectangle(200, 200), 490, 560);
-            addObject(new lv1_pentagon(200, 200), 290, 360);
-            addObject(new lv1_hexagon(200, 200), 490, 160);
-            addObject(new lv1_heptagon(200, 200), 790, 160);
-            addObject(new lv1_crown(200, 200), 990, 360);
-            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
-=======
             addObject(new lv1_triangle(150, 150), 790, 560);
             addObject(new lv1_rectangle(150, 150), 490, 560);
             addObject(new lv1_pentagon(150, 150), 290, 360);
             addObject(new lv1_hexagon(150, 150), 490, 160);
             addObject(new lv1_heptagon(150, 150), 790, 160);
             addObject(new lv1_crown(150, 150), 990, 360);
->>>>>>> 50b9698a39836a30d470ccc4c98dee72b397f0b3
+            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
             
             //paintOrder
             setPaintOrder(doors.class, walls.class, mainChar.class, lv1_1_solid.class);
@@ -78,22 +69,13 @@ public class level1_1 extends level1
             
             //Erstellung detect-Methode
             addObject(new lv1_detect(), 1240, 30);
-<<<<<<< HEAD
-            addObject(new lv1_triangle(200, 200), 790, 560);
-            addObject(new lv1_rectangle(200, 200), 490, 560);
-            addObject(new lv1_pentagon(200, 200), 290, 360);
-            addObject(new lv1_hexagon(200, 200), 490, 160);
-            addObject(new lv1_heptagon(200, 200), 790, 160);
-            addObject(new lv1_crown(200, 200), 990, 360);
-            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
-=======
             addObject(new lv1_triangle(150, 150), 790, 560);
             addObject(new lv1_rectangle(150, 150), 490, 560);
             addObject(new lv1_pentagon(150, 150), 290, 360);
             addObject(new lv1_hexagon(150, 150), 490, 160);
             addObject(new lv1_heptagon(150, 150), 790, 160);
             addObject(new lv1_crown(150, 150), 990, 360);
->>>>>>> 50b9698a39836a30d470ccc4c98dee72b397f0b3
+            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
             
             //Tür wenn Rätsel schon gelöst
             addObject(new door_to_lv1_2(0, 1119, 614), 124, 12);
@@ -122,22 +104,13 @@ public class level1_1 extends level1
             
             //Erstellung detect-Methode
             addObject(new lv1_detect(), 1240, 30);
-<<<<<<< HEAD
-            addObject(new lv1_triangle(200, 200), 790, 560);
-            addObject(new lv1_rectangle(200, 200), 490, 560);
-            addObject(new lv1_pentagon(200, 200), 290, 360);
-            addObject(new lv1_hexagon(200, 200), 490, 160);
-            addObject(new lv1_heptagon(200, 200), 790, 160);
-            addObject(new lv1_crown(200, 200), 990, 360);
             addObject(new lv1_chair(100, 100), ppX, ppY - 90);
-=======
             addObject(new lv1_triangle(150, 150), 790, 560);
             addObject(new lv1_rectangle(150, 150), 490, 560);
             addObject(new lv1_pentagon(150, 150), 290, 360);
             addObject(new lv1_hexagon(150, 150), 490, 160);
             addObject(new lv1_heptagon(150, 150), 790, 160);
             addObject(new lv1_crown(150, 150), 990, 360);
->>>>>>> 50b9698a39836a30d470ccc4c98dee72b397f0b3
             
             //Tür wenn Rätsel schon gelöst
             addObject(new door_to_lv1_2(0, 1119, 614), 124, 12);
