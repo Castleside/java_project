@@ -24,6 +24,7 @@ public class level1_1 extends level1
             //Erstellung fester Gegenstände
             addObject(new lv1_table(500, 180), 640, 360);
             addObject(new door_fake(90), 1266, 360);
+            addObject(new lv1_1_knight(), 1179, 210);
             
             //Erstellung der beweglichen Objekte (Stühle)
             addObject(new lv1_triangle_chair(60, 98), 761, 123);
@@ -53,6 +54,7 @@ public class level1_1 extends level1
             //Erstellung fester Gegenstände
             addObject(new lv1_table(500, 180), 640, 360);
             addObject(new door_fake(90), 1266, 360);
+            addObject(new lv1_1_knight(), 1179, 210);
             
             //Erstellung der beweglichen Objekte (Stühle)
             addObject(new lv1_triangle_chair(60, 98), 790, 555);
@@ -85,6 +87,7 @@ public class level1_1 extends level1
             //Erstellung fester Gegenstände
             addObject(new lv1_table(500, 180), 640, 360);
             addObject(new door_fake(90), 1266, 360);
+            addObject(new lv1_1_knight(), 1179, 210);
             
             //Erstellung der beweglichen Objekte (Stühle)
             addObject(new lv1_triangle_chair(60, 98), 790, 555);
