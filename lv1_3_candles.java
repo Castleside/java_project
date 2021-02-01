@@ -17,7 +17,7 @@ public class lv1_3_candles extends lv1_3_solid
         setImage("/level_1/candle.jpg");
         setRotation(0);
         GreenfootImage image = getImage();  
-        image.scale(20, 40);
+        image.scale(15, 40);
         setImage(image);
     }
     

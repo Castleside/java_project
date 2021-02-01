@@ -90,8 +90,10 @@ public class mainChar extends actor
         
         //Methode für den Aufruf des Menüs
         if(Greenfoot.isKeyDown("escape")){
-            World Menu = new mainMenu();
-            Greenfoot.setWorld(Menu);
+            current_wrld = getWorld();
+            
+            World wrld = new mainMenu();
+            Greenfoot.setWorld(wrld);
         }
     }
 }

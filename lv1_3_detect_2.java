@@ -15,7 +15,7 @@ public class lv1_3_detect_2 extends lv1_3_detect
      */
     public void act() 
     {
-        List<lv1_3_candles>objects = getObjectsInRange(33, lv1_3_candles.class); 
+        List<lv1_3_candles>objects = getObjectsInRange(15, lv1_3_candles.class); 
         if(objects.isEmpty()){
             det_2=false;
             //setLocation(562, 610);

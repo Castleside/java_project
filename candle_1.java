@@ -14,20 +14,12 @@ public class candle_1 extends lv1_3_candles
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public candle_1 () {
-       setImage("/level_1/candle.jpg");
-       setRotation(0);
-       GreenfootImage image = getImage();  
-       image.scale(20, 40);
-       setImage(image);
-    } 
-    
     public void act() 
     {
         List<mainChar>objects = getObjectsInRange(47, mainChar.class);
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);
-        int x = actor.getX() -45;
+        int x = actor.getX() - 45;
         int y = actor.getY();
         
         if(Greenfoot.isKeyDown("space")){

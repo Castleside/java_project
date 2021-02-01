@@ -13,15 +13,7 @@ public class candle_3 extends lv1_3_candles
      * Act - do whatever the candle_3 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
-    public candle_3 () {
-       setImage("/level_1/candle.jpg");
-       setRotation(0);
-       GreenfootImage image = getImage();  
-       image.scale(20, 40);
-       setImage(image);
-    }
-    
+        
     public void act() 
     {
         List<mainChar>objects = getObjectsInRange(47, mainChar.class);

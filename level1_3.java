@@ -37,6 +37,14 @@ public class level1_3 extends level1
         addObject(new painting_6(), 340, 65);
         addObject(new lv1_3_throne(), 200, 720/2);
         
+        //Erstellung der Kerzenständer
+        addObject(new lv1_3_holder(), 340, 145);
+        addObject(new lv1_3_holder(), 565, 145);
+        addObject(new lv1_3_holder(), 785, 145);
+        addObject(new lv1_3_holder(), 340, 615);
+        addObject(new lv1_3_holder(), 565, 615);
+        addObject(new lv1_3_holder(), 785, 615);
+        
         //interaktive Elemente
         addObject(new candle_1(), 1049, 82);
         addObject(new candle_2(), 1009, 638);
@@ -44,9 +52,9 @@ public class level1_3 extends level1
         
         //Erstellung der detect Methode
         addObject(new lv1_3_detect(), 0, 0);
-        addObject(new lv1_3_detect_1(), 562, 610);
-        addObject(new lv1_3_detect_2(), 784, 110);
-        addObject(new lv1_3_detect_3(), 340, 610);
+        addObject(new lv1_3_detect_1(), 564, 585);
+        addObject(new lv1_3_detect_2(), 784, 114);
+        addObject(new lv1_3_detect_3(), 339, 584);
         
         //setPaintOrder
         setPaintOrder(doors.class, mainChar.class, lv1_3_solid.class, walls.class);

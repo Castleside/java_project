@@ -15,12 +15,7 @@ public class startButton extends buttons
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)){
-            World start = new lobby(540, 360);
-            Greenfoot.setWorld(start);
-        }
-        if(Greenfoot.isKeyDown("backspace")){
-            World start = new lobby(540, 360);
-            Greenfoot.setWorld(start);
+            Greenfoot.setWorld(current_wrld);
         }
     }    
 }

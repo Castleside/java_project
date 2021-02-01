@@ -14,11 +14,12 @@ public class lv1_3_detect extends lv1_3_unsolid
      */
     
     public lv1_3_detect(){
-        setImage("/backgrounds/redBG.jpg"); 
+        setImage("/backgrounds/redBG.png"); 
         setRotation(0);
         GreenfootImage image = getImage();
-        image.scale(35,35);
-        setImage(image); 
+        image.scale(10, 10);
+        setImage(image);
+        p = true;
     }
     
     public static boolean det_1 = false;
@@ -26,9 +27,9 @@ public class lv1_3_detect extends lv1_3_unsolid
     public static boolean det_3 = false;
     public static boolean p = true;
     
-    public void act()  //1150, 97
+    public void act() 
     {
-        if(det_1 && det_2 && det_3 && !p){
+        if(det_1 && det_2 && det_3 && p){
             this.getWorld().addObject(new door_to_lv1_goal(0), 200, 12);
             resetStatic();
             p = false;
