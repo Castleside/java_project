@@ -29,7 +29,7 @@ public class lv1_3_holder extends lv1_3_solid
             //
         } 
         else{
-            if (candles != null)
+            if (candles != null)  //NullPointerException
             {
                 int x = getX();
                 int y = getY();

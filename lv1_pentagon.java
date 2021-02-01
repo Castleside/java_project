@@ -15,7 +15,7 @@ public class lv1_pentagon extends lv1_detect
      */
     
     public lv1_pentagon(int laenge, int breite){
-        setImage("/backgrounds/redBG.jpg"); 
+        setImage("/level_1/carpet.png"); 
         setRotation(0);
         GreenfootImage image = getImage();  
         image.scale(laenge, breite);
