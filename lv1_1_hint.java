@@ -14,7 +14,7 @@ public class lv1_1_hint extends level1
      * 
      */
     public lv1_1_hint()
-    {//Erstellung des Knopfs
-        addObject(new lv1_backButton(1113, 217), 1071, 620);
+    {
+        addObject(new lv1_backButton(), 1071, 620); //Erstellung des Knopfs
     }
 }

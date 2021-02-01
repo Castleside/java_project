@@ -29,6 +29,7 @@ public class lv1_1_knight extends lv1_1
         } 
         else{
             if(Greenfoot.isKeyDown("e")){
+                current_wrld = getWorld();
                 World wrld = new lv1_1_hint();
                 Greenfoot.setWorld(wrld);
             }
