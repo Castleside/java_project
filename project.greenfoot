@@ -5,6 +5,7 @@ dependency1.type=UsesDependency
 dependency10.from=mainMenu
 dependency10.to=logo
 dependency10.type=UsesDependency
+<<<<<<< HEAD
 dependency100.from=paint3
 dependency100.to=candle_2
 dependency100.type=UsesDependency
@@ -34,10 +35,42 @@ dependency108.to=lv1_3_solid
 dependency108.type=UsesDependency
 dependency109.from=paint3
 dependency109.to=walls
+=======
+dependency100.from=door_to_lv1_goal
+dependency100.to=level1_goal
+dependency100.type=UsesDependency
+dependency101.from=door_to_lv1_3
+dependency101.to=mainChar
+dependency101.type=UsesDependency
+dependency102.from=door_to_lv1_3
+dependency102.to=level1_3
+dependency102.type=UsesDependency
+dependency103.from=door_to_lv1_2
+dependency103.to=mainChar
+dependency103.type=UsesDependency
+dependency104.from=door_to_lv1_2
+dependency104.to=level1_2
+dependency104.type=UsesDependency
+dependency105.from=door_to_lv1_1
+dependency105.to=mainChar
+dependency105.type=UsesDependency
+dependency106.from=door_to_lv1_1
+dependency106.to=level1_1
+dependency106.type=UsesDependency
+dependency107.from=door_to_wardrobe
+dependency107.to=mainChar
+dependency107.type=UsesDependency
+dependency108.from=door_to_wardrobe
+dependency108.to=wardrobe_room
+dependency108.type=UsesDependency
+dependency109.from=lv1_crown_chair
+dependency109.to=mainChar
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency109.type=UsesDependency
 dependency11.from=mainMenu
 dependency11.to=startButton
 dependency11.type=UsesDependency
+<<<<<<< HEAD
 dependency110.from=paint2
 dependency110.to=door_to_lv1_1
 dependency110.type=UsesDependency
@@ -67,10 +100,42 @@ dependency118.to=lv1_3_throne
 dependency118.type=UsesDependency
 dependency119.from=paint2
 dependency119.to=lv1_3_holder
+=======
+dependency110.from=lv1_pentagon_chair
+dependency110.to=mainChar
+dependency110.type=UsesDependency
+dependency111.from=lv1_triangle_chair
+dependency111.to=mainChar
+dependency111.type=UsesDependency
+dependency112.from=lv1_heptagon_chair
+dependency112.to=mainChar
+dependency112.type=UsesDependency
+dependency113.from=lv1_rectangle_chair
+dependency113.to=mainChar
+dependency113.type=UsesDependency
+dependency114.from=lv1_hexagon_chair
+dependency114.to=mainChar
+dependency114.type=UsesDependency
+dependency115.from=lv1_1_knight
+dependency115.to=mainChar
+dependency115.type=UsesDependency
+dependency116.from=lv1_1_knight
+dependency116.to=lv1_1_hint
+dependency116.type=UsesDependency
+dependency117.from=lv1_1_knight
+dependency117.to=lv1_exclamationMark
+dependency117.type=UsesDependency
+dependency118.from=lv1_2_key
+dependency118.to=mainChar
+dependency118.type=UsesDependency
+dependency119.from=lv1_2_lever
+dependency119.to=mainChar
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency119.type=UsesDependency
 dependency12.from=mainMenu
 dependency12.to=optionsButton
 dependency12.type=UsesDependency
+<<<<<<< HEAD
 dependency120.from=paint2
 dependency120.to=candle_1
 dependency120.type=UsesDependency
@@ -101,6 +166,32 @@ dependency128.type=UsesDependency
 dependency129.from=paint2
 dependency129.to=lv1_3_solid
 dependency129.type=UsesDependency
+=======
+dependency120.from=lv1_2_lever
+dependency120.to=lv1_2_keyDoor
+dependency120.type=UsesDependency
+dependency121.from=lv1_3_holder
+dependency121.to=lv1_3_candles
+dependency121.type=UsesDependency
+dependency122.from=candle_3
+dependency122.to=mainChar
+dependency122.type=UsesDependency
+dependency123.from=candle_2
+dependency123.to=mainChar
+dependency123.type=UsesDependency
+dependency124.from=candle_1
+dependency124.to=mainChar
+dependency124.type=UsesDependency
+dependency125.from=mainChar
+dependency125.to=mainMenu
+dependency125.type=UsesDependency
+dependency126.from=optionsButton
+dependency126.to=optionsMenu
+dependency126.type=UsesDependency
+dependency127.from=backButton
+dependency127.to=mainMenu
+dependency127.type=UsesDependency
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency13.from=level_rooms
 dependency13.to=wall_V
 dependency13.type=UsesDependency
@@ -170,6 +261,7 @@ dependency149.type=UsesDependency
 dependency15.from=lv1_1_hint
 dependency15.to=lv1_backButton
 dependency15.type=UsesDependency
+<<<<<<< HEAD
 dependency150.from=paint1
 dependency150.to=lv1_3_solid
 dependency150.type=UsesDependency
@@ -202,6 +294,10 @@ dependency159.to=painting_4
 dependency159.type=UsesDependency
 dependency16.from=level1_3
 dependency16.to=mainChar
+=======
+dependency16.from=lv1_1_hint
+dependency16.to=lv1_3_fakeknight
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency16.type=UsesDependency
 dependency160.from=paint6
 dependency160.to=painting_5
@@ -234,7 +330,7 @@ dependency169.from=paint6
 dependency169.to=lv1_3_detect_2
 dependency169.type=UsesDependency
 dependency17.from=level1_3
-dependency17.to=door_to_lv1_1
+dependency17.to=mainChar
 dependency17.type=UsesDependency
 dependency170.from=paint6
 dependency170.to=lv1_3_detect_3
@@ -267,7 +363,7 @@ dependency179.from=level1_1
 dependency179.to=lv1_rectangle_chair
 dependency179.type=UsesDependency
 dependency18.from=level1_3
-dependency18.to=lv1_3_fakeknight
+dependency18.to=door_to_lv1_1
 dependency18.type=UsesDependency
 dependency180.from=level1_1
 dependency180.to=lv1_pentagon_chair
@@ -300,7 +396,7 @@ dependency189.from=level1_1
 dependency189.to=lv1_heptagon
 dependency189.type=UsesDependency
 dependency19.from=level1_3
-dependency19.to=painting_1
+dependency19.to=lv1_3_fakeknight
 dependency19.type=UsesDependency
 dependency190.from=level1_1
 dependency190.to=lv1_crown
@@ -336,7 +432,7 @@ dependency2.from=wardrobe_room
 dependency2.to=wall_V
 dependency2.type=UsesDependency
 dependency20.from=level1_3
-dependency20.to=painting_2
+dependency20.to=painting_1
 dependency20.type=UsesDependency
 dependency200.from=lobby
 dependency200.to=wall_V
@@ -369,7 +465,7 @@ dependency209.from=lv1_rectangle
 dependency209.to=lv1_rectangle_chair
 dependency209.type=UsesDependency
 dependency21.from=level1_3
-dependency21.to=painting_3
+dependency21.to=painting_2
 dependency21.type=UsesDependency
 dependency210.from=lv1_crown
 dependency210.to=lv1_crown_chair
@@ -402,7 +498,7 @@ dependency219.from=lv1_2_darkness
 dependency219.to=mainChar
 dependency219.type=UsesDependency
 dependency22.from=level1_3
-dependency22.to=painting_4
+dependency22.to=painting_3
 dependency22.type=UsesDependency
 dependency220.from=door_to_lv2
 dependency220.to=mainChar
@@ -435,7 +531,7 @@ dependency229.from=door_to_lv1_2
 dependency229.to=level1_2
 dependency229.type=UsesDependency
 dependency23.from=level1_3
-dependency23.to=painting_5
+dependency23.to=painting_4
 dependency23.type=UsesDependency
 dependency230.from=door_to_lv1_1
 dependency230.to=mainChar
@@ -468,7 +564,7 @@ dependency239.from=lv1_hexagon_chair
 dependency239.to=mainChar
 dependency239.type=UsesDependency
 dependency24.from=level1_3
-dependency24.to=painting_6
+dependency24.to=painting_5
 dependency24.type=UsesDependency
 dependency240.from=lv1_1_knight
 dependency240.to=mainChar
@@ -501,7 +597,7 @@ dependency249.from=painting_4
 dependency249.to=mainChar
 dependency249.type=UsesDependency
 dependency25.from=level1_3
-dependency25.to=lv1_3_throne
+dependency25.to=painting_6
 dependency25.type=UsesDependency
 dependency250.from=painting_4
 dependency250.to=paint4
@@ -534,7 +630,7 @@ dependency259.from=candle_2
 dependency259.to=mainChar
 dependency259.type=UsesDependency
 dependency26.from=level1_3
-dependency26.to=lv1_3_holder
+dependency26.to=lv1_3_throne
 dependency26.type=UsesDependency
 dependency260.from=candle_1
 dependency260.to=mainChar
@@ -549,71 +645,72 @@ dependency263.from=backButton
 dependency263.to=mainMenu
 dependency263.type=UsesDependency
 dependency27.from=level1_3
-dependency27.to=candle_1
+dependency27.to=lv1_3_holder
 dependency27.type=UsesDependency
 dependency28.from=level1_3
-dependency28.to=candle_2
+dependency28.to=candle_1
 dependency28.type=UsesDependency
 dependency29.from=level1_3
-dependency29.to=candle_3
+dependency29.to=candle_2
 dependency29.type=UsesDependency
 dependency3.from=wardrobe_room
 dependency3.to=wall_H
 dependency3.type=UsesDependency
 dependency30.from=level1_3
-dependency30.to=lv1_3_detect
+dependency30.to=candle_3
 dependency30.type=UsesDependency
 dependency31.from=level1_3
-dependency31.to=lv1_3_detect_1
+dependency31.to=lv1_3_detect
 dependency31.type=UsesDependency
 dependency32.from=level1_3
-dependency32.to=lv1_3_detect_2
+dependency32.to=lv1_3_detect_1
 dependency32.type=UsesDependency
 dependency33.from=level1_3
-dependency33.to=lv1_3_detect_3
+dependency33.to=lv1_3_detect_2
 dependency33.type=UsesDependency
 dependency34.from=level1_3
-dependency34.to=doors
+dependency34.to=lv1_3_detect_3
 dependency34.type=UsesDependency
 dependency35.from=level1_3
-dependency35.to=lv1_3_solid
+dependency35.to=doors
 dependency35.type=UsesDependency
 dependency36.from=level1_3
-dependency36.to=walls
+dependency36.to=lv1_3_solid
 dependency36.type=UsesDependency
-dependency37.from=level1_2
-dependency37.to=mainChar
+dependency37.from=level1_3
+dependency37.to=walls
 dependency37.type=UsesDependency
 dependency38.from=level1_2
-dependency38.to=wall_H
+dependency38.to=mainChar
 dependency38.type=UsesDependency
 dependency39.from=level1_2
-dependency39.to=wall_V
+dependency39.to=wall_H
 dependency39.type=UsesDependency
 dependency4.from=wardrobe_room
 dependency4.to=door_to_lobby
 dependency4.type=UsesDependency
 dependency40.from=level1_2
-dependency40.to=door_to_lv1_1
+dependency40.to=wall_V
 dependency40.type=UsesDependency
 dependency41.from=level1_2
-dependency41.to=lv1_2_lever
+dependency41.to=door_to_lv1_1
 dependency41.type=UsesDependency
 dependency42.from=level1_2
-dependency42.to=lv1_2_keyDoor
+dependency42.to=lv1_2_lever
 dependency42.type=UsesDependency
 dependency43.from=level1_2
-dependency43.to=lv1_2_key
+dependency43.to=lv1_2_keyDoor
 dependency43.type=UsesDependency
 dependency44.from=level1_2
-dependency44.to=lv1_2_darkness
+dependency44.to=lv1_2_key
 dependency44.type=UsesDependency
 dependency45.from=level1_2
-dependency45.to=doors
+dependency45.to=lv1_2_darkness
 dependency45.type=UsesDependency
 dependency46.from=level1_2
-dependency46.to=walls
+dependency46.to=doors
 dependency46.type=UsesDependency
+<<<<<<< HEAD
 dependency47.from=paint5
 dependency47.to=door_to_lv1_1
 dependency47.type=UsesDependency
@@ -622,10 +719,21 @@ dependency48.to=lv1_3_fakeknight
 dependency48.type=UsesDependency
 dependency49.from=paint5
 dependency49.to=painting_1
+=======
+dependency47.from=level1_2
+dependency47.to=walls
+dependency47.type=UsesDependency
+dependency48.from=level1_1
+dependency48.to=mainChar
+dependency48.type=UsesDependency
+dependency49.from=level1_1
+dependency49.to=lv1_table
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency49.type=UsesDependency
 dependency5.from=wardrobe_menu
 dependency5.to=mainChar
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 dependency50.from=paint5
 dependency50.to=painting_2
 dependency50.type=UsesDependency
@@ -655,10 +763,42 @@ dependency58.to=candle_2
 dependency58.type=UsesDependency
 dependency59.from=paint5
 dependency59.to=candle_3
+=======
+dependency50.from=level1_1
+dependency50.to=door_fake
+dependency50.type=UsesDependency
+dependency51.from=level1_1
+dependency51.to=lv1_1_knight
+dependency51.type=UsesDependency
+dependency52.from=level1_1
+dependency52.to=lv1_exclamationMark
+dependency52.type=UsesDependency
+dependency53.from=level1_1
+dependency53.to=lv1_triangle_chair
+dependency53.type=UsesDependency
+dependency54.from=level1_1
+dependency54.to=lv1_rectangle_chair
+dependency54.type=UsesDependency
+dependency55.from=level1_1
+dependency55.to=lv1_pentagon_chair
+dependency55.type=UsesDependency
+dependency56.from=level1_1
+dependency56.to=lv1_hexagon_chair
+dependency56.type=UsesDependency
+dependency57.from=level1_1
+dependency57.to=lv1_heptagon_chair
+dependency57.type=UsesDependency
+dependency58.from=level1_1
+dependency58.to=lv1_crown_chair
+dependency58.type=UsesDependency
+dependency59.from=level1_1
+dependency59.to=lv1_detect
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency59.type=UsesDependency
 dependency6.from=wardrobe_menu
 dependency6.to=images
 dependency6.type=UsesDependency
+<<<<<<< HEAD
 dependency60.from=paint5
 dependency60.to=lv1_3_detect
 dependency60.type=UsesDependency
@@ -688,10 +828,42 @@ dependency68.to=door_to_lv1_1
 dependency68.type=UsesDependency
 dependency69.from=paint4
 dependency69.to=lv1_3_fakeknight
+=======
+dependency60.from=level1_1
+dependency60.to=lv1_triangle
+dependency60.type=UsesDependency
+dependency61.from=level1_1
+dependency61.to=lv1_rectangle
+dependency61.type=UsesDependency
+dependency62.from=level1_1
+dependency62.to=lv1_pentagon
+dependency62.type=UsesDependency
+dependency63.from=level1_1
+dependency63.to=lv1_hexagon
+dependency63.type=UsesDependency
+dependency64.from=level1_1
+dependency64.to=lv1_heptagon
+dependency64.type=UsesDependency
+dependency65.from=level1_1
+dependency65.to=lv1_crown
+dependency65.type=UsesDependency
+dependency66.from=level1_1
+dependency66.to=door_to_lv1_2
+dependency66.type=UsesDependency
+dependency67.from=level1_1
+dependency67.to=door_to_lv1_3
+dependency67.type=UsesDependency
+dependency68.from=level1_1
+dependency68.to=doors
+dependency68.type=UsesDependency
+dependency69.from=level1_1
+dependency69.to=walls
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency69.type=UsesDependency
 dependency7.from=wardrobe_menu
 dependency7.to=wardrobe_arrow
 dependency7.type=UsesDependency
+<<<<<<< HEAD
 dependency70.from=paint4
 dependency70.to=painting_1
 dependency70.type=UsesDependency
@@ -721,10 +893,42 @@ dependency78.to=candle_1
 dependency78.type=UsesDependency
 dependency79.from=paint4
 dependency79.to=candle_2
+=======
+dependency70.from=level1_1
+dependency70.to=lv1_1_solid
+dependency70.type=UsesDependency
+dependency71.from=level1_goal
+dependency71.to=lv1_congrats
+dependency71.type=UsesDependency
+dependency72.from=level1_goal
+dependency72.to=startButton
+dependency72.type=UsesDependency
+dependency73.from=level2
+dependency73.to=mainChar
+dependency73.type=UsesDependency
+dependency74.from=lobby
+dependency74.to=wall_H
+dependency74.type=UsesDependency
+dependency75.from=lobby
+dependency75.to=wall_V
+dependency75.type=UsesDependency
+dependency76.from=lobby
+dependency76.to=images
+dependency76.type=UsesDependency
+dependency77.from=lobby
+dependency77.to=door_to_wardrobe
+dependency77.type=UsesDependency
+dependency78.from=lobby
+dependency78.to=door_to_lv1_1
+dependency78.type=UsesDependency
+dependency79.from=lobby
+dependency79.to=door_to_lv2
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency79.type=UsesDependency
 dependency8.from=clothMenu
 dependency8.to=mainChar
 dependency8.type=UsesDependency
+<<<<<<< HEAD
 dependency80.from=paint4
 dependency80.to=candle_3
 dependency80.type=UsesDependency
@@ -754,10 +958,42 @@ dependency88.to=walls
 dependency88.type=UsesDependency
 dependency89.from=paint3
 dependency89.to=door_to_lv1_1
+=======
+dependency80.from=lobby
+dependency80.to=mainChar
+dependency80.type=UsesDependency
+dependency81.from=lobby
+dependency81.to=doors
+dependency81.type=UsesDependency
+dependency82.from=lobby
+dependency82.to=walls
+dependency82.type=UsesDependency
+dependency83.from=lv1_detect
+dependency83.to=door_to_lv1_2
+dependency83.type=UsesDependency
+dependency84.from=lv1_rectangle
+dependency84.to=lv1_rectangle_chair
+dependency84.type=UsesDependency
+dependency85.from=lv1_crown
+dependency85.to=lv1_crown_chair
+dependency85.type=UsesDependency
+dependency86.from=lv1_hexagon
+dependency86.to=lv1_hexagon_chair
+dependency86.type=UsesDependency
+dependency87.from=lv1_triangle
+dependency87.to=lv1_triangle_chair
+dependency87.type=UsesDependency
+dependency88.from=lv1_pentagon
+dependency88.to=lv1_pentagon_chair
+dependency88.type=UsesDependency
+dependency89.from=lv1_heptagon
+dependency89.to=lv1_heptagon_chair
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 dependency89.type=UsesDependency
 dependency9.from=optionsMenu
 dependency9.to=backButton
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 dependency90.from=paint3
 dependency90.to=lv1_3_fakeknight
 dependency90.type=UsesDependency
@@ -795,6 +1031,45 @@ editor.fx.0.y=168
 height=1066
 package.numDependencies=263
 package.numTargets=110
+=======
+dependency90.from=lv1_3_detect
+dependency90.to=door_to_lv1_goal
+dependency90.type=UsesDependency
+dependency91.from=lv1_3_detect_2
+dependency91.to=lv1_3_candles
+dependency91.type=UsesDependency
+dependency92.from=lv1_3_detect_3
+dependency92.to=lv1_3_candles
+dependency92.type=UsesDependency
+dependency93.from=lv1_3_detect_1
+dependency93.to=lv1_3_candles
+dependency93.type=UsesDependency
+dependency94.from=lv1_2_darkness
+dependency94.to=mainChar
+dependency94.type=UsesDependency
+dependency95.from=door_to_lv2
+dependency95.to=mainChar
+dependency95.type=UsesDependency
+dependency96.from=door_to_lv2
+dependency96.to=level2
+dependency96.type=UsesDependency
+dependency97.from=door_to_lobby
+dependency97.to=mainChar
+dependency97.type=UsesDependency
+dependency98.from=door_to_lobby
+dependency98.to=lobby
+dependency98.type=UsesDependency
+dependency99.from=door_to_lv1_goal
+dependency99.to=mainChar
+dependency99.type=UsesDependency
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=515
+editor.fx.0.y=154
+height=1176
+package.numDependencies=127
+package.numTargets=98
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -808,7 +1083,11 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
 simulation.speed=66
+=======
+simulation.speed=53
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target1.height=50
 target1.name=lv1_3_detect
 target1.showInterface=false
@@ -1139,20 +1418,29 @@ target41.width=80
 target41.x=0
 target41.y=0
 target42.height=50
+<<<<<<< HEAD
 target42.name=painting_5
+=======
+target42.name=lv1_exclamationMark
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target42.showInterface=false
 target42.type=ClassTarget
-target42.width=80
+target42.width=130
 target42.x=0
 target42.y=0
 target43.height=50
+<<<<<<< HEAD
 target43.name=paint6
+=======
+target43.name=backButton
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target43.showInterface=false
 target43.type=ClassTarget
 target43.width=80
 target43.x=0
 target43.y=0
 target44.height=50
+<<<<<<< HEAD
 target44.name=pictures
 target44.showInterface=false
 target44.type=ClassTarget
@@ -1168,27 +1456,56 @@ target45.x=0
 target45.y=0
 target46.height=50
 target46.name=level1_2
+=======
+target44.name=level_content
+target44.showInterface=false
+target44.type=ClassTarget
+target44.width=90
+target44.x=0
+target44.y=0
+target45.height=50
+target45.name=lv1_3_paintings
+target45.showInterface=false
+target45.type=ClassTarget
+target45.width=100
+target45.x=0
+target45.y=0
+target46.height=50
+target46.name=lv1_hexagon
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target46.showInterface=false
 target46.type=ClassTarget
-target46.width=80
+target46.width=90
 target46.x=0
 target46.y=0
 target47.height=50
+<<<<<<< HEAD
 target47.name=walls
+=======
+target47.name=door_fake
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target47.showInterface=false
 target47.type=ClassTarget
 target47.width=80
 target47.x=0
 target47.y=0
 target48.height=50
+<<<<<<< HEAD
 target48.name=backButton
+=======
+target48.name=lv1_heptagon_chair
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target48.showInterface=false
 target48.type=ClassTarget
-target48.width=80
+target48.width=130
 target48.x=0
 target48.y=0
 target49.height=50
+<<<<<<< HEAD
 target49.name=level_content
+=======
+target49.name=level1_1
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target49.showInterface=false
 target49.type=ClassTarget
 target49.width=90
@@ -1202,34 +1519,51 @@ target5.width=110
 target5.x=0
 target5.y=0
 target50.height=50
+<<<<<<< HEAD
 target50.name=lv1_3_paintings
+=======
+target50.name=actor
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target50.showInterface=false
 target50.type=ClassTarget
 target50.width=100
 target50.x=0
 target50.y=0
 target51.height=50
+<<<<<<< HEAD
 target51.name=lv1_hexagon
+=======
+target51.name=lv1_1_solid
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target51.showInterface=false
 target51.type=ClassTarget
-target51.width=90
+target51.width=80
 target51.x=0
 target51.y=0
 target52.height=50
+<<<<<<< HEAD
 target52.name=door_fake
+=======
+target52.name=lv1_3_holder
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target52.showInterface=false
 target52.type=ClassTarget
-target52.width=80
+target52.width=90
 target52.x=0
 target52.y=0
 target53.height=50
+<<<<<<< HEAD
 target53.name=level1_paintings
+=======
+target53.name=texts
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target53.showInterface=false
 target53.type=ClassTarget
 target53.width=110
 target53.x=0
 target53.y=0
 target54.height=50
+<<<<<<< HEAD
 target54.name=lv1_heptagon_chair
 target54.showInterface=false
 target54.type=ClassTarget
@@ -1238,26 +1572,45 @@ target54.x=0
 target54.y=0
 target55.height=50
 target55.name=level1_1
+=======
+target54.name=lv1_triangle
+target54.showInterface=false
+target54.type=ClassTarget
+target54.width=80
+target54.x=0
+target54.y=0
+target55.height=50
+target55.name=wardrobe_content
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target55.showInterface=false
 target55.type=ClassTarget
 target55.width=80
 target55.x=0
 target55.y=0
 target56.height=50
+<<<<<<< HEAD
 target56.name=actor
+=======
+target56.name=door_to_wardrobe
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target56.showInterface=false
 target56.type=ClassTarget
-target56.width=80
+target56.width=120
 target56.x=0
 target56.y=0
 target57.height=50
+<<<<<<< HEAD
 target57.name=lv1_1_solid
+=======
+target57.name=clothMenu
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target57.showInterface=false
 target57.type=ClassTarget
 target57.width=80
 target57.x=0
 target57.y=0
 target58.height=50
+<<<<<<< HEAD
 target58.name=lv1_3_holder
 target58.showInterface=false
 target58.type=ClassTarget
@@ -1266,9 +1619,19 @@ target58.x=0
 target58.y=0
 target59.height=50
 target59.name=texts
+=======
+target58.name=lv1_detect
+target58.showInterface=false
+target58.type=ClassTarget
+target58.width=80
+target58.x=0
+target58.y=0
+target59.height=50
+target59.name=wardrobe_arrow
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target59.showInterface=false
 target59.type=ClassTarget
-target59.width=80
+target59.width=110
 target59.x=0
 target59.y=0
 target6.height=50
@@ -1279,13 +1642,18 @@ target6.width=130
 target6.x=0
 target6.y=0
 target60.height=50
+<<<<<<< HEAD
 target60.name=lv1_triangle
+=======
+target60.name=wall_H
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target60.showInterface=false
 target60.type=ClassTarget
 target60.width=80
 target60.x=0
 target60.y=0
 target61.height=50
+<<<<<<< HEAD
 target61.name=wardrobe_content
 target61.showInterface=false
 target61.type=ClassTarget
@@ -1294,12 +1662,23 @@ target61.x=0
 target61.y=0
 target62.height=50
 target62.name=door_to_wardrobe
+=======
+target61.name=main
+target61.showInterface=false
+target61.type=ClassTarget
+target61.width=80
+target61.x=0
+target61.y=0
+target62.height=50
+target62.name=lv1_3_candles
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target62.showInterface=false
 target62.type=ClassTarget
-target62.width=120
+target62.width=100
 target62.x=0
 target62.y=0
 target63.height=50
+<<<<<<< HEAD
 target63.name=clothMenu
 target63.showInterface=false
 target63.type=ClassTarget
@@ -1308,33 +1687,56 @@ target63.x=0
 target63.y=0
 target64.height=50
 target64.name=lv1_detect
+=======
+target63.name=lv1_Buttons
+target63.showInterface=false
+target63.type=ClassTarget
+target63.width=120
+target63.x=0
+target63.y=0
+target64.height=50
+target64.name=lv1_3_unsolid
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target64.showInterface=false
 target64.type=ClassTarget
-target64.width=80
+target64.width=90
 target64.x=0
 target64.y=0
 target65.height=50
+<<<<<<< HEAD
 target65.name=wardrobe_arrow
+=======
+target65.name=logo
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target65.showInterface=false
 target65.type=ClassTarget
 target65.width=110
 target65.x=0
 target65.y=0
 target66.height=50
+<<<<<<< HEAD
 target66.name=wall_H
+=======
+target66.name=wardrobe
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target66.showInterface=false
 target66.type=ClassTarget
 target66.width=80
 target66.x=0
 target66.y=0
 target67.height=50
+<<<<<<< HEAD
 target67.name=main
+=======
+target67.name=lv1_1_knight
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target67.showInterface=false
 target67.type=ClassTarget
-target67.width=80
+target67.width=90
 target67.x=0
 target67.y=0
 target68.height=50
+<<<<<<< HEAD
 target68.name=lv1_3_candles
 target68.showInterface=false
 target68.type=ClassTarget
@@ -1346,6 +1748,19 @@ target69.name=lv1_Buttons
 target69.showInterface=false
 target69.type=ClassTarget
 target69.width=120
+=======
+target68.name=lv1_2_solid
+target68.showInterface=false
+target68.type=ClassTarget
+target68.width=80
+target68.x=0
+target68.y=0
+target69.height=50
+target69.name=lv1_congrats
+target69.showInterface=false
+target69.type=ClassTarget
+target69.width=90
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target69.x=0
 target69.y=0
 target7.height=50
@@ -1356,6 +1771,7 @@ target7.width=90
 target7.x=0
 target7.y=0
 target70.height=50
+<<<<<<< HEAD
 target70.name=lv1_3_unsolid
 target70.showInterface=false
 target70.type=ClassTarget
@@ -1385,33 +1801,77 @@ target73.x=0
 target73.y=0
 target74.height=50
 target74.name=lv1_2_solid
+=======
+target70.name=unsolid_lv1
+target70.showInterface=false
+target70.type=ClassTarget
+target70.width=80
+target70.x=0
+target70.y=0
+target71.height=50
+target71.name=lv1_pentagon
+target71.showInterface=false
+target71.type=ClassTarget
+target71.width=100
+target71.x=0
+target71.y=0
+target72.height=50
+target72.name=optionsMenu
+target72.showInterface=false
+target72.type=ClassTarget
+target72.width=90
+target72.x=0
+target72.y=0
+target73.height=50
+target73.name=wardrobe_room
+target73.showInterface=false
+target73.type=ClassTarget
+target73.width=110
+target73.x=0
+target73.y=0
+target74.height=50
+target74.name=wall_V
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target74.showInterface=false
 target74.type=ClassTarget
 target74.width=80
 target74.x=0
 target74.y=0
 target75.height=50
+<<<<<<< HEAD
 target75.name=lv1_congrats
+=======
+target75.name=lv1_2_key
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target75.showInterface=false
 target75.type=ClassTarget
 target75.width=90
 target75.x=0
 target75.y=0
 target76.height=50
+<<<<<<< HEAD
 target76.name=unsolid_lv1
+=======
+target76.name=mainMenu
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target76.showInterface=false
 target76.type=ClassTarget
 target76.width=80
 target76.x=0
 target76.y=0
 target77.height=50
+<<<<<<< HEAD
 target77.name=lv1_pentagon
+=======
+target77.name=candle_1
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target77.showInterface=false
 target77.type=ClassTarget
 target77.width=100
 target77.x=0
 target77.y=0
 target78.height=50
+<<<<<<< HEAD
 target78.name=optionsMenu
 target78.showInterface=false
 target78.type=ClassTarget
@@ -1420,6 +1880,16 @@ target78.x=0
 target78.y=0
 target79.height=50
 target79.name=wardrobe_room
+=======
+target78.name=lv1_3_solid
+target78.showInterface=false
+target78.type=ClassTarget
+target78.width=80
+target78.x=0
+target78.y=0
+target79.height=50
+target79.name=wardrobe_menu
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target79.showInterface=false
 target79.type=ClassTarget
 target79.width=110
@@ -1433,70 +1903,110 @@ target8.width=80
 target8.x=0
 target8.y=0
 target80.height=50
+<<<<<<< HEAD
 target80.name=wall_V
+=======
+target80.name=lv1_heptagon
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target80.showInterface=false
 target80.type=ClassTarget
-target80.width=80
+target80.width=100
 target80.x=0
 target80.y=0
 target81.height=50
+<<<<<<< HEAD
 target81.name=lv1_2_key
+=======
+target81.name=lv1_2_lever
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target81.showInterface=false
 target81.type=ClassTarget
 target81.width=80
 target81.x=0
 target81.y=0
 target82.height=50
+<<<<<<< HEAD
 target82.name=p1
+=======
+target82.name=mainChar
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target82.showInterface=false
 target82.type=ClassTarget
 target82.width=80
 target82.x=0
 target82.y=0
 target83.height=50
+<<<<<<< HEAD
 target83.name=p2
+=======
+target83.name=lv1_2_unsolid
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target83.showInterface=false
 target83.type=ClassTarget
-target83.width=80
+target83.width=90
 target83.x=0
 target83.y=0
 target84.height=50
+<<<<<<< HEAD
 target84.name=p3
+=======
+target84.name=menus
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target84.showInterface=false
 target84.type=ClassTarget
 target84.width=80
 target84.x=0
 target84.y=0
 target85.height=50
+<<<<<<< HEAD
 target85.name=mainMenu
+=======
+target85.name=buttons
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target85.showInterface=false
 target85.type=ClassTarget
 target85.width=80
 target85.x=0
 target85.y=0
 target86.height=50
+<<<<<<< HEAD
 target86.name=p4
+=======
+target86.name=level1_goal
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target86.showInterface=false
 target86.type=ClassTarget
 target86.width=80
 target86.x=0
 target86.y=0
 target87.height=50
+<<<<<<< HEAD
 target87.name=p5
+=======
+target87.name=lv1_rectangle_chair
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target87.showInterface=false
 target87.type=ClassTarget
-target87.width=80
+target87.width=140
 target87.x=0
 target87.y=0
 target88.height=50
+<<<<<<< HEAD
 target88.name=candle_1
+=======
+target88.name=startButton
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target88.showInterface=false
 target88.type=ClassTarget
 target88.width=80
 target88.x=0
 target88.y=0
 target89.height=50
+<<<<<<< HEAD
 target89.name=lv1_3_solid
+=======
+target89.name=lv1
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target89.showInterface=false
 target89.type=ClassTarget
 target89.width=80
@@ -1510,13 +2020,18 @@ target9.width=100
 target9.x=0
 target9.y=0
 target90.height=50
+<<<<<<< HEAD
 target90.name=p6
+=======
+target90.name=lv1_hexagon_chair
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target90.showInterface=false
 target90.type=ClassTarget
-target90.width=80
+target90.width=130
 target90.x=0
 target90.y=0
 target91.height=50
+<<<<<<< HEAD
 target91.name=wardrobe_menu
 target91.showInterface=false
 target91.type=ClassTarget
@@ -1532,33 +2047,63 @@ target92.x=0
 target92.y=0
 target93.height=50
 target93.name=lv1_2_lever
+=======
+target91.name=lv1_1
+target91.showInterface=false
+target91.type=ClassTarget
+target91.width=80
+target91.x=0
+target91.y=0
+target92.height=50
+target92.name=lv1_3_throne
+target92.showInterface=false
+target92.type=ClassTarget
+target92.width=90
+target92.x=0
+target92.y=0
+target93.height=50
+target93.name=lv1_2
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target93.showInterface=false
 target93.type=ClassTarget
 target93.width=80
 target93.x=0
 target93.y=0
 target94.height=50
+<<<<<<< HEAD
 target94.name=mainChar
+=======
+target94.name=level_rooms
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target94.showInterface=false
 target94.type=ClassTarget
-target94.width=80
+target94.width=90
 target94.x=0
 target94.y=0
 target95.height=50
+<<<<<<< HEAD
 target95.name=lv1_2_unsolid
+=======
+target95.name=lobby
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target95.showInterface=false
 target95.type=ClassTarget
 target95.width=90
 target95.x=0
 target95.y=0
 target96.height=50
+<<<<<<< HEAD
 target96.name=menus
+=======
+target96.name=lv1_3
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 target96.showInterface=false
 target96.type=ClassTarget
 target96.width=80
 target96.x=0
 target96.y=0
 target97.height=50
+<<<<<<< HEAD
 target97.name=buttons
 target97.showInterface=false
 target97.type=ClassTarget
@@ -1579,8 +2124,23 @@ target99.type=ClassTarget
 target99.width=140
 target99.x=0
 target99.y=0
+=======
+target97.name=lv1_2_darkness
+target97.showInterface=false
+target97.type=ClassTarget
+target97.width=100
+target97.x=0
+target97.y=0
+target98.height=50
+target98.name=lv1_3_fakeknight
+target98.showInterface=false
+target98.type=ClassTarget
+target98.width=110
+target98.x=0
+target98.y=0
+>>>>>>> 8169d17778a689f83b69636e60756bf63d9746d8
 version=3.0.0
 width=1936
-world.lastInstantiated=lobby
+world.lastInstantiated=level1_1
 xPosition=0
 yPosition=0

@@ -32,6 +32,7 @@ public class lv1_1_knight extends lv1_1
                 current_wrld = getWorld();
                 World wrld = new lv1_1_hint();
                 Greenfoot.setWorld(wrld);
+                getWorld().removeObjects(getWorld().getObjects(lv1_exclamationMark.class));
             }
         }
     }
