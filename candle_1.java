@@ -19,7 +19,7 @@ public class candle_1 extends lv1_3_candles
         List<mainChar>objects = getObjectsInRange(47, mainChar.class);
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);
-        int x = actor.getX() -45;
+        int x = actor.getX() - 45;
         int y = actor.getY();
         
         if(Greenfoot.isKeyDown("space")){

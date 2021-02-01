@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
 
 /**
  * Write a description of class painting_2 here.
@@ -23,6 +24,16 @@ public class painting_2 extends lv1_3_paintings
     
     public void act() 
     {
-        // Add your action code here.
+        List<mainChar>objects = getObjectsInRange(60, mainChar.class);
+        if(Greenfoot.isKeyDown("e")){
+            if(objects.isEmpty()){
+                //
+            }
+            else{
+                current_wrld = getWorld();
+                World wrld = new paint2();
+                Greenfoot.setWorld(wrld);
+            }
+        }
     }    
 }
