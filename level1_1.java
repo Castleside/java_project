@@ -41,6 +41,7 @@ public class level1_1 extends level1
             addObject(new lv1_hexagon(200, 200), 490, 160);
             addObject(new lv1_heptagon(200, 200), 790, 160);
             addObject(new lv1_crown(200, 200), 990, 360);
+            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
             
             //paintOrder
             setPaintOrder(doors.class, walls.class, mainChar.class, lv1_1_solid.class);
@@ -70,6 +71,7 @@ public class level1_1 extends level1
             addObject(new lv1_hexagon(200, 200), 490, 160);
             addObject(new lv1_heptagon(200, 200), 790, 160);
             addObject(new lv1_crown(200, 200), 990, 360);
+            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
             
             //Tür wenn Rätsel schon gelöst
             addObject(new door_to_lv1_2(0, 1119, 614), 124, 12);
@@ -102,6 +104,7 @@ public class level1_1 extends level1
             addObject(new lv1_hexagon(200, 200), 490, 160);
             addObject(new lv1_heptagon(200, 200), 790, 160);
             addObject(new lv1_crown(200, 200), 990, 360);
+            addObject(new lv1_chair(100, 100), ppX, ppY - 90);
             
             //Tür wenn Rätsel schon gelöst
             addObject(new door_to_lv1_2(0, 1119, 614), 124, 12);
