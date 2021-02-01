@@ -15,7 +15,7 @@ public class level1_goal extends level1
      */
     public level1_goal()
     {
-        setBackground(new GreenfootImage("backgrounds/greyBG.jpg"));
+        setBackground(new GreenfootImage("level_1/grey.jpg"));
         addObject(new lv1_congrats(), 1280/2, 120);
         addObject(new startButton(), 1280/2, 260);
     }
