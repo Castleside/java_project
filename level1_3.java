@@ -52,9 +52,9 @@ public class level1_3 extends level1
         
         //Erstellung der detect Methode
         addObject(new lv1_3_detect(), 0, 0);
-        addObject(new lv1_3_detect_1(), 562, 570);
-        addObject(new lv1_3_detect_2(), 784, 95);
-        addObject(new lv1_3_detect_3(), 340, 570);
+        addObject(new lv1_3_detect_1(), 564, 585);
+        addObject(new lv1_3_detect_2(), 784, 114);
+        addObject(new lv1_3_detect_3(), 339, 584);
         
         //setPaintOrder
         setPaintOrder(doors.class, mainChar.class, lv1_3_solid.class, walls.class);

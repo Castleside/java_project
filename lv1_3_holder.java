@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
 
 /**
  * Write a description of class lv1_3_holder here.
@@ -21,6 +22,19 @@ public class lv1_3_holder extends lv1_3_solid
     
     public void act() 
     {
-        // Add your action code here.
+        Actor candles;
+        candles = getOneObjectAtOffset(0, -30, lv1_3_candles.class);
+        List<lv1_3_candles>objects = getObjectsInRange(300, lv1_3_candles.class); 
+        if(objects.isEmpty()){
+            //
+        } 
+        else{
+            if (candles != null)
+            {
+                int x = getX();
+                int y = getY();
+                candles.setLocation(x, y - 45);
+            }
+        }
     }    
 }
