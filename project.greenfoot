@@ -359,12 +359,21 @@ dependency98.type=UsesDependency
 dependency99.from=door_to_lv1_2
 dependency99.to=level1_2
 dependency99.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=1005
 editor.fx.0.x=691
 editor.fx.0.y=134
 height=1066
 package.numDependencies=120
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=1176
+package.numDependencies=119
+>>>>>>> 34e657cf956f0532cda6189906ad004f52c83fed
 package.numTargets=91
 project.charset=UTF-8
 publish.hasSource=false
@@ -379,7 +388,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=64
+simulation.speed=51
 target1.height=50
 target1.name=clothMenu
 target1.showInterface=false

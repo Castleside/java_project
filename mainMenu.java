@@ -15,7 +15,7 @@ public class mainMenu extends menus
      */
     public mainMenu()
     {
-        setBackground(new GreenfootImage("/backgrounds/greyBG.jpg"));
+        setBackground(new GreenfootImage("/level_1/grey.jpg"));
         //addObject(new logo(), 1280/2, 120);
         addObject(new startButton(), 1280/2, 260);
         addObject(new optionsButton(), 1280/2, 400);
