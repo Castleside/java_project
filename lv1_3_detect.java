@@ -14,7 +14,7 @@ public class lv1_3_detect extends lv1_3_unsolid
      */
     
     public lv1_3_detect(){
-        setImage("/backgrounds/redBG.jpg"); 
+        setImage("/backgrounds/redBG.png"); 
         setRotation(0);
         GreenfootImage image = getImage();
         image.scale(10, 10);
