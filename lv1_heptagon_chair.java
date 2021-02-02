@@ -24,29 +24,53 @@ public class lv1_heptagon_chair extends lv1_1_solid
     
     public void act() {
         List<mainChar>objects = getObjectsInRange(100, mainChar.class);
-        java.util.List actors = getWorld().getObjects(mainChar.class);
-        mainChar actor = (mainChar)actors.get(0);
-        int x = actor.getX();
-        int y = actor.getY()- 90;
+        List<lv1_chair>kek = getObjectsInRange(5, lv1_chair.class);
         
-        if(Greenfoot.isKeyDown("shift")){
-            if(objects.isEmpty() ){
+        if(kek.isEmpty()){
+                //
+        }
+        else{
+                detect = kek.size();
+                test = test + 1;
+        }
+        if(test == 2 && detect == 1){
+         if(Greenfoot.isKeyDown("shift")){
+            if(objects.isEmpty()){
                 //
             }
             else{
-                if(Greenfoot.isKeyDown("w")){
+                test = test +1;   
+                mach();
+                }
+            
+         }
+         
+        }
+    } 
+    public void mach(){
+        java.util.List actors = getWorld().getObjects(mainChar.class);
+        mainChar actor = (mainChar)actors.get(0);   
+        int x = actor.getX();
+        int y = actor.getY()- 90;
+        if(Greenfoot.isKeyDown("w")){
                     setLocation(x, y - 2 );
+                    
                 }
-                if(Greenfoot.isKeyDown("s")){
+       
+        if(Greenfoot.isKeyDown("s")){
                     setLocation(x, y + 2 );
+                   
                 }
-                if(Greenfoot.isKeyDown("a")){
+        
+        if(Greenfoot.isKeyDown("a")){
                     setLocation(x - 2, y  );
+                   
                 }
-                if(Greenfoot.isKeyDown("d")){
+        
+        if(Greenfoot.isKeyDown("d")){
                     setLocation(x + 2, y  );
+                    
                 }
-            }
-        }  
-    }   
+        
+    }
 }

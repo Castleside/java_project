@@ -14,6 +14,7 @@ public class lv1_1_solid extends lv1_1
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        
+    } 
+    
 }

@@ -19,5 +19,7 @@ public class main extends Actor
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    public static int test = 0;
+    public static int detect = 0;
 }
