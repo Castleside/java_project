@@ -24,7 +24,7 @@ public class lv1_triangle_chair extends lv1_1_solid
     
     public void act() {
         List<mainChar>objects = getObjectsInRange(100, mainChar.class);
-        List<lv1_chair>kek = getObjectsInRange(30, lv1_chair.class);
+        List<lv1_chair>kek = getObjectsInRange(50, lv1_chair.class);
         
         if(kek.isEmpty()){
                 //

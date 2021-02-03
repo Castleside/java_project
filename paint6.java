@@ -18,6 +18,9 @@ public class paint6 extends level1_paintings
         //Erstellung des Portraits
         addObject(new p6(), 1280/2, 720/2);
         
+        //Erstellung backButton
+        addObject(new lv1_backButton(), 1070, 620);
+        
         //ERSTELLUNG DES HINTERGRUNDES
         
         //mainChar
@@ -39,7 +42,7 @@ public class paint6 extends level1_paintings
         addObject(new painting_4(), 784, 65);
         addObject(new painting_5(), 340, 655);
         addObject(new painting_6(), 340, 65);
-        addObject(new lv1_3_throne(), 200, 720/2);
+        addObject(new lv1_3_throne(), 168, 720/2);
         
         //Erstellung der Kerzenständer
         addObject(new lv1_3_holder(), 340, 145);
@@ -61,6 +64,6 @@ public class paint6 extends level1_paintings
         addObject(new lv1_3_detect_3(), 339, 584);
         
         //setPaintOrder
-        setPaintOrder(p6.class, doors.class, mainChar.class, lv1_3_solid.class, walls.class);
+        setPaintOrder(p6.class, buttons.class, doors.class, mainChar.class, lv1_3_solid.class, walls.class);
     }
 }

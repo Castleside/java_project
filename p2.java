@@ -13,10 +13,10 @@ public class p2 extends painting_2
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    /*public p2() {
+    public p2() {
         GreenfootImage image = new GreenfootImage("level_1/pictures/p2.png");
         setImage(image);
-    }*/
+    }
     
     public void act() 
     {

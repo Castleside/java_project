@@ -30,7 +30,7 @@ public class lv1_3_detect extends lv1_3_unsolid
     public void act() 
     {
         if(det_1 && det_2 && det_3 && p){
-            this.getWorld().addObject(new door_to_lv1_goal(0), 200, 12);
+            this.getWorld().addObject(new door_to_lv1_goal(0), 130, 12);
             resetStatic();
             p = false;
         }
