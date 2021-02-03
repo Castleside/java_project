@@ -52,7 +52,7 @@ public class level1_2 extends level1
         addObject(new lv1_2_keyDoor(10, 90), 810, 305);
         addObject(new lv1_2_key(50, 20), 851, 304);
         //addObject(new lv1_knight(58, 81), 1180, 523);
-        //addObject(new wallTroll(120, 120), 372, 195);
+        addObject(new lv1_2_shrek(), 372, 195);
         
         //Erstellung nicht solider Elemente
         addObject(new lv1_2_darkness(), 1113, 619);
