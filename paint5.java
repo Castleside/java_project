@@ -19,7 +19,7 @@ public class paint5 extends level1_paintings
         //addObject(new p5(), 1280/2, 720/2);
         
         //Erstellung backButton
-        addObject(new lv1_backButton(), 1070, 620);
+        addObject(new lv1_backButton(2), 1070, 620);
         
         //mainChar
         addObject(new mainChar(), 1280/2, 720/2);

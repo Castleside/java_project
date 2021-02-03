@@ -13,10 +13,23 @@ public class lv1_backButton extends lv1_Buttons
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
+    int var = 1;
+    
+    public lv1_backButton(int c_world) {
+        var = c_world;
+    }
+    
     public void act() 
     {
-        if(Greenfoot.mouseClicked(this)){
-            Greenfoot.setWorld(current_wrld_2);
-        } 
+        if (var == 1) {
+            if(Greenfoot.mouseClicked(this)){
+                Greenfoot.setWorld(current_wrld);
+            } 
+        }
+        if (var == 2) {
+            if(Greenfoot.mouseClicked(this)){
+                Greenfoot.setWorld(current_wrld_2);
+            } 
+        }
     }    
 }
