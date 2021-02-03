@@ -20,6 +20,11 @@ public class main extends Actor
     {
         // Add your action code here.
     }
-    public static int test = 0;
-    public static int detect = 0;
+    
+    public static int crown_chair = 0;
+    public static int triangle_chair = 0;
+    public static int rectangle_chair = 0;
+    public static int pentagon_chair = 0;
+    public static int hexagon_chair = 0;
+    public static int heptagon_chair = 0;
 }

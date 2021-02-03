@@ -35,12 +35,7 @@ public class lv1_chair extends lv1_detect
                     setLocation(x + 2, y  );
                     
                 }
-        if(objects.isEmpty()){
-                    test = 0;
-        }
-        else{
-                   test = 1; 
-        }
+        
     }
     public lv1_chair (int laenge, int breite){
         setImage("/level_1/yellow.png"); 
