@@ -56,6 +56,7 @@ public class level1_3 extends level1
         addObject(new lv1_3_detect_1(), 564, 585);
         addObject(new lv1_3_detect_2(), 784, 114);
         addObject(new lv1_3_detect_3(), 339, 584);
+        addObject(new lv1_candle_detect(20,20), 100, 100);
         
         //setPaintOrder
         setPaintOrder(doors.class, mainChar.class, lv1_3_solid.class, walls.class);

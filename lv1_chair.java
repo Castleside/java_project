@@ -14,7 +14,7 @@ public class lv1_chair extends lv1_detect
      */
     public void act() 
     {
-        List<lv1_1_solid>objects = getObjectsInRange(30, lv1_1_solid.class);
+        //List<lv1_1_solid>objects = getObjectsInRange(30, lv1_1_solid.class);
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);   
         int x = actor.getX();

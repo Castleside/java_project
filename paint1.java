@@ -42,6 +42,7 @@ public class paint1 extends level1_paintings
         addObject(new painting_5(), 340, 655);
         addObject(new painting_6(), 340, 65);
         addObject(new lv1_3_throne(), 168, 720/2);
+        addObject(new lv1_3_throne_carpet(), 168, 720/2);
         
         //Erstellung der Kerzenständer
         addObject(new lv1_3_holder(), 340, 145);
