@@ -14,10 +14,10 @@ public class lv1_3_throne extends lv1_3_solid
      */
     
     public lv1_3_throne() {
-        setImage("/level_1/throne.jpg");
+        setImage("/level_1/throne.png");
         setRotation(0);
         GreenfootImage image = getImage();  
-        image.scale(70, 70);
+        image.scale(220, 320);
         setImage(image);
     }
     

@@ -14,7 +14,7 @@ public class lv1_chair extends lv1_detect
      */
     public void act() 
     {
-        List<lv1_1_solid>objects = getObjectsInRange(30, lv1_1_solid.class);
+        //List<lv1_1_solid>objects = getObjectsInRange(30, lv1_1_solid.class);
         java.util.List actors = getWorld().getObjects(mainChar.class);
         mainChar actor = (mainChar)actors.get(0);   
         int x = actor.getX();
@@ -35,12 +35,7 @@ public class lv1_chair extends lv1_detect
                     setLocation(x + 2, y  );
                     
                 }
-        if(objects.isEmpty()){
-                    test = 0;
-        }
-        else{
-                   test = 1; 
-        }
+        
     }
     public lv1_chair (int laenge, int breite){
         setImage("/level_1/yellow.png"); 

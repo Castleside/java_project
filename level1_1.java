@@ -46,7 +46,7 @@ public class level1_1 extends level1
             addObject(new lv1_chair(100, 100), ppX, ppY - 90);
             
             //paintOrder
-            setPaintOrder(doors.class, walls.class, mainChar.class, lv1_1_solid.class);
+            setPaintOrder(lv1_1_solid.class, doors.class, walls.class, mainChar.class);
         }
         
         if (used == 1) {

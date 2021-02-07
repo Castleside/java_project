@@ -13,10 +13,11 @@ public class p3 extends painting_3
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    /*public p3() {
+    public p3() {
         GreenfootImage image = new GreenfootImage("level_1/pictures/p3.png");
+        image.scale(500, 580);
         setImage(image);
-    }*/
+    }
     
     public void act() 
     {

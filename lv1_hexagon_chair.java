@@ -24,28 +24,45 @@ public class lv1_hexagon_chair extends lv1_1_solid
     
     public void act() {
         List<mainChar>objects = getObjectsInRange(100, mainChar.class);
-        List<lv1_chair>kek = getObjectsInRange(5, lv1_chair.class);
+        List<lv1_chair>kek = getObjectsInRange(50, lv1_chair.class);
         
         if(kek.isEmpty()){
                 //
         }
         else{
-                detect = kek.size();
-                test = test + 1;
+             crown_chair = 1;
+             triangle_chair = 1;
+             rectangle_chair = 1;
+             pentagon_chair = 1;
+             hexagon_chair = 1;
+             heptagon_chair = 1; 
         }
-        if(test == 2 && detect == 1){
+        boolean tiddies = false;
+        if(hexagon_chair == 1){
+             triangle_chair = 2;
+             rectangle_chair = 2;
+             pentagon_chair = 2;
+             crown_chair = 2;
+             heptagon_chair = 2;
          if(Greenfoot.isKeyDown("shift")){
             if(objects.isEmpty()){
                 //
             }
             else{
-                test = test +1;   
+                getWorld().removeObjects(getWorld().getObjects(lv1_chair.class));  
                 mach();
+                tiddies = true;
                 }
             
          }
          
         }
+        if(tiddies == true){
+            for(int i = 0; i < 1; i++){
+                lv1_chair lv1_chair = new lv1_chair(100, 100);
+                getWorld().addObject(lv1_chair, 200, 200);
+            }   
+        }  
     } 
     public void mach(){
         java.util.List actors = getWorld().getObjects(mainChar.class);

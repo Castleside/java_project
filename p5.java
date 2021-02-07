@@ -13,10 +13,11 @@ public class p5 extends painting_5
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    /*public p5() {
+    public p5() {
         GreenfootImage image = new GreenfootImage("level_1/pictures/p5.png");
+        image.scale(500, 580);
         setImage(image);
-    }*/
+    }
     
     public void act() 
     {

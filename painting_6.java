@@ -30,7 +30,7 @@ public class painting_6 extends lv1_3_paintings
                 //
             }
             else{
-                current_wrld = getWorld();
+                current_wrld_2 = getWorld();
                 World wrld = new paint6();
                 Greenfoot.setWorld(wrld);
             }

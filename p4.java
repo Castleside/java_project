@@ -13,10 +13,11 @@ public class p4 extends painting_4
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    /*public p4() {
+    public p4() {
         GreenfootImage image = new GreenfootImage("level_1/pictures/p4.png");
+        image.scale(500, 580);
         setImage(image);
-    }*/
+    }
     
     public void act() 
     {

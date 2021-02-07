@@ -24,5 +24,6 @@ public class lv1_3_candles extends lv1_3_solid
     public void act() 
     {
         // Add your action code here.
-    }    
+    } 
+    
 }

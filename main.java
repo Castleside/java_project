@@ -15,11 +15,20 @@ public class main extends Actor
     
     public static boolean keyPickup;  //für Key_pickup wichtig
     public static World current_wrld;
+    public static World current_wrld_2;
     
     public void act() 
     {
         // Add your action code here.
     }
-    public static int test = 0;
-    public static int detect = 0;
+    
+    public static int crown_chair = 0;
+    public static int triangle_chair = 0;
+    public static int rectangle_chair = 0;
+    public static int pentagon_chair = 0;
+    public static int hexagon_chair = 0;
+    public static int heptagon_chair = 0;
+    public static int candle_1;
+    public static int candle_2;
+    public static int candle_3;
 }
