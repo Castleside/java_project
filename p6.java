@@ -15,6 +15,7 @@ public class p6 extends painting_6
     
     public p6() {
         GreenfootImage image = new GreenfootImage("level_1/pictures/p6.png");
+        image.scale(500, 580);
         setImage(image);
     }
     

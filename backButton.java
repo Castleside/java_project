@@ -12,6 +12,13 @@ public class backButton extends buttons
      * Act - do whatever the backButton wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    public backButton() {
+        GreenfootImage image = new GreenfootImage("/buttons/back_but.png");
+        image.scale(160, 50);
+        setImage(image);
+    }
+    
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)){

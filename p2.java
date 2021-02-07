@@ -15,6 +15,7 @@ public class p2 extends painting_2
     
     public p2() {
         GreenfootImage image = new GreenfootImage("level_1/pictures/p2.png");
+        image.scale(500, 580);
         setImage(image);
     }
     

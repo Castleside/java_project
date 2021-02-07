@@ -1,21 +1,21 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class p3 here.
+ * Write a description of class lv2_sign here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class p3 extends painting_3
+public class lv2_sign extends level_signs
 {
     /**
-     * Act - do whatever the p3 wants to do. This method is called whenever
+     * Act - do whatever the lv2_sign wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    public p3() {
-        GreenfootImage image = new GreenfootImage("level_1/pictures/p3.png");
-        image.scale(500, 580);
+    public lv2_sign() {
+        GreenfootImage image = new GreenfootImage("/backgrounds/lv2sign.png");
+        image.scale(250, 80);
         setImage(image);
     }
     

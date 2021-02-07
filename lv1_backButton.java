@@ -17,6 +17,9 @@ public class lv1_backButton extends lv1_Buttons
     
     public lv1_backButton(int c_world) {
         var = c_world;
+        GreenfootImage image = new GreenfootImage("/buttons/back_but.png");
+        image.scale(160, 50);
+        setImage(image);
     }
     
     public void act() 

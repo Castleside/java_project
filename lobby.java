@@ -16,9 +16,11 @@ public class lobby extends World
     
     public lobby()
     {   
-        //initiale Erstellung
+        //initiale Erstellung 185 307
         super(1280, 720, 1); 
         setBackground(new GreenfootImage("/backgrounds/grass.png"));
+        addObject(new lv1_sign(), 187, 307);
+        addObject(new lv2_sign(), 187, 128);
         
         //Innenwände
         addObject(new wall_H(280, 13), 1086 , 431);
@@ -48,6 +50,8 @@ public class lobby extends World
         //initiale Erstellung
         super(1280, 720, 1); 
         setBackground(new GreenfootImage("/backgrounds/grass.png"));
+        addObject(new lv1_sign(), 187, 307);
+        addObject(new lv2_sign(), 187, 128);
         
         //Innenwände
         addObject(new wall_H(280, 13), 1086 , 431);
