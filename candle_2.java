@@ -17,16 +17,47 @@ public class candle_2 extends lv1_3_candles
     public void act() 
     {
         List<mainChar>objects = getObjectsInRange(47, mainChar.class);
-        java.util.List actors = getWorld().getObjects(mainChar.class);
-        mainChar actor = (mainChar)actors.get(0);
-        int x = actor.getX() -45;
-        int y = actor.getY();
+        List<lv1_candle_detect>kek = getObjectsInRange(30, lv1_candle_detect.class);
         
-        if(Greenfoot.isKeyDown("space")){
-            if(objects.isEmpty() ){
+        boolean detect = false;
+        
+        if(kek.isEmpty()){
                 //
+        }
+        else{
+                candle_1 = 1;
+                candle_2 = 1;
+                candle_3 = 1;
+        }
+        
+        if(candle_1 == 1){
+            candle_1 = 2;
+            candle_3 = 2;
+            if(Greenfoot.isKeyDown("shift")){
+                if(objects.isEmpty() ){
+                    //
+                }
+                else{
+                    getWorld().removeObjects(getWorld().getObjects(lv1_candle_detect.class)); 
+                    detect = true;
+                    mach();
+                }
             }
-            else{
+        }
+        
+        if(detect == true){
+                for(int i = 0; i < 1; i++){
+                lv1_candle_detect lv1_candle_detect = new lv1_candle_detect(20, 20);
+                getWorld().addObject(lv1_candle_detect, 200, 200);
+            } 
+            detect = false;
+        }
+ }
+ public void mach(){
+                java.util.List actors = getWorld().getObjects(mainChar.class);
+                mainChar actor = (mainChar)actors.get(0);
+                int x = actor.getX() - 45;
+                int y = actor.getY();
                 if(Greenfoot.isKeyDown("w")){
                     setLocation(x, y - 2 );
                 }
@@ -38,8 +69,6 @@ public class candle_2 extends lv1_3_candles
                 }
                 if(Greenfoot.isKeyDown("d")){
                     setLocation(x + 2, y  );
-                }
-            }
-        }
+                }  
     }    
 }

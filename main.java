@@ -28,4 +28,7 @@ public class main extends Actor
     public static int pentagon_chair = 0;
     public static int hexagon_chair = 0;
     public static int heptagon_chair = 0;
+    public static int candle_1;
+    public static int candle_2;
+    public static int candle_3;
 }
