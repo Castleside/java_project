@@ -17,6 +17,9 @@ public class lv1_backButton extends lv1_Buttons
     {
         if(Greenfoot.mouseClicked(this)){
             Greenfoot.setWorld(current_wrld);
+            sound.stop();
         } 
-    }    
+    }
+    
+    
 }
