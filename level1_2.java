@@ -24,7 +24,7 @@ public class level1_2 extends level1
         addObject(new wall_V(10, 100), 1005, 610);
         addObject(new wall_V(10, 100), 1005, 610);
         addObject(new wall_V(10, 310), 1005, 305);
-        addObject(new wall_H(600, 10), 699, 565);
+        addObject(new wall_H(600, 10), 700, 565);
         addObject(new wall_H(285, 10), 857, 455);
         addObject(new wall_H(215, 10), 507, 455);
         addObject(new wall_V(10, 100), 405, 510);
@@ -40,7 +40,7 @@ public class level1_2 extends level1
         addObject(new wall_H(55, 40), 318, 355);
         addObject(new wall_V(10, 100), 315, 200);
         addObject(new wall_V(10, 100), 425, 200);
-        addObject(new wall_H(120, 10), 369, 145);
+        addObject(new wall_H(120, 10), 370, 145);
         addObject(new wall_V(10, 502), 184, 311);
         addObject(new wall_H(55, 40), 477, 355);
         
@@ -52,12 +52,15 @@ public class level1_2 extends level1
         addObject(new lv1_2_keyDoor(10, 90), 810, 305);
         addObject(new lv1_2_key(50, 20), 851, 304);
         //addObject(new lv1_knight(58, 81), 1180, 523);
-        addObject(new lv1_2_shrek(), 372, 195);
+        addObject(new lv1_2_shrek(), 950, 619);
+        addObject(new lv1_2_knight(), 1190, 477);
+        addObject(new lv1_2_bookshelf(), 370, 200);
         
         //Erstellung nicht solider Elemente
         addObject(new lv1_2_darkness(), 1113, 619);
+        addObject(new lv1_exclamationMark(), 1185, 400); 
         
         //setPaintOrder
-        setPaintOrder(lv1_2_shrek.class, lv1_2_darkness.class, doors.class, walls.class, mainChar.class) ;
+        setPaintOrder(lv1_exclamationMark.class, lv1_2_darkness.class, lv1_2_shrek.class, doors.class, walls.class, mainChar.class) ;
     }
 }

@@ -27,11 +27,13 @@ public class lv1_backButton extends lv1_Buttons
         if (var == 1) {
             if(Greenfoot.mouseClicked(this)){
                 Greenfoot.setWorld(current_wrld);
+                sound.stop();
             } 
         }
         if (var == 2) {
             if(Greenfoot.mouseClicked(this)){
                 Greenfoot.setWorld(current_wrld_2);
+                sound.stop();
             } 
         }
     }    
