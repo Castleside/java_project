@@ -58,6 +58,6 @@ public class level1_2 extends level1
         addObject(new lv1_2_darkness(), 1113, 619);
         
         //setPaintOrder
-        setPaintOrder(lv1_2_darkness.class, doors.class, walls.class, mainChar.class) ;
+        setPaintOrder(lv1_2_shrek.class, lv1_2_darkness.class, doors.class, walls.class, mainChar.class) ;
     }
 }
