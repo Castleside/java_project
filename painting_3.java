@@ -15,7 +15,7 @@ public class painting_3 extends lv1_3_paintings
      */
     
     public painting_3() {
-        setImage("/level_1/green.jpg");
+        setImage("/level_1/brown.jpg");
         setRotation(0);
         GreenfootImage image = getImage();  
         image.scale(111, 10);

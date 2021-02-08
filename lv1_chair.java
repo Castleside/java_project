@@ -38,7 +38,7 @@ public class lv1_chair extends lv1_detect
         
     }
     public lv1_chair (int laenge, int breite){
-        setImage("/level_1/yellow.png"); 
+        setImage("/level_1/detect.png"); 
         setRotation(0);
         GreenfootImage image = getImage();  
         image.scale(laenge, breite);

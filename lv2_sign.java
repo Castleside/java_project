@@ -15,7 +15,7 @@ public class lv2_sign extends level_signs
     
     public lv2_sign() {
         GreenfootImage image = new GreenfootImage("/backgrounds/lv2sign.png");
-        image.scale(250, 80);
+        image.scale(260, 60);
         setImage(image);
     }
     

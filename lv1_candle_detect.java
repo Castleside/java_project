@@ -20,22 +20,22 @@ public class lv1_candle_detect extends lv1_detect
         int x = actor.getX() - 45;
         int y = actor.getY();
         
-                if(Greenfoot.isKeyDown("w")){
-                    setLocation(x, y - 2 );
-                }
-                if(Greenfoot.isKeyDown("s")){
-                    setLocation(x, y + 2 );
-                }
-                if(Greenfoot.isKeyDown("a")){
-                    setLocation(x - 2, y  );
-                }
-                if(Greenfoot.isKeyDown("d")){
-                    setLocation(x + 2, y  );
-                }
+        if(Greenfoot.isKeyDown("w")){
+            setLocation(x, y - 2 );
+        }
+        if(Greenfoot.isKeyDown("s")){
+            setLocation(x, y + 2 );
+        }
+        if(Greenfoot.isKeyDown("a")){
+            setLocation(x - 2, y  );
+        }
+        if(Greenfoot.isKeyDown("d")){
+            setLocation(x + 2, y  );
+        }
             
     } 
     public lv1_candle_detect(int laenge, int breite){
-           setImage("/level_1/yellow.png"); 
+           setImage("/level_1/detect.png"); 
            setRotation(0);
            GreenfootImage image = getImage();  
            image.scale(laenge, breite);
