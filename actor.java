@@ -15,7 +15,7 @@ public class actor extends main
     
     public static int outfit = 0;  //wichtig für das Outfit des mainChars
     
-    public static GreenfootSound sound = new GreenfootSound("shrekophone.mp3"); //musik für das easteregg
+    
     
     public void act() 
     {

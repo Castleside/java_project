@@ -16,7 +16,7 @@ public class main extends Actor
     public static boolean keyPickup;  //für Key_pickup wichtig
     public static World current_wrld;
     public static World current_wrld_2;
-    
+    public static GreenfootSound sound = new GreenfootSound("shrekophone.mp3"); //musik für das easteregg
     public void act() 
     {
         // Add your action code here.

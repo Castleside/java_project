@@ -1,19 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
 /**
- * Write a description of class lv1_1_knight here.
+ * Write a description of class lv1_3_knight here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class lv1_1_knight extends lv1_1
+public class lv1_3_knight extends lv1_3
 {
     /**
-     * Act - do whatever the lv1_1_knight wants to do. This method is called whenever
+     * Act - do whatever the lv1_3_knight wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
-    public lv1_1_knight(){
+    public lv1_3_knight(){
         setImage("knight.png");
         setRotation(0);
         GreenfootImage image = getImage();  
@@ -35,5 +34,5 @@ public class lv1_1_knight extends lv1_1
                 getWorld().removeObjects(getWorld().getObjects(lv1_exclamationMark.class));
             }
         }
-    }   
+    }    
 }

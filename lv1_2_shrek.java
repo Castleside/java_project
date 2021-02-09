@@ -6,7 +6,7 @@
      * @author (your name) 
      * @version (a version number or a date)
      */
-    public class lv1_2_shrek extends lv1_2_solid
+    public class lv1_2_shrek extends lv1_2_unsolid
     {
     /**
      * Act - do whatever the lv1_2_shrek wants to do. This method is called whenever
@@ -18,17 +18,18 @@
         setImage("/backgrounds/frog.png");
         setRotation(0);
         GreenfootImage image = getImage();  
-        image.scale(120, 120);
+        image.scale(90, 90);
         setImage(image);
     }
     
     public void act() 
     {
-        if(Greenfoot.mouseClicked(this)){
+        if(isTouching(mainChar.class)){
             current_wrld = getWorld();
             World wrld = new lv1_2_shrekegg();
             Greenfoot.setWorld(wrld);
             sound.play();
+            getWorld().removeObjects(getWorld().getObjects(lv1_2_shrek.class));
         }
     }    
 }

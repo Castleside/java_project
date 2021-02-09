@@ -28,7 +28,7 @@ public class level1_3 extends level1
         addObject(new lv1_3_fakeknight(58, 81), 451, 616);
         addObject(new lv1_3_fakeknight(58, 81), 451, 102);
         addObject(new lv1_3_fakeknight(58, 81), 895, 616);
-        addObject(new lv1_3_fakeknight(58, 81), 895, 102);
+        addObject(new lv1_3_knight(), 895, 102);
         addObject(new painting_1(), 562, 655);
         addObject(new painting_2(), 562, 65);
         addObject(new painting_3(), 784, 655);
@@ -58,7 +58,10 @@ public class level1_3 extends level1
         addObject(new lv1_3_detect_3(), 339, 584);
         addObject(new lv1_candle_detect(20,20), 100, 100);
         
+        //Erstellung des Ausrufezeichens
+        addObject(new lv1_exclamationMark(), 887, 27);
+        
         //setPaintOrder
-        setPaintOrder(doors.class, mainChar.class, lv1_3_solid.class, walls.class);
+        setPaintOrder(lv1_exclamationMark.class, doors.class, mainChar.class, lv1_3_solid.class, walls.class);
     }
 }
