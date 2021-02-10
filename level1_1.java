@@ -30,7 +30,7 @@ public class level1_1 extends level1
             //Erstellung der beweglichen Objekte (Stühle)
             addObject(new lv1_triangle_chair(60, 98), 761, 123);
             addObject(new lv1_rectangle_chair(60, 98), 209, 499);
-            addObject(new lv1_pentagon_chair(60, 98), 828, 580);
+            addObject(new lv1_pentagon_chair(60, 98), 804, 530);
             addObject(new lv1_hexagon_chair(60, 98), 1016, 352);
             addObject(new lv1_heptagon_chair(60, 98), 493, 567);
             addObject(new lv1_crown_chair(60, 98), 187, 237);

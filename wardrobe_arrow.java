@@ -13,6 +13,8 @@ public class wardrobe_arrow extends wardrobe_content
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
+    int c = outfit;
+    
     public wardrobe_arrow() {
         GreenfootImage image = new GreenfootImage("/wardrobe/arrow.png");
         image.scale(75, 60);
@@ -22,7 +24,12 @@ public class wardrobe_arrow extends wardrobe_content
     public void act() 
     {
         if(Greenfoot.mouseClicked(this)){
-            outfit++;
+            if (c == 3) {
+                c = 0;
+            } else c++;
+            getWorld().removeObjects(getWorld().getObjects(mainChar.class));
+            outfit = c;
+            getWorld().addObject(new mainChar(c), 360, 360);
         }
     }    
 }

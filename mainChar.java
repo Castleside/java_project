@@ -22,9 +22,6 @@ public class mainChar extends actor
     int c = outfit;
     
     public mainChar() {
-        if (c != 0 || c != 1 || c != 2 || c != 3) {
-            c = 0;
-        } else c = c;
         if (c == 0) {
             setImage(new GreenfootImage("/mainChar/manNormal/zero.png"));
         }
@@ -35,6 +32,21 @@ public class mainChar extends actor
             setImage(new GreenfootImage("/mainChar/manNormal/two.png"));
         }
         if (c == 3) {
+            setImage(new GreenfootImage("/mainChar/manNormal/three.png"));
+        }
+    }
+    
+    public mainChar(int d) {
+        if (d == 0) {
+            setImage(new GreenfootImage("/mainChar/manNormal/zero.png"));
+        }
+        if (d == 1) {
+            setImage(new GreenfootImage("/mainChar/manNormal/one.png"));
+        }
+        if (d == 2) {
+            setImage(new GreenfootImage("/mainChar/manNormal/two.png"));
+        }
+        if (d == 3) {
             setImage(new GreenfootImage("/mainChar/manNormal/three.png"));
         }
     }
@@ -56,7 +68,7 @@ public class mainChar extends actor
                     getImage().mirrorVertically();
                 }
                 else{
-                    setLocation(x - 1, y);
+                    setLocation(x - 2, y);
                 }
             }
         }
@@ -64,14 +76,14 @@ public class mainChar extends actor
             int y = getY();
             int x = getX();
             if (getOneObjectAtOffset(0, -40, actor.class) == null ) {
-                setLocation(x, y - 1);
+                setLocation(x, y - 2);
             }
         }
         if( Greenfoot.isKeyDown("s")){
             int y = getY();
             int x = getX();
             if (getOneObjectAtOffset(0, 40, actor.class) == null ) {
-               setLocation(x, y + 1);
+               setLocation(x, y + 2);
             }
         }
         if(Greenfoot.isKeyDown("d")){
@@ -84,7 +96,7 @@ public class mainChar extends actor
                     getImage().mirrorVertically();
                 }
                 else{
-                    setLocation(x + 1, y);
+                    setLocation(x + 2, y);
                 }
             }
         }

@@ -25,6 +25,7 @@ public class wardrobe_menu extends wardrobe
         
         //Objekte
         addObject(new wardrobe_arrow(), 540, 360);
+        addObject(new wd_commit_button(), 360, 560);
         
         //setPaintOrder
         setPaintOrder(mainChar.class);

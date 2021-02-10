@@ -33,7 +33,7 @@ public class door_to_lv2 extends doors_lv2
         } 
         else{
             if(Greenfoot.isKeyDown("e")){
-                World wrld = new level2(x, y);
+                World wrld = new level2_1(x, y);
                 Greenfoot.setWorld(wrld);
             }
         }
