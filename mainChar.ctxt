@@ -6,7 +6,24 @@ comment1.target=mainChar()
 comment2.params=d
 comment2.target=mainChar(int)
 comment3.params=
+<<<<<<< HEAD
+comment3.target=void\ movements()
+comment4.params=
+comment4.target=void\ lv3_movements()
+comment5.params=
+comment5.target=void\ fall()
+comment6.params=
+comment6.target=boolean\ onGround()
+comment7.params=
+comment7.target=void\ checkFalling()
+comment8.params=
+comment8.target=void\ collect()
+comment9.params=
+comment9.target=void\ die()
+numComments=10
+=======
 comment3.target=void\ act()
 comment4.params=
 comment4.target=void\ movements()
 numComments=5
+>>>>>>> 2cec6a05f3b08fbbe6d4310443431e6aa69dd596

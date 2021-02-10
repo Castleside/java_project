@@ -37,6 +37,7 @@ public class lobby extends World
         addObject(new door_to_wardrobe(90, 92, 343), 990, 547);
         addObject(new door_to_lv1_1(-90, 1177, 355), 12, 305);
         addObject(new door_to_lv2(-90, 1177, 355), 12, 127);
+        addObject(new door_to_lv3(90, 1177, 355), 1267, 127);
         
         //mainChar
         addObject(new mainChar(), 1280/2, 720/2);
@@ -68,6 +69,7 @@ public class lobby extends World
         addObject(new door_to_wardrobe(90, 92, 343), 990, 547);
         addObject(new door_to_lv1_1(-90, 1177, 355), 12, 305);
         addObject(new door_to_lv2(-90, 1177, 355), 12, 127);
+        addObject(new door_to_lv3(90, 1177, 355), 1267, 127);
         
         //mainChar
         addObject(new mainChar(), ppX, ppY);
