@@ -14,7 +14,7 @@ public class images extends actor
      */
     
     public images(String color, int l, int b) {
-        GreenfootImage im = new GreenfootImage("/level_1/red.png");
+        GreenfootImage im = new GreenfootImage("/level_1/blue.jpg");
         if (color == "blue") {
             im = new GreenfootImage("/level_1/blue.jpg");
         }

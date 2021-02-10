@@ -13,8 +13,7 @@ public class level2 extends level_rooms
      * Constructor for objects of class level2.
      * 
      */
-    public level2(int ppX, int ppY)
+    public level2()
     {
-        addObject(new mainChar(), ppX, ppY);
     }
 }

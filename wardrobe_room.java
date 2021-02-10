@@ -22,15 +22,15 @@ public class wardrobe_room extends wardrobe
         //Aussenwände
         addObject(new wall_V(60, 720), 690, 363);
         addObject(new wall_V(60, 720), 29, 720/2);
-        addObject(new wall_H(60, 720), 382 , 690);
-        addObject(new wall_H(60, 720), 418 , 30);
+        addObject(new wall_H(720, 60), 382 , 690);
+        addObject(new wall_H(720, 60), 418 , 30);
         
         //Türen
         addObject(new door_to_lobby(-90, 903, 546), 11, 348);
         
         //Erstellung solider Objekte
-        //addObject(new shelf(150, 50), 134, 85);
-        //addObject(new table(250, 250), 334, 355);
-        //addObject(new shelf(50, 600), 636, 360);
+        addObject(new wardrobe_shelf(0), 158, 71);
+        addObject(new wardrobe_table(), 360, 360);
+        addObject(new wardrobe_shelf(90), 647, 238);
     }
 }

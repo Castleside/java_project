@@ -14,11 +14,20 @@ public class main extends Actor
      */
     
     public static boolean keyPickup;  //für Key_pickup wichtig
+    public static boolean keyPickup_lv2_1;
+    public static boolean keyPickup_lv2_2;
+    public static boolean keyPickup_lv2_3;
+    public static boolean keyPickup_lv2_4;
     public static World current_wrld;
     public static World current_wrld_2;
     public static GreenfootSound sound = new GreenfootSound("shrekophone.mp3"); //musik für das easteregg
+<<<<<<< HEAD
     public static int status = 0; // Status des Bewegungsmodus (Levelabhängig)
     
+=======
+    public static int ppX;
+    public static int ppY;
+>>>>>>> 2cec6a05f3b08fbbe6d4310443431e6aa69dd596
     
     public void act() 
     {
