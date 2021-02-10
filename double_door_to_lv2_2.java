@@ -14,13 +14,14 @@ public class double_door_to_lv2_2 extends doors_lv2
      */
     public void act() 
     {
-        if(keyPickup_lv2_1 == true){
+        /*if(keyPickup_lv2_1 == true){
            //setRotation(r);
            GreenfootImage image = new GreenfootImage("double_doors_open.png");
            setImage(image);
            image.scale(200, 80); 
            setLocation(18, 560);
         }
+        
         List<mainChar>objects = getObjectsInRange(90, mainChar.class);
         if(Greenfoot.isKeyDown("e")){
             if(objects.isEmpty()){
@@ -31,7 +32,7 @@ public class double_door_to_lv2_2 extends doors_lv2
                 Greenfoot.setWorld(wrld); 
                 keyPickup_lv2_1 = false;
             }
-        }
+        }*/
     }  
 
     public double_door_to_lv2_2(int r) {

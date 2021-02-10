@@ -29,7 +29,7 @@ public class lv2_2_key extends lv2
             }
             else{
                 getWorld().removeObjects(getWorld().getObjects(lv1_2_key.class));
-                keyPickup_lv2_2 = true;  
+                //keyPickup_lv2_2 = true;  
             }
         }
     }  
