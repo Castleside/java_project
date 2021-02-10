@@ -31,7 +31,7 @@ public class level2_1 extends level2
         addObject(new mainChar(), 1170, 230);
         addObject(new lv2_knight(), 1054, 255);
         
-        //detectzum beschleunigen
+        //detect zum beschleunigen
         addObject(new lv2_detect(), 1121, 154);
         
         //Wände 1. vorraum
@@ -56,6 +56,12 @@ public class level2_1 extends level2
         
         //fakedoor
         addObject(new door_fake(90), 1267, 230);
+        
+        //double door zu Raum 2
+        addObject(new double_door_to_lv2_2(-90), 21, 560);
+        
+        //key
+        addObject(new lv2_1_key(50, 40), 964, 426);
         
         //setPaintOrder
         setPaintOrder(doors.class, mainChar.class, walls.class);

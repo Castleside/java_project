@@ -62,7 +62,7 @@ public class mainChar extends actor
             int rot = getRotation();
             int x = getX();
             int y = getY();
-            if (getOneObjectAtOffset(-40, 0, actor.class) == null) {
+            if (getOneObjectAtOffset(-35, 0, actor.class) == null) {
                 if(rot == 0 ){
                     setRotation(180);
                     getImage().mirrorVertically();
@@ -75,14 +75,14 @@ public class mainChar extends actor
         if( Greenfoot.isKeyDown("w")){
             int y = getY();
             int x = getX();
-            if (getOneObjectAtOffset(0, -40, actor.class) == null ) {
+            if (getOneObjectAtOffset(0, -35, actor.class) == null ) {
                 setLocation(x, y - 2);
             }
         }
         if( Greenfoot.isKeyDown("s")){
             int y = getY();
             int x = getX();
-            if (getOneObjectAtOffset(0, 40, actor.class) == null ) {
+            if (getOneObjectAtOffset(0, 35, actor.class) == null ) {
                setLocation(x, y + 2);
             }
         }
@@ -90,7 +90,7 @@ public class mainChar extends actor
             int rot = getRotation();
             int x = getX();
             int y = getY();
-            if (getOneObjectAtOffset(40, 0, actor.class) == null  ) {  
+            if (getOneObjectAtOffset(35, 0, actor.class) == null  ) {  
                 if( rot == 180 ){
                     setRotation(0);
                     getImage().mirrorVertically();
