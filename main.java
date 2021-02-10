@@ -17,6 +17,9 @@ public class main extends Actor
     public static World current_wrld;
     public static World current_wrld_2;
     public static GreenfootSound sound = new GreenfootSound("shrekophone.mp3"); //musik für das easteregg
+    public static int status = 0; // Status des Bewegungsmodus (Levelabhängig)
+    
+    
     public void act() 
     {
         // Add your action code here.

@@ -29,6 +29,6 @@ public class wall_H extends walls
     
     public void act() 
     {
-        // Add your action code here.
+         
     }    
 }
