@@ -57,7 +57,7 @@ public class mainChar extends actor
         if (status == 0) {
             movements();
         }
-        if (status == 1) {
+        else {
             lv3_movements();
             checkFalling();
             collect();

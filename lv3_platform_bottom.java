@@ -15,7 +15,7 @@ public class lv3_platform_bottom extends lv3_solid
     public lv3_platform_bottom() {
         setImage("/backgrounds/wood.png");
         GreenfootImage image = getImage();  
-        image.scale(150, 30);
+        image.scale(170, 30);
         setImage(image);
     }
             
