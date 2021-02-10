@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class doors extends actor
+public class doors extends main
 {
     /**
      * Act - do whatever the doors wants to do. This method is called whenever

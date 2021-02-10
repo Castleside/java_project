@@ -15,6 +15,38 @@ public class level2_2 extends level2
      */
     public level2_2(int ppX, int ppY)
     {
+        //background
+        setBackground("/backgrounds/wood.png");
+        
+        //mainChar
+        addObject(new mainChar(), ppX, ppY);
+        
+        //Blöcke
+        addObject(new cube_wall(), 1009, 625);
+        addObject(new cube_wall(), 1009, 556);
+        addObject(new cube_wall(), 1078, 237);
+        addObject(new cube_wall(), 1009, 237);
+        addObject(new cube_wall(), 1009, 306);
+        addObject(new cube_wall(), 1186, 375);
+        addObject(new cube_wall(), 940, 443);
+        addObject(new cube_wall(), 93, 374);
+        addObject(new cube_wall(), 93, 306);
+        addObject(new cube_wall(), 93, 238);
+        addObject(new cube_wall(), 161, 238);
+        addObject(new cube_wall(), 563, 306);
+        addObject(new cube_wall(), 632, 167);
+        addObject(new cube_wall(), 701, 167);
+        addObject(new cube_wall(), 93, 442);
+        
+        //fakedoor + real door
+        addObject(new double_door_to_lv2_2(90, 1170, 579), 1257, 559);
+        addObject(new double_door_to_lv2_3(0, 550, 610), 544, 21);
+        
+        //key
+        addObject(new lv2_2_key(50, 40), 160, 306);
+        
+        //setPaintOrder
+        setPaintOrder(doors.class, mainChar.class, walls.class);
     }
     public level2_2()
     {
@@ -25,26 +57,28 @@ public class level2_2 extends level2
         addObject(new mainChar(), 1170, 579);
         
         //Blöcke
-        addObject(new cube_wall(), 439, 94);
-        addObject(new cube_wall(), 439, 163);
-        addObject(new cube_wall(), 439, 232);
-        addObject(new cube_wall(), 275, 163);
-        addObject(new cube_wall(), 206, 163);
-        addObject(new cube_wall(), 213, 625);
-        addObject(new cube_wall(), 213, 556);
-        addObject(new cube_wall(), 213, 487);
-        addObject(new cube_wall(), 213, 418);
-        addObject(new cube_wall(), 282, 487);
-        addObject(new cube_wall(), 351, 487);
-        addObject(new cube_wall(), 420, 487);
-        addObject(new cube_wall(), 1031, 427);
-        addObject(new cube_wall(), 682, 625);
+        addObject(new cube_wall(), 1009, 625);
+        addObject(new cube_wall(), 1009, 556);
+        addObject(new cube_wall(), 1078, 237);
+        addObject(new cube_wall(), 1009, 237);
+        addObject(new cube_wall(), 1009, 306);
+        addObject(new cube_wall(), 1186, 375);
+        addObject(new cube_wall(), 940, 443);
+        addObject(new cube_wall(), 93, 374);
+        addObject(new cube_wall(), 93, 306);
+        addObject(new cube_wall(), 93, 238);
+        addObject(new cube_wall(), 161, 238);
+        addObject(new cube_wall(), 563, 306);
+        addObject(new cube_wall(), 632, 167);
+        addObject(new cube_wall(), 701, 167);
+        addObject(new cube_wall(), 93, 442);
         
-        //fakedoor
-        addObject(new double_door_to_lv2_2(90), 1257, 559);
+        //fakedoor + real door
+        addObject(new double_door_to_lv2_2(90, 1170, 579), 1257, 559);
+        addObject(new double_door_to_lv2_3(0, 550, 610), 544, 21);
         
         //key
-        addObject(new lv2_2_key(50, 40), 964, 426);
+        addObject(new lv2_2_key(50, 40), 160, 306);
         
         //setPaintOrder
         setPaintOrder(doors.class, mainChar.class, walls.class);
