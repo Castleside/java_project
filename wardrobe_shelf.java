@@ -14,7 +14,7 @@ public class wardrobe_shelf extends wardrobe_content
      */
     
     public wardrobe_shelf(int r) {
-        GreenfootImage image = new GreenfootImage("/level_1/brown.jpg");
+        GreenfootImage image = new GreenfootImage("/wardrobe/wardrobe_shelf.png");
         setRotation(r);
         image.scale(200, 25);
         setImage(image);

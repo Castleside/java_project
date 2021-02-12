@@ -15,7 +15,7 @@ public class wardrobe_table extends wardrobe_content
      */
     
     public wardrobe_table() {
-        GreenfootImage image = new GreenfootImage("/level_1/brown.jpg");
+        GreenfootImage image = new GreenfootImage("/wardrobe/wardrobe_table.png");
         image.scale(250, 250);
         setImage(image);
     }
