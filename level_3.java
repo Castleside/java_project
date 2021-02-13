@@ -39,7 +39,7 @@ public class level_3 extends level_rooms
     
     public void act() {
         removeObjects(getObjects(walls.class));
-        if (Greenfoot.getRandomNumber(500)<=1){
+        if (Greenfoot.getRandomNumber(500)<=10){
             addObject(new lv3_emeralds(), getWidth()-1, Greenfoot.getRandomNumber(400)+300);
         }
     }

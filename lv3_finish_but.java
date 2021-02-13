@@ -26,6 +26,7 @@ public class lv3_finish_but extends lv3_buttons
             World wrld = new lobby(1186, 128);
             Greenfoot.setWorld(wrld);
             status = 0;
+            Greenfoot.playSound("button_click.mp3");
         }
     }    
 }

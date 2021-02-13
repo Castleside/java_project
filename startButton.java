@@ -23,6 +23,7 @@ public class startButton extends buttons
     {
         if(Greenfoot.mouseClicked(this)){
             Greenfoot.setWorld(current_wrld);
+            Greenfoot.playSound("button_click.mp3");
         }
     }    
 }

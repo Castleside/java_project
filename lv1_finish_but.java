@@ -23,6 +23,7 @@ public class lv1_finish_but extends lv1_Buttons
         if(Greenfoot.mouseClicked(this)){
             World wrld = new lobby(110, 310);
             Greenfoot.setWorld(wrld);
+            Greenfoot.playSound("button_click.mp3");
         }
     }    
 }

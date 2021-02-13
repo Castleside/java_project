@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class speechbubble here.
+ * Write a description of class lv1_3_hinttext here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class speechbubble extends pictures
+public class lv1_3_hinttext extends pictures
 {
     /**
-     * Act - do whatever the speechbubble wants to do. This method is called whenever
+     * Act - do whatever the lv1_3_hinttext wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public speechbubble(int leange, int breite){
-        GreenfootImage image = new GreenfootImage("speechbubble.png");
+    public lv1_3_hinttext(int leange, int breite){
+        GreenfootImage image = new GreenfootImage("/knight/knight_3.png");
         image.scale(leange, breite);
         setImage(image);
     }

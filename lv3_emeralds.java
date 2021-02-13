@@ -15,7 +15,7 @@ public class lv3_emeralds extends unsolid_lv3
     public lv3_emeralds(){
         setImage("/Level_3/emerald.png"); 
         GreenfootImage image = getImage();  
-        image.scale(50, 50);
+        image.scale(35, 50);
         setImage(image);
     }
     

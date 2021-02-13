@@ -35,6 +35,7 @@ public class door_to_lv3 extends doors_lv3
                 World wrld = new level_3();
                 Greenfoot.setWorld(wrld);
                 status = 1;
+                Greenfoot.playSound("door.mp3");
             }
         }
     }    

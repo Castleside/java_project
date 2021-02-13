@@ -64,4 +64,22 @@ public class level1_3 extends level1
         //setPaintOrder
         setPaintOrder(lv1_exclamationMark.class, doors.class, mainChar.class, lv1_3_solid.class, walls.class);
     }
+    
+    public void act() {
+        if(Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("s") || Greenfoot.isKeyDown("d")){
+            footsteps();
+        }
+    }
+    
+    private int steps = 61;
+    
+    private void footsteps(){
+        if (steps >0) {
+            steps--;
+        }
+        else {
+            Greenfoot.playSound("footsteps_wood.mp3");
+            steps = 75;
+        }
+    }
 }

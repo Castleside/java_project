@@ -35,6 +35,7 @@ public class door_to_lv1_3 extends doors_lv1
             if(Greenfoot.isKeyDown("e")){
                 World wrld = new level1_3(x, y);
                 Greenfoot.setWorld(wrld);
+                Greenfoot.playSound("door.mp3");
             }
         }
     } 

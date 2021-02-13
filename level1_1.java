@@ -1,3 +1,4 @@
+
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -26,6 +27,7 @@ public class level1_1 extends level1
             addObject(new door_fake(90), 1266, 360);
             addObject(new lv1_1_knight(), 1179, 254);
             addObject(new lv1_exclamationMark(), 1176, 191);
+            addObject(new door_fake(180), 124, 707);
             
             //Erstellung der beweglichen Objekte (Stühle)
             addObject(new lv1_triangle_chair(60, 98), 761, 123);
@@ -58,6 +60,7 @@ public class level1_1 extends level1
             addObject(new door_fake(90), 1266, 360);
             addObject(new lv1_1_knight(), 1179, 254);
             addObject(new lv1_exclamationMark(), 1176, 191);
+            addObject(new door_fake(180), 124, 707);
             
             //Erstellung der beweglichen Objekte (Stühle)
             addObject(new lv1_triangle_chair(60, 98), 790, 555);
@@ -120,6 +123,24 @@ public class level1_1 extends level1
             
             //paintOrder
             setPaintOrder(doors.class, walls.class, mainChar.class, lv1_1_solid.class);
+        }
+    }
+    
+    public void act() {
+        if(Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("s") || Greenfoot.isKeyDown("d")){
+            footsteps();
+        }
+    }
+    
+    private int steps = 61;
+    
+    private void footsteps(){
+        if (steps >0) {
+            steps--;
+        }
+        else {
+            Greenfoot.playSound("footsteps_wood.mp3");
+            steps = 75;
         }
     }
 }

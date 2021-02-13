@@ -31,7 +31,8 @@ public class lv1_2_key extends lv1_2_solid
             }
             else{
                 getWorld().removeObjects(getWorld().getObjects(lv1_2_key.class));
-                keyPickup = true;  
+                keyPickup = true;
+                Greenfoot.playSound("key.mp3");
             }
         }
     }

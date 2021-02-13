@@ -52,6 +52,7 @@ public class lv1_rectangle_chair extends lv1_1_solid
                 getWorld().removeObjects(getWorld().getObjects(lv1_chair.class));  
                 mach();
                 tiddies = true;
+                
                 }
             
          }

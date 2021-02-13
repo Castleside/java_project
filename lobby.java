@@ -14,6 +14,8 @@ public class lobby extends World
      * 
      */
     
+    private int steps = 61;
+    
     public lobby()
     {   
         //initiale Erstellung 185 307
@@ -76,5 +78,21 @@ public class lobby extends World
         
         //paintOrder
         setPaintOrder(mainChar.class, images.class, doors.class, walls.class);
+    }
+    
+    public void act() {
+        if(Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("s") || Greenfoot.isKeyDown("d")){
+            footsteps();
+        }
+    }
+    
+    private void footsteps(){
+        if (steps >0) {
+            steps--;
+        }
+        else {
+            Greenfoot.playSound("footsteps_grass.mp3");
+            steps = 75;
+        }
     }
 }

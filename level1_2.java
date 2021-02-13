@@ -102,12 +102,30 @@ public class level1_2 extends level1
         addObject(new lv1_2_keyDoor(10, 90), 810, 305);
         addObject(new lv1_2_key(50, 20), 851, 304);
         //addObject(new lv1_knight(58, 81), 1180, 523);
-        addObject(new lv1_2_shrek(), 372, 195);
+        addObject(new lv1_2_shrek(), 950, 619);
         
         //Erstellung nicht solider Elemente
         //addObject(new lv1_2_darkness(), 1113, 619);
         
         //setPaintOrder
         setPaintOrder(lv1_2_shrek.class, lv1_2_darkness.class, doors.class, walls.class, mainChar.class) ;
+    }
+    
+    public void act() {
+        if(Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("s") || Greenfoot.isKeyDown("d")){
+            footsteps();
+        }
+    }
+    
+    private int steps = 61;
+    
+    private void footsteps(){
+        if (steps >0) {
+            steps--;
+        }
+        else {
+            Greenfoot.playSound("footsteps_wood.mp3");
+            steps = 75;
+        }
     }
 }

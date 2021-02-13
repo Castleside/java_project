@@ -24,4 +24,5 @@ public class level_rooms extends World
         addObject(new wall_H(), 1280 / 2 , 690);
         addObject(new wall_H(), 1280 / 2 , 30);
     }
+
 }

@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
 
 /**
  * Write a description of class door_fake here.
@@ -13,14 +14,28 @@ public class door_fake extends doors
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
+    private GreenfootSound door_locked = new GreenfootSound("door_locked.mp3");
+    
     public door_fake(int r) {
         setRotation(r);
         GreenfootImage image = getImage();
         setImage(image);
     }
     
+   
+    
     public void act() 
     {
-        // Add your action code here.
+         List<mainChar>objects = getObjectsInRange(100, mainChar.class);
+        if( objects.isEmpty()){
+          
+        } 
+        else{
+            if(Greenfoot.isKeyDown("e")){               
+             
+                Greenfoot.playSound("door_locked.mp3");
+                
+            }
+        }
     }    
 }

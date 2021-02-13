@@ -18,6 +18,6 @@ public class level3_king extends level_rooms
         setBackground("/backgrounds/hints.png");
         addObject(new lv3_finish_but(), 1071, 620); //Erstellung des Knopfs
         addObject(new lv3_king(232,324), 371, 472);
-        addObject(new speechbubble(587, 286), 803, 250);
+        //addObject(new speechbubble(587, 286), 803, 250);
     }
 }
