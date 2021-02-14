@@ -34,7 +34,8 @@ public class door_to_wardrobe extends doors
             if(Greenfoot.isKeyDown("e")){
                 World lob = new wardrobe_room(x, y);
                 Greenfoot.setWorld(lob);
-                Greenfoot.playSound("door.mp3");
+                door.setVolume(volume);
+                door.play();
             }
         }  
     }       

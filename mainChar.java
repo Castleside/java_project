@@ -135,8 +135,9 @@ public class mainChar extends actor
 
         if (Greenfoot.isKeyDown("w") && (onGround() == true)) {
             vSpeed = jumpHeight;
-            fall();
-            Greenfoot.playSound("jump.mp3");
+            fall();            
+            jump.setVolume(volume);
+            jump.play();
             
         }
     
@@ -172,7 +173,8 @@ public class mainChar extends actor
         if(lv3_emeralds != null){
             getWorld().removeObject(lv3_emeralds);
             collect++;
-            Greenfoot.playSound("emeralds.mp3");
+            emeralds.setVolume(volume);
+            emeralds.play();
         }
         if(collect == 10 && coins_collected == false) {
             getWorld().addObject(new lv3_king(), 1188, 364);
@@ -186,7 +188,8 @@ public class mainChar extends actor
         if(getY() == 719) {
             World wrld = new level_3();
             Greenfoot.setWorld(wrld);
-            Greenfoot.playSound("death.mp3");
+            death.setVolume(volume);
+            death.play();
         }
             
         

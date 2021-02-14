@@ -32,8 +32,8 @@ public class door_fake extends doors
         } 
         else{
             if(Greenfoot.isKeyDown("e")){               
-             
-                Greenfoot.playSound("door_locked.mp3");
+                door_locked.setVolume(volume);
+                door_locked.play();
                 
             }
         }

@@ -31,7 +31,9 @@ public class lv2_3_key extends lv2
             }
             else{
                 getWorld().removeObjects(getWorld().getObjects(lv2_3_key.class));
-                keyPickup_lv2_3 = true;  
+                keyPickup_lv2_3 = true;
+                key.setVolume(volume);
+                key.play();
             }
         }
     }    

@@ -24,8 +24,9 @@ public class wd_commit_button extends wardrobe_button
         if(Greenfoot.mouseClicked(this)){
             outfit = outfit;
             World world = new wardrobe_room(190, 350);
-            Greenfoot.setWorld(world);
-            Greenfoot.playSound("button_click.mp3");
+            Greenfoot.setWorld(world); 
+            button.setVolume(volume);
+            button.play();
         }
     }    
 }

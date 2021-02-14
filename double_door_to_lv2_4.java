@@ -42,6 +42,8 @@ public class double_door_to_lv2_4 extends doors_lv2
                     World wrld = new level2_4(xx, yy);
                     Greenfoot.setWorld(wrld); 
                     keyPickup_lv2_3 = false;
+                    door.setVolume(volume);
+                    door.play();
                 }
             }
         }

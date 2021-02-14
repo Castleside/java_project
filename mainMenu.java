@@ -18,5 +18,6 @@ public class mainMenu extends menus
         setBackground(new GreenfootImage("/level_1/grey.jpg"));
         addObject(new logo(), 1280/2, 120);
         addObject(new startButton(), 1280/2, 260);
+        addObject(new optionsMenu_button(), 1280/2, 460);
     }
 }

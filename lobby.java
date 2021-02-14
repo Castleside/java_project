@@ -15,6 +15,7 @@ public class lobby extends World
      */
     
     private int steps = 61;
+    public static GreenfootSound footsteps_grass = new GreenfootSound("footsteps_grass.mp3");
     
     public lobby()
     {   
@@ -93,8 +94,9 @@ public class lobby extends World
             steps--;
         }
         else {
-            Greenfoot.playSound("footsteps_grass.mp3");
-            steps = 75;
+            footsteps_grass.play();
+            //footsteps_grass.setVolume(volume);
+            steps = 50;
         }
     }
 }

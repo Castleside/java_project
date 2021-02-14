@@ -35,7 +35,8 @@ public class door_to_lobby extends doors
             if(Greenfoot.isKeyDown("e")){
                 World lob = new lobby(x, y);
                 Greenfoot.setWorld(lob);
-                Greenfoot.playSound("door.mp3");
+                door.setVolume(volume);
+                door.play();
             }
         }  
     }    

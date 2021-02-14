@@ -72,13 +72,14 @@ public class level1_3 extends level1
     }
     
     private int steps = 61;
+    public static GreenfootSound footsteps_wood = new GreenfootSound("footsteps_wood.mp3");
     
     private void footsteps(){
         if (steps >0) {
             steps--;
         }
         else {
-            Greenfoot.playSound("footsteps_wood.mp3");
+            footsteps_wood.play();
             steps = 75;
         }
     }

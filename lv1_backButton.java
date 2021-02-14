@@ -28,14 +28,17 @@ public class lv1_backButton extends lv1_Buttons
             if(Greenfoot.mouseClicked(this)){
                 Greenfoot.setWorld(current_wrld);
                 sound.stop();
-                Greenfoot.playSound("button_click.mp3");
+                button.setVolume(volume);
+                button.play();
             } 
         }
         if (var == 2) {
             if(Greenfoot.mouseClicked(this)){
                 Greenfoot.setWorld(current_wrld_2);
                 sound.stop();
-                Greenfoot.playSound("button_click.mp3");
+                GreenfootSound button = new GreenfootSound("button_click.mp3");
+                button.setVolume(volume);
+                button.play();
             } 
         }
     }    
