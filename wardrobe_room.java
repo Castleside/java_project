@@ -26,7 +26,7 @@ public class wardrobe_room extends wardrobe
         addObject(new wall_H(720, 60), 418 , 30);
         
         //Türen
-        addObject(new door_to_lobby(-90, 903, 546), 11, 348);
+        addObject(new door_to_lobby(-90, 1171, 305), 11, 348);
         
         //Erstellung solider Objekte
         addObject(new wardrobe_shelf(0), 158, 71);
