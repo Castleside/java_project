@@ -77,7 +77,25 @@ public class mainChar extends actor
                 }
                 else{
                     setLocation(x - 2, y);
+                    if (steps >0) {
+                        steps--;
+                    }
+                    else {
+                        if( walktype == 0){
+                            footsteps_grass.setVolume(volume);
+                            footsteps_grass.play();
+                            steps = 50;
+                        }
+                        else {
+                            if( walktype == 1){
+                                footsteps_wood.setVolume(volume);
+                                footsteps_wood.play();
+                                steps = 61;
+                            }
+                        }
+                    }
                     
+                        
                 }
             }
         }
@@ -86,7 +104,23 @@ public class mainChar extends actor
             int x = getX();
             if (getOneObjectAtOffset(0, -35, actor.class) == null ) {
                 setLocation(x, y - 2);
-                
+                if (steps >0) {
+                        steps--;
+                    }
+                    else {
+                        if( walktype == 0){
+                            footsteps_grass.setVolume(volume);
+                            footsteps_grass.play();
+                            steps = 50;
+                        }
+                        else {
+                            if( walktype == 1){
+                                footsteps_wood.setVolume(volume);
+                                footsteps_wood.play();
+                                steps = 61;
+                            }
+                        }
+                    }
             }
         }
         if( Greenfoot.isKeyDown("s")){
@@ -94,7 +128,23 @@ public class mainChar extends actor
             int x = getX();
             if (getOneObjectAtOffset(0, 35, actor.class) == null ) {
                setLocation(x, y + 2);
-              
+               if (steps >0) {
+                        steps--;
+                    }
+                    else {
+                        if( walktype == 0){
+                            footsteps_grass.setVolume(volume);
+                            footsteps_grass.play();
+                            steps = 50;
+                        }
+                        else {
+                            if( walktype == 1){
+                                footsteps_wood.setVolume(volume);
+                                footsteps_wood.play();
+                                steps = 61;
+                            }
+                        }
+                    }
             }
         }
         if(Greenfoot.isKeyDown("d")){
@@ -108,7 +158,23 @@ public class mainChar extends actor
                 }
                 else{
                     setLocation(x + 2, y);
-                    ;
+                    if (steps >0) {
+                        steps--;
+                    }
+                    else {
+                        if( walktype == 0){
+                            footsteps_grass.setVolume(volume);
+                            footsteps_grass.play();
+                            steps = 50;
+                        }
+                        else {
+                            if( walktype == 1){
+                                footsteps_wood.setVolume(volume);
+                                footsteps_wood.play();
+                                steps = 61;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -133,12 +199,11 @@ public class mainChar extends actor
     
     public void lv3_movements() {
 
-        if (Greenfoot.isKeyDown("w") && (onGround() == true)) {
+        if ((Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("space")) && (onGround() == true)) {
             vSpeed = jumpHeight;
             fall();            
             jump.setVolume(volume);
-            jump.play();
-            
+            jump.play();          
         }
     
         //Methode für den Aufruf des Menüs
