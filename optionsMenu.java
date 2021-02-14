@@ -18,6 +18,6 @@ public class optionsMenu extends menus
          setBackground(new GreenfootImage("/level_1/grey.jpg"));
          addObject(new volume_minus(), 300, 300);
          addObject(new volume_plus(), 600, 300);
-          addObject(new lv1_backButton(1), 1071, 620);
+         addObject(new lv1_backButton(1), 1071, 620);
     }
 }
