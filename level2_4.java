@@ -13,78 +13,139 @@ public class level2_4 extends level2
      * Constructor for objects of class level2_4.
      * 
      */
-    public level2_4(int ppX, int ppY)
+    public level2_4(int ppX, int ppY, int used)
     {
-        //background
-        setBackground("/backgrounds/wood.png");
+        if (used == 0) {
+            //background
+            setBackground("/backgrounds/wood.png");
         
-        //mainChar
-        addObject(new mainChar(), 550, 610);
+            //mainChar
+            addObject(new mainChar(), ppX, ppY);
+            
+            //Blöcke
+            addObject(new cube_wall(), 93, 397);
+            addObject(new cube_wall(), 716, 555);
+            addObject(new cube_wall(), 384, 626);
+            addObject(new cube_wall(), 455, 330);
+            addObject(new cube_wall(), 93, 330);
+            addObject(new cube_wall(), 174, 626);
+            addObject(new cube_wall(), 957, 94);
+            addObject(new cube_wall(), 957, 163);
+            addObject(new cube_wall(), 957, 232);
+            addObject(new cube_wall(), 957, 301);
+            addObject(new cube_wall(), 957, 370);
+            addObject(new cube_wall(), 957, 439);
+            addObject(new cube_wall(), 957, 508);
+            addObject(new cube_wall(), 957, 577);
+            addObject(new cube_wall(), 957, 646);
+            
+            //Wände für den Ritter
+            addObject(new wall_H(225, 15), 637, 303);
+            //addObject(new wall_H(225, 15), 637, 513);
+            addObject(new wall_V(15, 225), 532, 408);
+            addObject(new wall_V(15, 225), 742, 408);
+            
+            //fakedoor + real door
+            addObject(new double_door_to_lv2_4(-90, 550, 610), 21, 188);
+            addObject(new double_door_to_lv2_goal(90), 1257, 393);
+            
+            //GIGA Ritter
+            addObject(new lv2_gigaknight(), 578, 365);
         
-        //Blöcke
-        addObject(new cube_wall(), 480, 505);
-        addObject(new cube_wall(), 548, 505);
-        addObject(new cube_wall(), 616, 505);
-        addObject(new cube_wall(), 749, 625);
-        addObject(new cube_wall(), 349, 625);
-        addObject(new cube_wall(), 1187, 429);
-        addObject(new cube_wall(), 698, 174);
-        addObject(new cube_wall(), 908, 94);
-        addObject(new cube_wall(), 92, 94);
-        addObject(new cube_wall(), 160, 94);
-        addObject(new cube_wall(), 93, 161);
-        addObject(new cube_wall(), 160, 161);
-        addObject(new cube_wall(), 228, 320);
-        addObject(new cube_wall(), 375, 144);
-        addObject(new cube_wall(), 442, 144);
-        addObject(new cube_wall(), 442, 212);
-        addObject(new cube_wall(), 307, 144);
+            //Carpet Detect
+            addObject(new lv2_carpet_detect(), 1104, 408);
+            
+            //setPaintOrder
+            setPaintOrder(doors.class, mainChar.class, wall_H.class, walls.class);
+        }
         
-        //fakedoor + real door
-        addObject(new double_door_to_lv2_3(180, 550, 610), 544, 697);
-        addObject(new double_door_to_lv2_4(90, 123, 123), 1257, 227);
+        if (used == 1) {
+            //background
+            setBackground("/backgrounds/wood.png");
         
-        //key
-        addObject(new lv2_3_key(50, 40), 363, 215);
+            //mainChar
+            addObject(new mainChar(), ppX, ppY);
+            
+            //Blöcke
+            addObject(new cube_wall(), 93, 397);
+            addObject(new cube_wall(), 716, 555);
+            addObject(new cube_wall(), 384, 626);
+            addObject(new cube_wall(), 455, 330);
+            addObject(new cube_wall(), 93, 330);
+            addObject(new cube_wall(), 174, 626);
+            addObject(new cube_wall(), 957, 94);
+            addObject(new cube_wall(), 957, 163);
+            addObject(new cube_wall(), 957, 232);
+            //addObject(new cube_wall(), 957, 301);
+            //addObject(new cube_wall(), 957, 370);
+            //addObject(new cube_wall(), 957, 439);
+            //addObject(new cube_wall(), 957, 508);
+            addObject(new cube_wall(), 957, 577);
+            addObject(new cube_wall(), 957, 646);
+            
+            //Wände für den Ritter
+            addObject(new wall_H(225, 15), 637, 303);
+            addObject(new wall_H(225, 15), 637, 513);
+            addObject(new wall_V(15, 225), 532, 408);
+            //addObject(new wall_V(15, 225), 742, 408);
+            
+            //fakedoor + real door
+            addObject(new double_door_to_lv2_4(-90, 550, 610), 21, 188);
+            addObject(new double_door_to_lv2_goal(90), 1257, 393);
+            
+            //GIGA Ritter
+            addObject(new lv2_gigaknight(), 578, 365);
         
-        //setPaintOrder
-        setPaintOrder(doors.class, mainChar.class, walls.class);
+            //Carpet Detect
+            addObject(new lv2_carpet_detect(), 1104, 408);
+            
+            //setPaintOrder
+            setPaintOrder(doors.class, mainChar.class, wall_H.class, walls.class);
+        }
     }
+    
     public level2_4()
     {
         //background
         setBackground("/backgrounds/wood.png");
         
         //mainChar
-        addObject(new mainChar(), 550, 610);
+        addObject(new mainChar(), 107, 187);
         
         //Blöcke
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
-        addObject(new cube_wall(), 123, 123);
+        addObject(new cube_wall(), 93, 397);
+        addObject(new cube_wall(), 716, 555);
+        addObject(new cube_wall(), 384, 626);
+        addObject(new cube_wall(), 455, 330);
+        addObject(new cube_wall(), 93, 330);
+        addObject(new cube_wall(), 174, 626);
+        addObject(new cube_wall(), 957, 94);
+        addObject(new cube_wall(), 957, 163);
+        addObject(new cube_wall(), 957, 232);
+        addObject(new cube_wall(), 957, 301);
+        addObject(new cube_wall(), 957, 370);
+        addObject(new cube_wall(), 957, 439);
+        addObject(new cube_wall(), 957, 508);
+        addObject(new cube_wall(), 957, 577);
+        addObject(new cube_wall(), 957, 646);
+        
+        //Wände für den Ritter
+        addObject(new wall_H(225, 15), 637, 303);
+        //addObject(new wall_H(225, 15), 637, 513);
+        addObject(new wall_V(15, 225), 532, 408);
+        addObject(new wall_V(15, 225), 742, 408);
         
         //fakedoor + real door
         addObject(new double_door_to_lv2_4(-90, 550, 610), 21, 188);
-        addObject(new double_door_to_lv2_goal(90), 1257, 360);
+        addObject(new double_door_to_lv2_goal(90), 1257, 393);
         
-        //key
-        addObject(new lv2_4_key(50, 40), 123, 123);
+        //GIGA Ritter
+        addObject(new lv2_gigaknight(), 578, 365);
+        
+        //Carpet Detect
+        addObject(new lv2_carpet_detect(), 1104, 408);
         
         //setPaintOrder
-        setPaintOrder(doors.class, mainChar.class, walls.class);
+        setPaintOrder(doors.class, mainChar.class, wall_H.class, walls.class);
     }
 }

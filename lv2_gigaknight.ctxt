@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=lv2_gigaknight
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ lv2_giga_ritter\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=lv2_gigaknight()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ lv2_giga_ritter\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=l\ b
+comment2.target=lv2_gigaknight(int,\ int)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

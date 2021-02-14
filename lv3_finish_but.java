@@ -13,7 +13,6 @@ public class lv3_finish_but extends lv3_buttons
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    
     public lv3_finish_but(){
         GreenfootImage image = new GreenfootImage("/buttons/back_but.png");
         image.scale(160, 50);
@@ -28,6 +27,7 @@ public class lv3_finish_but extends lv3_buttons
             status = 0;
             button.setVolume(volume);
             button.play();
+            walktype = 0;
         }
     }    
 }

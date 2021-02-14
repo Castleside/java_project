@@ -26,11 +26,6 @@ public class lobby extends World
         addObject(new lv2_sign(), 200, 128);
         addObject(new lv3_sign(), 1080, 128);
         
-        //Innenwände
-        addObject(new wall_H(280, 13), 1086 , 431);
-        addObject(new wall_V(13, 280), 950, 565);
-        addObject(new images("grey", 265, 225), 1088, 547);
-        
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
         addObject(new wall_V(), 29, 720/2);
@@ -38,7 +33,7 @@ public class lobby extends World
         addObject(new wall_H(), 1280 / 2 , 30);
         
         //Türen
-        addObject(new door_to_wardrobe(90, 92, 343), 990, 547);
+        addObject(new door_to_wardrobe(90, 92, 343), 1267, 305);
         addObject(new door_to_lv1_1(-90, 1177, 355), 12, 305);
         addObject(new door_to_lv2(-90, 1182, 231), 12, 127);
         addObject(new door_to_lv3(90, 1177, 355), 1267, 127);
@@ -52,17 +47,12 @@ public class lobby extends World
     
     public lobby(int ppX, int ppY)
     {   
-        //initiale Erstellung
+        //initiale Erstellung 185 307
         super(1280, 720, 1); 
         setBackground(new GreenfootImage("/backgrounds/grass.png"));
         addObject(new lv1_sign(), 200, 307);
         addObject(new lv2_sign(), 200, 128);
         addObject(new lv3_sign(), 1080, 128);
-        
-        //Innenwände
-        addObject(new wall_H(280, 13), 1086 , 431);
-        addObject(new wall_V(13, 280), 950, 565);
-        addObject(new images("grey", 265, 225), 1088, 547);
         
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
@@ -71,7 +61,7 @@ public class lobby extends World
         addObject(new wall_H(), 1280 / 2 , 30);
         
         //Türen
-        addObject(new door_to_wardrobe(90, 92, 343), 990, 547);
+        addObject(new door_to_wardrobe(90, 92, 343), 1267, 305);
         addObject(new door_to_lv1_1(-90, 1177, 355), 12, 305);
         addObject(new door_to_lv2(-90, 1182, 231), 12, 127);
         addObject(new door_to_lv3(90, 1177, 355), 1267, 127);
@@ -83,20 +73,5 @@ public class lobby extends World
         setPaintOrder(mainChar.class, images.class, doors.class, walls.class);
     }
     
-    public void act() {
-        if(Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("s") || Greenfoot.isKeyDown("d")){
-            footsteps();
-        }
-    }
-    
-    private void footsteps(){
-        if (steps >0) {
-            steps--;
-        }
-        else {
-            footsteps_grass.play();
-            //footsteps_grass.setVolume(volume);
-            steps = 50;
-        }
-    }
+
 }

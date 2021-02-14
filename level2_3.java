@@ -19,7 +19,7 @@ public class level2_3 extends level2
         setBackground("/backgrounds/wood.png");
         
         //mainChar
-        addObject(new mainChar(), 550, 610);
+        addObject(new mainChar(), ppX, ppY);
         
         //Blöcke
         addObject(new cube_wall(), 480, 505);
@@ -43,7 +43,7 @@ public class level2_3 extends level2
         
         //fakedoor + real door
         addObject(new double_door_to_lv2_3(180, 550, 610), 544, 697);
-        addObject(new double_door_to_lv2_4(90, 123, 123), 1257, 227);
+        addObject(new double_door_to_lv2_4(90, 107, 187), 1257, 227);
         
         //key
         addObject(new lv2_3_key(50, 40), 363, 215);
@@ -81,7 +81,7 @@ public class level2_3 extends level2
         
         //fakedoor + real door
         addObject(new double_door_to_lv2_3(180, 550, 610), 544, 697);
-        addObject(new double_door_to_lv2_4(90, 123, 123), 1257, 227);
+        addObject(new double_door_to_lv2_4(90, 107, 187), 1257, 227);
         
         //key
         addObject(new lv2_3_key(50, 40), 363, 215);

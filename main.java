@@ -36,8 +36,14 @@ public class main extends Actor
     public static GreenfootSound button = new GreenfootSound("button_click.mp3");
     public static GreenfootSound goal_end = new GreenfootSound("goal_end.mp3");
     public static GreenfootSound goal = new GreenfootSound("goal_1.mp3");
+    public static GreenfootSound footsteps_wood = new GreenfootSound("footsteps_wood.mp3");
+    public static GreenfootSound footsteps_grass = new GreenfootSound("footsteps_grass.mp3");
     
-    //lautstärke für sounds
+    //Zeit zwischen Schritten
+    public static int steps = 61;
+    public static int walktype = 0;
+    
+    //Lautstärke für sounds
     public static int volume = 100;
     
     public void act() 

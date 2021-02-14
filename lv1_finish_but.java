@@ -25,6 +25,7 @@ public class lv1_finish_but extends lv1_Buttons
             Greenfoot.setWorld(wrld);
             button.setVolume(volume);
             button.play();
+            walktype = 0;
         }
     }    
 }

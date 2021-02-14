@@ -13,7 +13,7 @@ public class optionsMenu_button extends optionsMenu_buttons
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public optionsMenu_button() {
-        GreenfootImage image = new GreenfootImage("/buttons/back_but.png");
+        GreenfootImage image = new GreenfootImage("/buttons/settings_but.png");
         image.scale(160, 50);
         setImage(image);
     }
