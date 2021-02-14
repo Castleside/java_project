@@ -38,7 +38,7 @@ public class lv2_gigaknight extends lv2
                 keyPickup_lv2_4 = true;
                 World wrld = new lv2_knight_dialogue();
                 Greenfoot.setWorld(wrld);
-                getWorld().removeObjects(getWorld().getObjects(lv1_exclamationMark.class));
+                getWorld().removeObjects(getWorld().getObjects(lv2_exclamationMark.class));
             }
         }
     }    

@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 /**
  * Write a description of class lv2_knight here.
  * 
@@ -21,6 +21,17 @@ public class lv2_knight extends lv2
     
     public void act() 
     {
-        // Add your action code here.
+         List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
+        if( objects.isEmpty()){
+          
+        } 
+        else{
+            if(Greenfoot.isKeyDown("e")){
+                current_wrld = getWorld();
+                World wrld = new lv2_1_hint();
+                Greenfoot.setWorld(wrld);
+                getWorld().removeObjects(getWorld().getObjects(lv2_exclamationMark.class));
+            }
+        }
     }    
 }

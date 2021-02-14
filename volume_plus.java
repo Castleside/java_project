@@ -14,7 +14,7 @@ public class volume_plus extends optionsMenu_buttons
      */
     public volume_plus(){
         GreenfootImage image = new GreenfootImage("/buttons/volume_plus.png");
-        image.scale(100, 100);
+        image.scale(90, 100);
         setImage(image);
     }
     

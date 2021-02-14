@@ -30,7 +30,7 @@ public class lv3_knight extends lv3
         else{
             if(Greenfoot.isKeyDown("e")){
                 current_wrld = getWorld();
-                World wrld = new lv1_1_hint();
+                World wrld = new lv3_hint();
                 Greenfoot.setWorld(wrld);
                 getWorld().removeObjects(getWorld().getObjects(lv3_exclamationMark.class));
             }

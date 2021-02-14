@@ -44,8 +44,7 @@ public class lv3_king extends lv3_solid
                 World wrld = new level3_king();
                 Greenfoot.setWorld(wrld);
                 status = 1;
-                goal_end.setVolume(volume);
-                goal_end.play();
+                
             }
        }
     }    

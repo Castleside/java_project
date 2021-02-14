@@ -51,12 +51,13 @@ public class level2_4 extends level2
             
             //GIGA Ritter
             addObject(new lv2_gigaknight(), 578, 365);
-        
+            addObject(new lv2_exclamationMark(), 578, 292);
+            
             //Carpet Detect
             addObject(new lv2_carpet_detect(), 1104, 408);
             
             //setPaintOrder
-            setPaintOrder(doors.class, mainChar.class, wall_H.class, walls.class);
+            setPaintOrder(doors.class, mainChar.class, lv2_exclamationMark.class, wall_H.class, walls.class);
         }
         
         if (used == 1) {

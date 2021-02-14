@@ -93,9 +93,7 @@ public class mainChar extends actor
                                 steps = 61;
                             }
                         }
-                    }
-                    
-                        
+                    }                                            
                 }
             }
         }

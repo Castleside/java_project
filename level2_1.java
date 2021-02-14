@@ -21,6 +21,7 @@ public class level2_1 extends level2
         //mainChar und Ritter
         addObject(new mainChar(), ppX, ppY);
         addObject(new lv2_knight(), 1054, 255);
+        addObject(new lv2_exclamationMark(), 1054, 182); 
         
         //detect zum beschleunigen
         addObject(new lv2_detect(), 1121, 154);

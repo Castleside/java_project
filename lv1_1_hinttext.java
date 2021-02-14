@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class lv1_1_hinttext extends pictures
+public class lv1_1_hinttext extends hints
 {
     /**
      * Act - do whatever the lv1_1_hinttext wants to do. This method is called whenever

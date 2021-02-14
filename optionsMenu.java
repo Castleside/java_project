@@ -20,5 +20,6 @@ public class optionsMenu extends menus
          addObject(new volume_plus(), 768, 720/2);
          addObject(new lv1_backButton(1), 1071, 620);
          addObject(new volume_status(), 1280/2, 720/2);
+         addObject(new volume(), 1280/2, 100);
     }
 }

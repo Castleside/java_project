@@ -18,6 +18,6 @@ public class lv2_knight_dialogue extends level2
         setBackground("/backgrounds/hints.png");
         addObject(new lv2_backButton(), 1071, 620); //Erstellung des Knopfs
         addObject(new lv2_gigaknight(232,324), 371, 472);
-        addObject(new lv1_3_hinttext(587, 286), 803, 250);
+        addObject(new lv2_gigaknighttext(587, 286), 803, 250);
     }
 }
