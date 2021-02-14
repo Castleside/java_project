@@ -21,9 +21,11 @@ public class volume_plus extends optionsMenu_buttons
     public void act() 
     {   
         if(Greenfoot.mouseClicked(this)){            
+            if(volume <= 90){
             volume = volume + 10;
             button.setVolume(volume);
             button.play();
+        }
         }        
     }    
 }

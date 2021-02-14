@@ -50,6 +50,7 @@ public class door_to_lv1_1 extends doors_lv1
                 Greenfoot.setWorld(wrld);
                 door.setVolume(volume);
                 door.play();
+                walktype = 1;
             }
         }
     }    

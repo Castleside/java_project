@@ -73,20 +73,5 @@ public class lobby extends World
         setPaintOrder(mainChar.class, images.class, doors.class, walls.class);
     }
     
-    public void act() {
-        if(Greenfoot.isKeyDown("w") || Greenfoot.isKeyDown("a") || Greenfoot.isKeyDown("s") || Greenfoot.isKeyDown("d")){
-            footsteps();
-        }
-    }
-    
-    private void footsteps(){
-        if (steps >0) {
-            steps--;
-        }
-        else {
-            footsteps_grass.play();
-            //footsteps_grass.setVolume(volume);
-            steps = 50;
-        }
-    }
+
 }

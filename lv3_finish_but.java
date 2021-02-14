@@ -27,6 +27,7 @@ public class lv3_finish_but extends lv3_buttons
             status = 0;
             button.setVolume(volume);
             button.play();
+            walktype = 0;
         }
     }    
 }
