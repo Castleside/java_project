@@ -19,13 +19,16 @@ public class lobby extends World
     
     public lobby()
     {   
-        //initiale Erstellung 185 307
+        //initiale Erstellung
         super(1280, 720, 1); 
         setBackground(new GreenfootImage("/backgrounds/grass.png"));
         addObject(new lv1_sign(), 200, 307);
         addObject(new lv2_sign(), 200, 128);
         addObject(new lv3_sign(), 1080, 128);
         addObject(new wardrobe_sign(), 1070, 300);
+        
+        //Deko-Baum
+        addObject(new tree(), 1280/2, 720/2);
         
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
@@ -40,21 +43,24 @@ public class lobby extends World
         addObject(new door_to_lv3(90, 1177, 355), 1267, 127);
         
         //mainChar
-        addObject(new mainChar(), 1280/2, 720/2);
+        addObject(new mainChar(), 1280/2, 600);
         
         //paintOrder
-        setPaintOrder(mainChar.class, doors.class, walls.class);
+        setPaintOrder(tree.class, mainChar.class, doors.class, walls.class);
     }
     
     public lobby(int ppX, int ppY)
     {   
-        //initiale Erstellung 185 307
+        //initiale Erstellung
         super(1280, 720, 1); 
         setBackground(new GreenfootImage("/backgrounds/grass.png"));
         addObject(new lv1_sign(), 200, 307);
         addObject(new lv2_sign(), 200, 128);
         addObject(new lv3_sign(), 1080, 128);
         addObject(new wardrobe_sign(), 1070, 300);
+        
+        //Deko-Baum
+        addObject(new tree(), 1280/2, 720/2);
         
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
@@ -72,8 +78,6 @@ public class lobby extends World
         addObject(new mainChar(), ppX, ppY);
         
         //paintOrder
-        setPaintOrder(mainChar.class, doors.class, walls.class);
+        setPaintOrder(tree.class, mainChar.class, doors.class, walls.class);
     }
-    
-
 }

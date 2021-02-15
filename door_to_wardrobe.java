@@ -36,6 +36,7 @@ public class door_to_wardrobe extends doors
                 Greenfoot.setWorld(lob);
                 door.setVolume(volume);
                 door.play();
+                walktype = 1;
             }
         }  
     }       
