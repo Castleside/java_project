@@ -16,5 +16,6 @@ public class credits extends level_rooms
     public credits()
     {
         addObject(new credits_picture(), 1280/2, 720/2);
+        addObject(new credit_back_button(), 1170, 670);
     }
 }

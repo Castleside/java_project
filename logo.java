@@ -14,8 +14,8 @@ public class logo extends pictures
      */
     
     public logo() {
-        GreenfootImage image = new GreenfootImage("logo.jpg");
-        //image.scale(600, 300);
+        GreenfootImage image = new GreenfootImage("logo.png");
+        image.scale(500, 282);
         setImage(image);
     }
     

@@ -38,6 +38,11 @@ public class level1_3 extends level1
         addObject(new lv1_3_throne(), 168, 720/2);
         addObject(new lv1_3_throne_carpet(), 676, 360);
         
+        //solide Hintergrundobjekte
+        addObject(new cube_wall(), 114, 341);
+        addObject(new cube_wall(), 114, 379);
+        addObject(new cube_wall(), 94, 361);
+        
         //Erstellung der Kerzenständer
         addObject(new lv1_3_holder(), 340, 145);
         addObject(new lv1_3_holder(), 565, 145);
@@ -62,7 +67,7 @@ public class level1_3 extends level1
         addObject(new lv1_exclamationMark(), 887, 27);
         
         //setPaintOrder
-        setPaintOrder(lv1_exclamationMark.class, doors.class, mainChar.class, lv1_3_solid.class, walls.class);
+        setPaintOrder(mainChar.class, lv1_3_throne.class, lv1_exclamationMark.class, doors.class, lv1_3_solid.class, walls.class);
     }
     
 

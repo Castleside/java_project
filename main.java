@@ -24,6 +24,10 @@ public class main extends Actor
     public static int ppX;
     public static int ppY;
     
+    public static boolean lv1_finished = false;
+    public static boolean lv2_finished = false;
+    public static boolean lv3_finished = false;
+    
     //Sounds    
     public static GreenfootSound sound = new GreenfootSound("shrekophone.mp3");
     public static GreenfootSound door_locked = new GreenfootSound("door_locked.mp3");

@@ -27,17 +27,30 @@ public class door_to_lv2 extends doors_lv2
     
     public void act() 
     {
-        List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
-        if( objects.isEmpty()){
-          
-        } 
-        else{
-            if(Greenfoot.isKeyDown("e")){
-                World wrld = new level2_1(x, y);
-                Greenfoot.setWorld(wrld);
-                door.setVolume(volume);
-                door.play();
-                walktype = 1;
+        if (lv1_finished) {
+            List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
+            if( objects.isEmpty()){
+              
+            } 
+            else{
+                if(Greenfoot.isKeyDown("e")){
+                    World wrld = new level2_1(x, y);
+                    Greenfoot.setWorld(wrld);
+                    door.setVolume(volume);
+                    door.play();
+                    walktype = 1;
+                }
+            }
+        } else {
+            List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
+            if( objects.isEmpty()){
+              
+            } 
+            else{
+                if(Greenfoot.isKeyDown("e")){
+                    door_locked.setVolume(volume);
+                    door_locked.play();
+                }
             }
         }
     }       

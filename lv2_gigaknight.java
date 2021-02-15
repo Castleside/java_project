@@ -15,13 +15,13 @@ public class lv2_gigaknight extends lv2
      */
     
     public lv2_gigaknight() {
-        GreenfootImage image = new GreenfootImage("knight.png");
+        GreenfootImage image = new GreenfootImage("level_2/gigaknight.png");
         image.scale(65, 91);
         setImage(image);
     }
     
     public lv2_gigaknight(int l, int b) {
-        GreenfootImage image = new GreenfootImage("knight.png");
+        GreenfootImage image = new GreenfootImage("level_2/gigaknight.png");
         image.scale(l, b);
         setImage(image);
     }

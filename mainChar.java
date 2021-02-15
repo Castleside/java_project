@@ -243,7 +243,6 @@ public class mainChar extends actor
             getWorld().addObject(new lv3_king(), 1188, 364);
             getWorld().addObject(new lv3_platform_bottom(), 1188, 420);
             coins_collected = true;
-            
         }
     }
     
@@ -254,7 +253,5 @@ public class mainChar extends actor
             death.setVolume(volume);
             death.play();
         }
-            
-        
     }
 }

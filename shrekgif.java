@@ -15,17 +15,17 @@ public class shrekgif extends pictures
     private GifImage gif;
     
     public shrekgif(){
-      gif = new GifImage("/shrek/shreksophone.gif");
-      int scalePercent = 100;
-      for (GreenfootImage image : gif.getImages()){
-          int wide = image.getWidth()*scalePercent/15;
-          int high = image.getWidth()*scalePercent/35;
-          image.scale(wide,high);
+        gif = new GifImage("/shrek/shreksophone.gif");
+        int scalePercent = 100;
+        for (GreenfootImage image : gif.getImages()){
+            int wide = image.getWidth()*scalePercent/15;
+            int high = image.getWidth()*scalePercent/35;
+            image.scale(wide,high);
         }
     }
     
     public void act() 
     {
-     setImage(gif.getCurrentImage());    
+        setImage(gif.getCurrentImage());    
     }    
 }

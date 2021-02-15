@@ -19,11 +19,9 @@ public class tutorial_screen extends World
         super(1280, 720, 1);
         
         //Hintergrund
-        setBackground(new GreenfootImage("/level_1/grey.jpg"));
+        setBackground(new GreenfootImage("/backgrounds/tutorial_text.png"));
         
         //Button
-        addObject(new continueButton(), 1071, 620);
-        
-        
+        addObject(new tutorial_start_button(), 1071, 620);
     }
 }

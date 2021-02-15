@@ -1,12 +1,8 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+PROJECT TITLE: CASTLESIDE
+PURPOSE OF PROJECT: 
+VERSION or DATE: v.0.9
+HOW TO START THIS PROJECT: run tutorial_screen()
+AUTHORS: Fynn Bonke, Johannes Stellfeld, Marvin Kluge, Joshua Pretzel, Elias Krautz
+USER INSTRUCTIONS: when wrong movements or level 1,2,3 locked then run tutorial_screen()
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+have fun :)

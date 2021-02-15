@@ -25,6 +25,8 @@ public class lv3_finish_but extends lv3_buttons
             Greenfoot.setWorld(wrld);
             button.setVolume(volume);
             button.play();
+            sound.setVolume(20);
+            sound.play();
             walktype = 0;
         }
     }    

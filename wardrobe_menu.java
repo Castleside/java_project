@@ -17,11 +17,10 @@ public class wardrobe_menu extends wardrobe
     public wardrobe_menu()
     {
         //mainChar Erstellung
-        addObject(new mainChar(), 360, 360); //hier muss noch eine abfrage für die outfits hin
+        addObject(new mainChar(), 360, 360);
         
         //Hintergrund Erstellung
-        setBackground("/level_1/grey.jpg");
-        addObject(new images("lightgrey", 300, 300), 360, 360);
+        setBackground("/backgrounds/wardrobe_background.png");
         
         //Objekte
         addObject(new wardrobe_arrow(), 540, 360);

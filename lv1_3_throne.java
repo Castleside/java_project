@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class lv1_3_throne extends lv1_3_solid
+public class lv1_3_throne extends lv1_3_unsolid
 {
     /**
      * Act - do whatever the lv1_3_throne wants to do. This method is called whenever

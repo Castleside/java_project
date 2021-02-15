@@ -37,9 +37,9 @@ public class double_door_to_lv2_goal extends doors_lv2
                 else{
                     World wrld = new level2_goal();
                     Greenfoot.setWorld(wrld); 
+                    lv2_finished = true;
                     keyPickup_lv2_4 = false;
                     goal.play();
-                    
                 }
             }
         }

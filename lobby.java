@@ -25,6 +25,7 @@ public class lobby extends World
         addObject(new lv1_sign(), 200, 307);
         addObject(new lv2_sign(), 200, 128);
         addObject(new lv3_sign(), 1080, 128);
+        addObject(new wardrobe_sign(), 1070, 300);
         
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
@@ -42,7 +43,7 @@ public class lobby extends World
         addObject(new mainChar(), 1280/2, 720/2);
         
         //paintOrder
-        setPaintOrder(mainChar.class, images.class, doors.class, walls.class);
+        setPaintOrder(mainChar.class, doors.class, walls.class);
     }
     
     public lobby(int ppX, int ppY)
@@ -53,6 +54,7 @@ public class lobby extends World
         addObject(new lv1_sign(), 200, 307);
         addObject(new lv2_sign(), 200, 128);
         addObject(new lv3_sign(), 1080, 128);
+        addObject(new wardrobe_sign(), 1070, 300);
         
         //Aussenwände
         addObject(new wall_V(), 1250, 720/2);
@@ -70,7 +72,7 @@ public class lobby extends World
         addObject(new mainChar(), ppX, ppY);
         
         //paintOrder
-        setPaintOrder(mainChar.class, images.class, doors.class, walls.class);
+        setPaintOrder(mainChar.class, doors.class, walls.class);
     }
     
 

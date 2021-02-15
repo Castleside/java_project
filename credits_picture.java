@@ -20,6 +20,9 @@ public class credits_picture extends pictures
     
     public void act() 
     {
-        
+         lv1_finished = false;
+         lv2_finished = false;
+         lv3_finished = false;
+         status = 0;
     }    
 }

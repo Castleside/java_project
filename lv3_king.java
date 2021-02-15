@@ -30,23 +30,23 @@ public class lv3_king extends lv3_solid
     {
         if (Greenfoot.isKeyDown("d")) {
             move(-4);
-       }
-       if (Greenfoot.isKeyDown("a")) {
+        }
+        if (Greenfoot.isKeyDown("a")) {
             move(4);
-       }
-       
-       List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
-       if( objects.isEmpty()){
-          
-       } 
-       else{
+        }
+        
+        List<mainChar>objects = getObjectsInRange(100, mainChar.class); 
+        if( objects.isEmpty()){
+            //
+        } 
+        else{
             if(Greenfoot.isKeyDown("e")){
                 World wrld = new level3_king();
                 Greenfoot.setWorld(wrld);
                 status = 1;
-                
+                lv3_finished = true;
             }
-       }
+        }
     }    
-    }    
+}    
 

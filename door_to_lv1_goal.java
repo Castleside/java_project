@@ -30,6 +30,7 @@ public class door_to_lv1_goal extends doors_lv1
             if(Greenfoot.isKeyDown("e")){
                 World wrld = new level1_goal();
                 Greenfoot.setWorld(wrld);
+                lv1_finished = true;
                 goal.setVolume(volume);
                 goal.play();
             }
